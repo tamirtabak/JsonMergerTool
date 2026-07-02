@@ -1,0 +1,329 @@
+{
+  "products": [
+    {
+      "product_name": "Safety Logic Devices - Relays",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron G9SE-201 (slim design, 22.5mm width) and an Omron G9SA-301 (expandable design) safety relay when upgrading an automotive robotic station requiring 5 expansion safety contact outputs?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When interfacing the OSSD safety outputs of a non-Omron light curtain with the dual-channel inputs of an Omron G9SE-201 safety relay, what electrical parameters regarding pulse width and off-state leakage current must be verified to prevent the G9SE from detecting a false cross-fault?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum current rating of the instantaneous safety outputs on an Omron G9SA safety relay under AC-15 and DC-13 operating categories, and at what current load must external surge suppression be installed to protect the internal contacts from arc welding?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "When mounting a G9SX-AD322-T15 safety relay in a sealed control panel within an automotive heat-curing environment reaching 55°C, what thermal derating must be applied to the continuous carrying current of the auxiliary semiconductor outputs?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you physically wire the solid-state auxiliary status output (terminal Y1) of an Omron G9SX safety relay into a standard PLC digital input card (such as the NX-ID5142) to expose the safety relay's state to an enterprise SCADA system via OPC UA?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Design the electrical feedback loop wiring (EDM) for an Omron G9SA-301 safety relay controlling dual redundant force-guided power contactors, illustrating how the NC auxiliary contacts of both contactors are wired in series to the feedback terminal (T31/T32) to prevent a reset if a contact welds."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "The 'ERR' LED on an Omron G9SX safety relay is flashing in a 3-blink repeating sequence. What specific internal or external fault condition does this sequence represent, and what electrical test on the input channels will isolate a cross-fault from a failing internal processor?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "An installer configures an Omron G9SE relay with an automatic reset but leaves the feedback loop (T31/T32) completely jumpered open without physical contactor feedback. Why does this defeat the diagnostic coverage of the safety circuit, and how do you properly commission the loop?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "High-frequency electromagnetic emissions from a nearby 100kVA high-frequency induction welder induce transient voltages onto the dual-channel input lines of an Omron G9SA relay, causing random system lockouts. How do you resolve this using shielded twisted-pair cabling and input filtering adjustments?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To achieve EN ISO 13849-1 Category 4 Performance Level e (PL e) safety rating using a cascade of three Omron G9SE-EX expansion units, what diagnostic coverage (DC) and common cause failure (CCF) metrics must be formally calculated and documented?"
+        }
+      ]
+    },
+    {
+      "product_name": "Safety Light Curtains",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron F3SG-SR (highly robust, multi-color status indicators) and an Omron F3SG-RE (standard, simple ON/OFF detection) safety light curtain when designing a robotic packaging station requiring partial blanking and integrated muting?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When connecting an Omron F3SG-SR safety light curtain to an Omron NX-SI400 safety input module, what configuration parameters in Sysmac Studio must be set regarding input filtering and test-pulse width to align with the curtain's OSSD outputs?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the physical maximum operating range (sensing distance) of an Omron F3SG-SR light curtain when configured with a 14mm finger resolution, and how does selecting a 30mm hand resolution alter the response time and optical alignment tolerances?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron F3SG-SR-IP69K washdown-rated light curtain is deployed in an automotive parts washing line. What mechanical mounting and cable routing precautions must be followed to prevent moisture ingress through the M12 connector under high-pressure steam cleaning?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you wire and configure an Omron F39-SGIT-IL3 IO-Link gateway to read real-time light intensity levels and light curtain status diagnostics from an F3SG-SR curtain, and how is this data mapped to an NX102 controller?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Using SD Manager 3 software, design a dynamic blanking configuration for an F3SG-SR light curtain that permits a moving conveyor carriage to continuously break a 50mm zone without triggering the safety outputs, while maintaining full finger-detection safety outside the blanked area."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What does a repeating flashing pattern 'C2' on the diagnostic LED array of an Omron F3SG-SR represent, and what systematic diagnostic steps must be taken to verify if the issue is a physical optical synchronization failure or an external wiring short circuit?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "A commissioning technician mounts two physical muting sensors for an F3SG-SR light curtain at incorrect distance offsets, causing the muting sequence to fail to initialize before the material breaks the light curtain. How do you recalculate and physically reposition the muting sensors?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Ambient optical reflection from a highly reflective polished aluminum chassis on an adjacent conveyor causes the F3SG-SR light curtain to intermittently bypass its safety trip when blocked. How do you physically adjust the curtain's mounting angle and light-emission intensity parameters to resolve this?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "According to EN ISO 13855, how do you calculate the minimum safety distance for mounting an Omron F3SG-SR light curtain (14mm resolution, 15ms response time) in front of an automotive hydraulic press with a measured physical stopping time of 150ms?"
+        }
+      ]
+    },
+    {
+      "product_name": "Safety Interlock Door Switches",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron D4SL-N (mechanical solenoid-locking interlock) and an Omron D40Z (non-contact RFID safety switch) when securing a washdown enclosure on an automotive paint spraying line?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When wiring the solenoid control lines of an Omron D4SL-N switch (solenoid lock model) to a standard digital output on an NX102 controller, and the safety monitoring contacts to an NX-SID800 safety input card, how do you ensure isolation between the non-safety control power and safety input networks?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum rated mechanical holding force (Fzh) of an Omron D4JL safety door switch compared to a D4SL-N switch, and how do you calculate the safe limit for structural door brackets on a heavy 150kg robotic cell gate?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron D4SL-N solenoid lock is configured for continuous energization (power-to-release model) inside a sealed IP54 control box. What is the maximum continuous ambient operating temperature before the solenoid coil experiences thermal breakdown or fails to unlock?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you daisy-chain up to 15 Omron D40Z non-contact RFID safety switches in series to a single NX-SI400 safety input card while maintaining diagnostics and achieving PL e, and what are the specific wiring branch unit configurations required?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Develop a logic routine in an Omron NX-SL5500 safety controller that processes a door-unlock request from a physical operator panel, verifies that a zero-speed feedback state from a motor encoder is active, delays for 2 seconds, and then energizes the lock solenoid of a D4SL-N switch."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What does a rapid, single-blink red error LED indicator on an Omron D40Z non-contact switch indicate regarding actuator positioning, and how do you verify if the RFID key pairing has been lost or corrupted?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "During commissioning, an installer mounts a D4SL-N slide-key actuator misaligned by 3mm, causing mechanical key binding. Why does the switch solenoid fail to release under load, and how do you implement the correct mechanical alignment guide?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Severe floor vibrations from an adjacent stamping press cause the physical safety contact contacts of a mechanical D4SL-N switch to chatter, resulting in intermittent dual-channel discordance trips at the safety PLC. How do you resolve this using mechanical vibration damping mounts or upgrading to an RFID D40Z switch?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To comply with EN ISO 14119 guidelines on safety door interlocks, what level of actuator coding (low, medium, or high coding RFID) must be implemented using an Omron D40Z switch to eliminate the possibility of defeat or bypass on a high-risk robotic cell?"
+        }
+      ]
+    },
+    {
+      "product_name": "Safety Operator Controls",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron A4EG enabling switch grip (3-position slide-switch style) and a localized two-hand control station (incorporating dual A22Z switches and a G9SX-GS controller) for manual robot teaching procedures?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When connecting an Omron A4EG enabling switch to a non-Omron safety PLC input card, what are the physical requirements to ensure that the transition from 'held' (position 2) to 'panicked/fully-squeezed' (position 3) is evaluated deterministically without causing timing faults?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum rated electrical current and mechanical cycle life of the internal auxiliary contacts of an Omron A4EG enabling switch when wired directly to 24VDC safety PLC inputs vs older, high-draw inductive relay coils?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron A4EG enabling switch is exposed to cutting fluids and mechanical shock inside a CNC machining center. What IP seal rating is specified for this handheld device, and what chemical resistance constraints affect the flexible rubber grip boot material?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "Design a physical wiring diagram for a two-hand control station using two Omron A22NN switches connected to an Omron G9SA-TH301 safety relay, illustrating how the dual-channel contacts are isolated and mapped to prevent single-channel bypassing."
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Develop a logic routine in an NX-SL5500 safety controller to manage the three-position enabling input of an Omron A4EG switch, allowing manual robot jogging only when the enabling switch is in position 2, and immediately arresting motion if the switch transitions to position 1 or 3."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What diagnostic status is flagged on a G9SA-TH301 two-hand controller if the operator releases one button before the other, and what manual diagnostic checks should be run on the contact block terminals to detect contact micro-welding?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "An installer mounts the physical pushbuttons of a two-hand control station 150mm apart on a machine frame. Why does this violate EN ISO 13851 structural requirements for defeat prevention, and how do you remediate the layout using protective barriers or distance separation?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Operator hand-fatigue or hand tremor causes micro-releases of the middle position of an A4EG enabling switch during a robot teach cycle, leading to nuisance safety trips. How can you adjust input debounce filters or adjust teaching routines without degrading safety response time?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To satisfy EN ISO 13851 Type III C requirements for two-hand control devices, what specific software validation and diagnostic testing protocols must be executed on an Omron safety relay controller to achieve PL e safety ratings?"
+        }
+      ]
+    },
+    {
+      "product_name": "Emergency Rope Pull Switches",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron ER5018 (compact, up to 40m rope span) and an Omron ER1032 (heavy duty, up to 200m dual-sided rope span) when safeguarding a long assembly-line conveyor system?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When connecting the dual-channel NC contacts of an Omron ER6022 rope pull switch to an Omron NX-SI400 safety input card, how do you verify compatibility with the card's short-circuit test pulses and resolve any terminal resistance issues?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the physical maximum rope tension force limit (in Newtons) required to actuate an Omron ER6022 switch, and what physical rope stretch limits dictate the distance spacing between intermediate rope supports?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron ER6022 switch is installed outdoors on a bulk conveyor with seasonal temperature swings from -20°C to +40°C. How do thermal contraction and expansion of the steel pull-rope affect switch status, and how do you calculate the optimal spring-tensioner rating to prevent temperature-induced nuisance trips?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you wire the dual NC safety contacts of an ER6022 switch to an NX-ECC203 coupler rack while simultaneously routing the internal status LED loop to a standard PLC input to provide localized HMI diagnostics for slack, tensioned, or tripped states?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Write a safety ladder logic routine in Sysmac Studio for an NX-SL5500 controller that implements a monitored-manual reset function for an ER6022 rope pull circuit, requiring both the mechanical switch reset on the device and a subsequent momentary reset pulse from an operator panel."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "An Omron ER6022 rope pull switch fails to latch back into run mode after resetting. What internal diagnostics must be executed to determine if the contact block has suffered physical mechanical separation or if the internal return spring has failed?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "An installer sets up an ER6022 pull-rope system but bypasses the tension indicator window, leaving the rope slack. Why does this mistake prevent the switch from detecting a rope-cut condition, and how do you calibrate the tension using the on-board indicator?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Mechanical vibration from a dynamic conveyor drive motor causes the pull-rope of an ER1032 switch to whip violently, inducing false trips. How do you isolate the rope from motor vibrations or adjust switch mounting structures without compromising the pull-safety profile?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To maintain compliance with ISO 13850 (Emergency Stop Principles) and IEC 60947-5-5, what are the strict installation rules regarding physical reset actuators, constant wire-break monitoring, and visible indicator requirements for the Omron ER-series switches?"
+        }
+      ]
+    }
+  ]
+}

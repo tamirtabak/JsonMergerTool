@@ -1,0 +1,329 @@
+{
+  "products": [
+    {
+      "product_name": "Safety Outputs",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron NX-SOD400 (solid-state safety output module) and an NX-SOD400 paired with an external G7SA force-guided safety relay when planning a machine shutoff system that must switch a 230VAC, 10A inductive hydraulic pump motor?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When interfacing the OSSD outputs of an Omron NX-SOD400 module with the Safe Torque Off (STO) inputs of a third-party variable frequency drive, what electrical parameters regarding external load capacitance and test-pulse width compatibility must be verified to prevent the module from detecting false short circuits?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum permissible total current load limit for an NX-SOD400 safety output module when all 4 channels are energized simultaneously, and how do you calculate the thermal dissipation limits of the module inside a sealed enclosure when switching inductive solenoid valves?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "For a safety output rack installed on an automotive assembly line with continuous ambient temperatures of 50°C, what thermal derating factors must be applied to the solid-state outputs of an Omron NX-SOD400 module, and how does this affect the allowable continuous current per channel?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "Explain how to configure FailSafe over EtherCAT (FSoE) output connections in Sysmac Studio between an NX-SL5500 Safety Controller and an NX-SOD400 remote safety output module, specifically detailing how to map the FSoE communication variables and assign safety connection parameters."
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Develop a safety logic routine using Sysmac Studio Safety Editor that controls a dual-channel safety output via an NX-SOD400, incorporating an External Device Monitoring (EDM) function block that monitors physical contactor feedback signals and locks out the system if a contact welds."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What is the diagnostic and recovery procedure when an Omron NX-SOD400 module displays a red 'TS' LED and reports Sysmac Studio Controller Event Code '0x04C20000' (Safety Output Short Circuit/Earth Leakage Fault), and how do you pinpoint the affected physical channel?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "During commissioning of an NX-SOD400 module, a technician accidentally wires the external 24VDC safety load power supply with reversed polarity. How does the module's internal protection circuit respond, and what diagnostic message is triggered on the master safety controller?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "High capacitive coupling in a long, unshielded 80-meter cable run to an industrial safety brake is causing the NX-SOD400's output channel to intermittently trip on test-pulse diagnostic errors. How do you mitigate this noise issue using cable routing adjustments or by modifying the test-pulse configuration parameters in Sysmac Studio?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To maintain a PL e (Category 4) rating under ISO 13849-1 for a pneumatic valve manifold, under what operational conditions can you disable the internal diagnostic test pulses on an Omron NX-SOD400 safety output module, and how does this impact the overall calculated Diagnostic Coverage (DC)?"
+        }
+      ]
+    },
+    {
+      "product_name": "Smart Cameras/Vision Sensors",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron FQ2-S40050F (integrated dome light and camera) and a MicroHAWK F430-F000M12M-SRS (ultra-compact smart camera) when designing a dynamic inspection station for high-speed 2D DataMatrix code verification and optical character recognition (OCR) on metallic automotive components?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When interfacing an Omron MicroHAWK F430-F smart camera with an NX102-9020 controller via EtherNet/IP, what specific steps must be executed in Sysmac Studio to import the EDS file, map the assembly instances, and configure the camera to act as a generic CIP device?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum exposure time limit on an Omron FQ2-S4 smart camera to prevent image motion blur when inspecting a part on a conveyor moving at a linear velocity of 3.5 meters per second, and how does this affect the required lighting intensity?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron MicroHAWK F430-F camera is deployed inside an engine machining cell with continuous cutting fluid mist. What IP67 protective accessories, lens window coatings, and air-purge configurations are required to maintain a clear field of view and prevent optical deterioration?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you configure raw TCP/IP socket messaging on an Omron FQ2 vision sensor to transmit coordinate results and inspection success codes to an NJ501 controller, including the setup of delimiter characters and PLC-side socket receive buffers?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Design a step-by-step inspection flow inside an Omron FQ2 sensor using the 'Search' and 'Labeling' tools to identify the presence, angular orientation, and defect count of dynamic cylindrical clips on an automotive sub-assembly."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "How do you diagnose a 'Trigger Overrun' error on an Omron MicroHAWK F430-F camera using the WebLink diagnostic interface, and what parameter adjustments should be made to the camera's processing tools to resolve this issue when the line speed increases?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "During commissioning, an engineer locks the autofocus of a MicroHAWK F430-F liquid lens at a static distance but fails to account for a ±15mm height variance in the incoming parts. Why does this cause high false-reject rates, and how do you configure dynamic autofocus tracking?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "High-frequency LED ambient lighting from an adjacent automated inspection station is causing erratic exposure saturation on an Omron FQ2 camera lens. How do you implement optical polarizing filters and bandpass band filters to isolate the camera's integrated light wavelength from external glare?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To meet FDA 21 CFR Part 11 requirements for medical packaging validation, how do you configure user access control, change logging, and secure data storage on an Omron MicroHAWK F430-F utilizing its native WebLink security software?"
+        }
+      ]
+    },
+    {
+      "product_name": "Vision Systems",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron FH-5050 (high-speed, multi-camera controller) and an FH-L550 (lite controller) for a robot guidance application requiring high-resolution 3D shape search, multi-axis alignment, and simultaneous processing of four 5-megapixel cameras?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When connecting an Omron STC-MBS510U3V camera to an FH-5050 controller, what USB 3.0 controller settings, bandwidth allocations, and driver properties must be configured inside the FH system software to prevent frame dropping during continuous triggering?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What are the processor core allocation and internal RAM usage limits on an Omron FH-5050 controller when executing the 'Shape Search III' tool simultaneously on two asynchronous camera threads, and how do you calculate the maximum frame-rate limit before triggering an internal memory buffer bottleneck?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron FH-series vision controller is mounted in a completely sealed, non-ventilated IP54 panel inside a high-temperature automotive paint shop. What thermal dissipation calculations must be done to prevent the CPU from entering thermal throttling, and what physical spacing clearances are required around the chassis?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you configure the built-in EtherCAT communication port of an Omron FH-5050 vision system to act as a slave node to an NJ501 controller, specifically addressing PDO mapping configurations for triggering inspection groups and retrieving floating-point coordinates?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Develop a complex vision processing flowchart in FH software that utilizes 'Shape Search III', 'Edge Detection', and 'Coordinate Calculation' tools to output the exact physical X, Y, and Theta coordinates of a misaligned automotive door frame relative to a dynamic master origin."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "When booting an Omron FH controller, the unit fails to start the runtime environment and displays a licensing validation error. What is the procedure to verify the integrity of the internal security dongle or runtime license file, and how can you recover the system using the backup restore utility?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "A commissioning technician configures an external hardware trigger on an FH controller via the camera cable input but sets the trigger delay parameter to 50ms, causing the camera to capture images after the part has partially left the field of view. How do you calculate and align the trigger window with the physical conveyor indexing?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Mechanical vibration from a dynamic gantry robot is inducing slight physical micro-motions on an FH camera's rigid mounting arm, degrading the sub-pixel accuracy of the measurement tools. How do you implement a dynamic calibration verification step in the FH flowchart to compensate for this mechanical drift?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To ensure compliance with CE EMC Directive EN 61326-1 for industrial laboratory and control equipment, what grounding and noise-isolation precautions must be documented for the FH controller's camera cables and high-speed I/O interfaces when installed adjacent to high-voltage welding contactors?"
+        }
+      ]
+    },
+    {
+      "product_name": "PC-Based Vision",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "Under what application requirements would you select an Omron FJ-AP software runtime package deployed on an industrial PC over a standalone FH hardware controller, particularly regarding custom C# GUI integration and deep-learning model hosting?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When running Omron FJ PC-based vision software on a Windows 10 IoT Enterprise LTSC IPC, what specific network card driver properties, Jumbo Frame sizes, and firewall exclusions must be configured to guarantee reliable high-speed packet delivery from Omron Sentech GigE Vision cameras?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What are the processor core allocation and multi-threading limits when utilizing FJ-AP vision library components on an 8-core industrial PC, and how do you prevent Windows OS background scheduling tasks from introducing jitter into the image capture thread?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "When deploying Omron FJ software on an IPC utilizing Windows Unified Write Filter (UWF) to protect the OS partition, how do you configure directory exclusions to allow continuous logging of product rejection images and historical inspection database updates without causing OS memory depletion?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you implement a secure OPC UA server connection within an Omron FJ software project to stream processed measurement variables and camera health diagnostics to an enterprise-level SCADA system?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Write a customized macro script within the FJ-AP environment that intercepts raw pixel arrays from a high-resolution camera, executes a localized threshold filter to isolate micro-fractures, and outputs the calculated defect density as an XML schema to a local directory."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "How do you troubleshoot a persistent 'GigE Packet Lost' warning inside the FJ software environment, and what diagnostics must be executed within the Windows Network Monitor to identify if the issue lies in network card buffer exhaustion or cable attenuation?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "During installation, an engineer leaves the default Windows Energy-Efficient Ethernet (EEE) settings active on the camera-facing NIC of an FJ system. Why does this cause intermittent camera connection drops when the line is idle, and how do you disable this feature in the OS?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Network packet jitter induced by high-volume corporate IT traffic sharing the same physical network switch as the GigE Vision camera is causing the FJ PC-based software to intermittently drop frames. How do you physically and logically isolate the camera network using VLANs or dedicated NICs?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "When utilizing an Omron FJ PC-based vision system to perform non-safety quality checks that trigger machine-stop interventions, what safety guidelines must be implemented to ensure the software outputs do not bypass standard ISO 13849-1 safety circuit protocols?"
+        }
+      ]
+    },
+    {
+      "product_name": "Industrial Cameras",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron Sentech STC-MBS500POE (5-megapixel, GigE Vision with Power-over-Ethernet) and an STC-MCS510U3V (5.1-megapixel, USB3 Vision) camera for an automotive pick-and-place robot requiring a flexible cable carrier with a 15-meter routing length?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When mating a C-mount telecentric lens with an Omron Sentech STC-MBS510U3V camera, how do you calculate the required extension tube thicknesses and verify back-focus distance compatibility to achieve a precise 50mm field of view at a 150mm working distance?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum achievable frame rate limit of an Omron Sentech STC-MCS510U3V camera when reducing the Region of Interest (ROI) from full resolution to a customized 640x480 pixel window, and what are the corresponding USB3 bus bandwidth limitations?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "An Omron Sentech GigE camera is deployed on an automotive machining gantry subject to high oil-mist concentration and mechanical vibration. What specific IP67-rated protective camera housing, high-flex robotic cables, and connector strain reliefs must be specified?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you physically wire and electrically isolate the opto-isolated hardware trigger input terminals of an Omron Sentech STC camera when interfacing them with a 24VDC high-speed digital output card from an NX-OD5256 rack?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "How do you modify the camera's internal GenICam registers (such as Gain, ExposureTime, and WhiteBalance) using the Sentech SDK to optimize image contrast when inspecting high-speed, alternating red and blue paint layers on an automotive bumper?"
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What diagnostic steps do you execute within the Sentech StViewer software when an STC-MBS500POE camera intermittently returns error code 'STC_STATUS_TIMEOUT', and how do you verify if the camera's internal packet transmission delay needs adjustment?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "A technician connects an Omron Sentech POE camera to a standard non-PoE network card without installing an external PoE injector or connecting an auxiliary 12VDC power connector. Why does the camera fail to initialize, and how do you verify physical power delivery?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "High-frequency electromagnetic emissions from adjacent servo motor power cables are inducing noise into an active optical USB 3.0 cable connected to an STC-MCS510U3V camera, leading to intermittent connection dropouts. How do you resolve this with shielding and routing isolation?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To ensure seamless multi-vendor software interoperability, how does the Omron Sentech camera line maintain strict compliance with the EMVA GenICam standard, and what documentation must be verified when integrating these cameras with non-Omron vision software?"
+        }
+      ]
+    }
+  ]
+}

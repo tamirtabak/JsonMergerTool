@@ -1,0 +1,329 @@
+{
+  "products": [
+    {
+      "product_name": "Proximty",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron E2E-Next (3x/4x long-distance sensing) and an E2EW (metal-face, weld-field immune) proximity sensor when designing an aluminum-sheet robotic welding clamp assembly?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When interfacing an Omron E2E-X10D1-N 2-wire DC proximity sensor to a third-party PLC sourcing (PNP) digital input card, what are the electrical matching requirements, and what value of bleeder resistor must be wired in parallel to prevent sensor leakage current from keeping the input high?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum switching frequency limit of an Omron E2E-X2C18 M8 proximity sensor compared to its 2-wire DC counterpart (E2E-X2D18), and how does the target duty cycle affect sensing consistency at conveyor speeds over 4 meters per second?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "In an engine block washdown zone using corrosive chemical detergents at 80°C (IP69K rating), what are the mechanical housing constraints of an Omron E2ER proximity sensor, and how do you calculate the thermal expansion coefficient's effect on the sensor's nominal sensing distance (Sn)?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "Explain how to configure an Omron E2E-Next IO-Link proximity sensor on an NX-ILM400 master unit, specifically mapping the cyclic process data to monitor both the proximity detection state and the internal sensor temperature telemetry."
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Develop a Structured Text (ST) routine in Sysmac Studio that processes pulses from two offset E2E proximity sensors on an indexing star-wheel to calculate real-time rotational speed and direction, including detection of mechanical backlash slip."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "When monitoring an Omron E2E-Next sensor via IO-Link, what diagnostic parameter flags are raised to indicate a 'Sensing Distance Diagnostic Error' (target operating in the unstable recovery zone), and how is this distinguished from a short-circuit detection fault?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "A technician flush-mounts an unshielded (non-embeddable) Omron E2E proximity sensor directly inside a CNC-machined steel fixture. Why does this mistake cause the sensor's output to lock permanently in an ON state, and what is the proper installation offset required?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Severe magnetic fields from a 150kVA spot welding gun are causing random false triggers on an adjacent standard Omron E2E proximity sensor. How do you troubleshoot this electromagnetic coupling, and what is the technical benefit of upgrading to an E2EW sensor with magnetic weld-field immunity?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To comply with IEC 60947-5-2 for industrial proximity switches, what specific electromagnetic compatibility (EMC) testing documentation and MTBF (Mean Time Between Failures) safety statistics must be verified for the E2E sensor line when used as non-safety process feedback?"
+        }
+      ]
+    },
+    {
+      "product_name": "Safety Logic Devices - Controllers",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron G9SP-N10S stand-alone safety controller and an NX-SL5500 modular safety CPU in an automotive cell containing 12 safety light curtains, 8 E-stops, and a requirement for safety-over-EtherCAT (FSoE) communication with 1S servo drives?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When integrating an NX-SL5500 safety controller with a standard non-safety NX102 CPU rack, how do you map the safety-to-non-safety network interface variables in Sysmac Studio to ensure that status indicators on the SCADA can read safety variables without breaking safety network isolation?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What are the safety connection capacity and program memory limits of an Omron NX-SL3300 safety controller, and how do you calculate the maximum permissible FSoE watchdog timer settings before a high-traffic EtherCAT network triggers a nuisance safety shutdown?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "What is the maximum allowed ambient temperature range for an Omron G9SP controller mounted in a sealed IP54 enclosure on a hot-stamping line, and what thermal management calculations are required to prevent a safe-state thermal shutdown of the CPU?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "Explain the configuration process for setting up FSoE communications between an NX-SL5500 safety controller and an NX-ECC203 coupler rack with safety I/O modules, including the assignment of the Safety Network Node (SNN) addresses."
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Design a safety logic program in Sysmac Studio Safety Editor that implements a safe gate muting function using two photoelectric muting sensors, detailing the muting sequence timer configuration, muting lamp diagnostic monitoring, and maximum muting time-out limits."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What is the troubleshooting procedure when an Omron NX-SI400 safety input module reports Event Code '0x84020000' (Dual-Channel Discordance Detection Error), and what diagnostic parameters must be verified in the Sysmac Studio Safety Unit Monitor?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "A field engineer commissions an NX-SL5500 safety project but leaves the safety CPU in 'Debug Mode' and forgets to lock the safety project. What are the operational consequences of this mistake on machine restart, and how do you perform a proper safety project validation and locking sequence?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "High-frequency electromagnetic emissions from adjacent variable frequency drives are inducing electrical noise on the dual-channel safety input cables of a G9SP controller, leading to intermittent test-pulse synchronization errors. How do you diagnose and resolve this issue using shielding and input filter adjustments?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To achieve ISO 13849-1 Category 4 Performance Level e (PL e) safety rating for an automated workcell, what documentation, calculation parameters (MTTFd, DCavg, CCF), and software safety function block validation reports must be generated from the Omron safety controller project?"
+        }
+      ]
+    },
+    {
+      "product_name": "Safety Laser Scanners",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron OS32C-SP1 (EtherNet/IP and diagnostic communication model) and an OS32C-DM (standard I/O model) safety laser scanner for an Autonomous Mobile Robot (AMR) application requiring dynamic zone configuration and fleet tracking?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When interfacing the dual OSSD outputs of an Omron OS32C safety scanner to a non-Omron safety relay module, what electrical characteristics (such as maximum load capacitance and test-pulse width compatibility) must be matched to prevent false OSSD trips?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What are the physical limits of the safety zone radius (e.g., up to 3m or 4m) and the warning zone radius (up to 15m) on an Omron OS32C, and how does the scanner's response time parameter (configurable from 80ms to 680ms) impact the safety distance calculation under ISO 13855?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "When deploying an Omron OS32C scanner in an automotive metal-grinding area with high levels of airborne metallic dust and reflective surfaces, what optical window contamination mitigation strategies must be applied to prevent false safety shutdowns?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "How do you configure the EtherNet/IP communication interface on an Omron OS32C to transmit real-time diagnostic status, measurement sector distance data, and optical contamination level percentages to an Omron NX102 controller?"
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Design the input zoning logic for an OS32C safety laser scanner on a dynamic transfer vehicle where 4 physical digital inputs on the scanner are used to switch between 16 different pre-programmed safety zone configurations based on physical encoder speed signals."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "How do you systematically troubleshoot a persistent 'E19' error code (Optical Window Contamination) or an 'E11' error code (Internal System Failure) displayed on the LED diagnostics array of an Omron OS32C scanner?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "An installer mounts an OS32C scanner flat on an uneven floor with 0mm height clearance, causing the safety beam to intermittently hit floor irregularities and trip. What is the correct vertical mounting height and angular alignment procedure using the OS32C configuration tool?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Two Omron OS32C scanners are mounted directly opposite each other on a narrow conveyor path, causing mutual optical crosstalk and erratic safety stops. How do you resolve this optical interference using the scanner's pulse-code allocation and installation spacing guidelines?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To meet IEC 61496-1/-3 standards for active optoelectronic protective devices responsive to diffuse reflection (AOPDDR), what validation steps are required to ensure the OS32C scanner setup complies with Type 3 safety requirements and Performance Level d (PL d) standards?"
+        }
+      ]
+    },
+    {
+      "product_name": "Safety Limit Switch",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron D4B-4A71N (heavy-duty metal housing, roller lever) and an Omron D4N-4120 (compact plastic housing, plunger type) safety limit switch for an automotive gantry shuttle position gate?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When interfacing a dual-channel Omron D4N safety limit switch with an NX-SID800 safety input module, what contact configuration (e.g., 2NC vs. 1NC/1NO) must be specified to support the short-circuit diagnostic pulse evaluations of the safety PLC?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum rated electrical capacity of the silver-alloy contacts inside an Omron D4F safety limit switch under DC-13 duty cycle conditions (24VDC at 2.7A), and how does exceeding this load limit affect the positive opening mechanism?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "When deploying an Omron D4B safety limit switch in an automotive engine machining zone exposed to high concentrations of water-soluble cutting fluids, what specific NEMA/IP seal ratings and cable entry connector specifications must be maintained?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "Detail the physical wiring configuration required to connect three dual-channel D4N safety limit switches in series back to a single safety relay loop, and analyze the 'fault masking' risk on diagnostic coverage according to ISO 14119."
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Develop a monitoring program in an Omron NX-SL5500 safety controller to evaluate the mechanical health of a safety gate D4N limit switch by detecting contact discordance (e.g., one channel fails to close) within a 500ms cycle window."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "If an Omron D4N safety limit switch experiences contact welding on one of its NC contacts due to an overcurrent surge, how does the internal direct opening mechanism (positive opening) ensure the second NC contact still opens mechanically?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "A technician mounts the striking cam for an Omron D4B roller lever limit switch at a sharp 90-degree angle instead of the recommended 30-degree approach ramp. What mechanical stress issues and premature actuator wear are caused by this commissioning error?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "Severe floor vibration in an automotive metal-forming plant is causing intermittent contact chatter on a D4N safety switch, leading to false machine trips. How do you isolate this vibration, and what is the technical benefit of upgrading to a high-preload spring actuator?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To achieve ISO 14119 compliance for guard interlocking devices, what specific tamper-resistance mounting instructions (such as using one-way screws or concealed mounting positions) must be applied to an Omron D4N safety limit switch installation?"
+        }
+      ]
+    },
+    {
+      "product_name": "Emergency Stop Switches",
+      "questions": [
+        {
+          "id": 1,
+          "blueprint_tag": "Variant & Code Selection",
+          "category": "Procurement & Technical Specifications",
+          "question": "How do you select between an Omron A22NE-MP (push-lock, turn-reset, IP69K rated) and an A22E-M (standard industrial twist-reset) emergency stop switch for a food-grade automotive parts washing cabinet subject to high-pressure sanitizing washdowns?"
+        },
+        {
+          "id": 2,
+          "blueprint_tag": "Interoperability & Compatibility",
+          "category": "Procurement & Technical Specifications",
+          "question": "When wiring an illuminated Omron A22NE-M E-stop switch with a built-in 24VDC LED indicator to a safety circuit, what precautions must be taken to ensure the 24VDC illumination loop is completely isolated from the dual-channel dry-contact safety loop?"
+        },
+        {
+          "id": 3,
+          "blueprint_tag": "Capacity & Limit Thresholds",
+          "category": "Procurement & Technical Specifications",
+          "question": "What is the maximum continuous thermal current (Ith) rating of an Omron A22NE contact block, and how do you calculate safety system reliability when utilizing these contacts to directly interrupt the inductive coils of large physical motor contactors?"
+        },
+        {
+          "id": 4,
+          "blueprint_tag": "Environmental & Deployment Constraints",
+          "category": "Functional Application & Deployment",
+          "question": "In an automotive spray-paint booth classified as a hazardous area (ATEX Zone 1), what specialized intrinsically safe barriers and explosive-proof enclosure constraints must be applied when mounting a standard Omron A22NE E-stop switch?"
+        },
+        {
+          "id": 5,
+          "blueprint_tag": "Integration & Communications",
+          "category": "Functional Application & Deployment",
+          "question": "Draw the dual-channel physical wiring schematic between three serial-connected Omron A22NE E-stop switches and an Omron G9SA-301 safety relay, highlighting where cross-fault monitoring is established via dual-channel routing."
+        },
+        {
+          "id": 6,
+          "blueprint_tag": "Task-Specific Logic",
+          "category": "Functional Application & Deployment",
+          "question": "Write a safety program routine in an NX-SL5500 safety controller that handles the manual, monitored-reset functionality (using the SafeReset function block) of a dual-channel A22NE E-stop button loop, preventing a dynamic start-up on power cycle."
+        },
+        {
+          "id": 7,
+          "blueprint_tag": "Product-Level Faults & Codes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "What is the technical purpose of the lock-safe (positive-preventive) mechanism in an Omron A22NE switch contact block, and how does this feature prevent safety failures if the contact block becomes physically detached from the actuator head?"
+        },
+        {
+          "id": 8,
+          "blueprint_tag": "Operational/Commissioning Mistakes",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "An installer configures an E-stop safety circuit with an automatic reset on the safety controller, allowing the machine to instantly restart as soon as the physical A22NE button is twist-released. Why is this a direct violation of ISO 13850, and how do you remediate the logic?"
+        },
+        {
+          "id": 9,
+          "blueprint_tag": "Ecosystem/Environmental Interference",
+          "category": "Lifecycle, Troubleshooting & Diagnostics",
+          "question": "In a long-distance safety loop (over 150m) containing several A22NE E-stops, cable-to-cable capacitance is causing false diagnostic test pulse delays on the NX-SI400 module, triggering spurious trips. How do you adjust the safety module's test pulse parameters to resolve this?"
+        },
+        {
+          "id": 10,
+          "blueprint_tag": "Standards & Certification",
+          "category": "Compliance & Governance",
+          "question": "To satisfy ISO 13850 (Emergency Stop Principles) and IEC 60947-5-5 (Electrical Emergency Stop Devices with Mechanical Latching Function), what mechanical validation parameters and color configurations must be maintained for an Omron A22NE switch?"
+        }
+      ]
+    }
+  ]
+}
