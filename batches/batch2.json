@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron NX-ECC203 (EtherCAT Coupler) and an NX-EIP201 (EtherNet/IP Coupler) remote I/O node in an automotive assembly station requiring sub-millisecond I/O response times and distributed clock (DC) synchronization for registration sensors?"
+          "question": "How do you select between an Omron NX-ECC203 (EtherCAT Coupler) and an NX-EIP201 (EtherNet/IP Coupler) remote I/O node in an automotive assembly station requiring sub-millisecond I/O response times and distributed clock (DC) synchronization for registration sensors?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ECC203", "NX-EIP201" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron NX-ID5142 high-speed digital input unit with a non-Omron three-wire PNP proximity sensor, what are the electrical compatibility requirements, and how do you configure the input filter time parameter in Sysmac Studio to ensure compatibility with a 50µs pulse?"
+          "question": "When interfacing an Omron NX-ID5142 high-speed digital input unit with a non-Omron three-wire PNP proximity sensor, what are the electrical compatibility requirements, and how do you configure the input filter time parameter in Sysmac Studio to ensure compatibility with a 50µs pulse?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ID5142" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the power consumption and I/O bus current limit thresholds when cascading 20 NX-OD5256 digital output units on a single NX-ECC203 coupler, and how do you calculate the exact point where an additional NX-PF0630 I/O Power Feed Unit is required?"
+          "question": "What are the power consumption and I/O bus current limit thresholds when cascading 20 NX-OD5256 digital output units on a single NX-ECC203 coupler, and how do you calculate the exact point where an additional NX-PF0630 I/O Power Feed Unit is required?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-OD5256", "NX-ECC203", "NX-PF0630" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying Omron NX-series remote I/O inside a control cabinet exposed to continuous ambient temperatures of 55°C and high mechanical vibration from an adjacent automotive stamping press, what are the mounting orientation constraints and spacing rules required to prevent thermal derating of the internal bus coupler?"
+          "question": "When deploying Omron NX-series remote I/O inside a control cabinet exposed to continuous ambient temperatures of 55°C and high mechanical vibration from an adjacent automotive stamping press, what are the mounting orientation constraints and spacing rules required to prevent thermal derating of the internal bus coupler?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-series" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you map and scale a specialized temperature control module (e.g., NX-TC2405) via an NX-ECC203 coupler to an NJ501 controller, including establishing the PDO mapping for channel enabling, sensor type selection, and raw-to-physical process variable conversion?"
+          "question": "How do you map and scale a specialized temperature control module (e.g., NX-TC2405) via an NX-ECC203 coupler to an NJ501 controller, including establishing the PDO mapping for channel enabling, sensor type selection, and raw-to-physical process variable conversion?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-TC2405", "NX-ECC203", "NJ501" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a logic routine in Sysmac Studio that utilizes an NX-EC0122 incremental encoder input unit on a remote EtherCAT rack to trigger an NX-PG0122 pulse output unit at an exact physical millimeter offset, compensating for the communication propagation delay of the EtherCAT bus."
+          "question": "Develop a logic routine in Sysmac Studio that utilizes an NX-EC0122 incremental encoder input unit on a remote EtherCAT rack to trigger an NX-PG0122 pulse output unit at an exact physical millimeter offset, compensating for the communication propagation delay of the EtherCAT bus.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-EC0122", "NX-PG0122" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the systematic troubleshooting procedure when an Omron NX-ECC203 coupler displays a flashing red 'TS' LED and reports Sysmac Studio Event Code '0x04A10000' (NX Unit Communication Software Error), and how do you pinpoint the failing sub-unit on the I/O rack?"
+          "question": "What is the systematic troubleshooting procedure when an Omron NX-ECC203 coupler displays a flashing red 'TS' LED and reports Sysmac Studio Event Code '0x04A10000' (NX Unit Communication Software Error), and how do you pinpoint the failing sub-unit on the I/O rack?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ECC203" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During the commissioning of an NX remote I/O node, a field technician leaves off the NX-END01 end cover on the last unit of the rack. What specific physical bus failures occur, what exact fault is reported in the PLC controller log, and why does the node fail to transition to the EtherCAT 'OP' state?"
+          "question": "During the commissioning of an NX remote I/O node, a field technician leaves off the NX-END01 end cover on the last unit of the rack. What specific physical bus failures occur, what exact fault is reported in the PLC controller log, and why does the node fail to transition to the EtherCAT 'OP' state?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-END01" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-voltage transient spikes from a neighboring variable frequency drive (VFD) are inducing common-mode electrical noise on the shielded RJ45 cable connected to an NX-ECC203 coupler, causing random 'EtherCAT Frame Loss' errors. How do you implement proper industrial grounding, shielding, and line filtering to stabilize the remote I/O network?"
+          "question": "High-voltage transient spikes from a neighboring variable frequency drive (VFD) are inducing common-mode electrical noise on the shielded RJ45 cable connected to an NX-ECC203 coupler, causing random 'EtherCAT Frame Loss' errors. How do you implement proper industrial grounding, shielding, and line filtering to stabilize the remote I/O network?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ECC203" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When incorporating safety-rated remote I/O modules, such as the NX-SID800 safety input and NX-SOD400 safety output on an NX-ECC203 coupler, what are the diagnostic coverage and system architecture verification requirements to maintain compliance with ISO 13849-1 PL e (Category 4) using FSoE (FailSafe over EtherCAT)?"
+          "question": "When incorporating safety-rated remote I/O modules, such as the NX-SID800 safety input and NX-SOD400 safety output on an NX-ECC203 coupler, what are the diagnostic coverage and system architecture verification requirements to maintain compliance with ISO 13849-1 PL e (Category 4) using FSoE (FailSafe over EtherCAT)?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ECC203", "NX-SID800", "NX-SOD400" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an unmanaged industrial switch like the Omron W4S1-05B and a fully managed switch for an EtherNet/IP network containing an NX102 controller, an NA5 HMI, and three FH vision systems, specifically considering the need for IGMP Snooping and Quality of Service (QoS) packet prioritization?"
+          "question": "How do you select between an unmanaged industrial switch like the Omron W4S1-05B and a fully managed switch for an EtherNet/IP network containing an NX102 controller, an NA5 HMI, and three FH vision systems, specifically considering the need for IGMP Snooping and Quality of Service (QoS) packet prioritization?",
+          "manufacturer": "Omron",
+          "product_examples": [ "W4S1-05B", "NX102", "NA5", "FH series" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting an Omron W4S1 switch to an enterprise network backbone managed by Cisco switches, what STP (Spanning Tree Protocol) or RSTP configuration parameters must be aligned on the enterprise side to prevent network loops and broadcast storms while keeping PLC-to-HMI traffic uninterrupted?"
+          "question": "When connecting an Omron W4S1 switch to an enterprise network backbone managed by Cisco switches, what STP (Spanning Tree Protocol) or RSTP configuration parameters must be aligned on the enterprise side to prevent network loops and broadcast storms while keeping PLC-to-HMI traffic uninterrupted?",
+          "manufacturer": "Omron",
+          "product_examples": [ "W4S1" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum backplane switching capacity (in Gbps) of an Omron W4S1-05B industrial switch, and how do you calculate if the simultaneous throughput of continuous cyclic EtherNet/IP implicit messaging (at 2ms RPI) and high-volume raw TCP data from an FH vision system will cause port buffer overflows?"
+          "question": "What is the maximum backplane switching capacity (in Gbps) of an Omron W4S1-05B industrial switch, and how do you calculate if the simultaneous throughput of continuous cyclic EtherNet/IP implicit messaging (at 2ms RPI) and high-volume raw TCP data from an FH vision system will cause port buffer overflows?",
+          "manufacturer": "Omron",
+          "product_examples": [ "W4S1-05B" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "The Omron W4S1 switch is housed in an IP30 metal casing. When deploying this switch in an automotive robotic welding cell with high concentrations of airborne metallic dust and ambient temperatures reaching 50°C, what specific cabinet sealing, mounting direction, and ventilation strategies must be enforced to prevent internal component degradation?"
+          "question": "The Omron W4S1 switch is housed in an IP30 metal casing. When deploying this switch in an automotive robotic welding cell with high concentrations of airborne metallic dust and ambient temperatures reaching 50°C, what specific cabinet sealing, mounting direction, and ventilation strategies must be enforced to prevent internal component degradation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "W4S1" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure industrial Ethernet network routing in Sysmac Studio to prioritize high-speed real-time EtherNet/IP tag data links over lower-priority FINS/UDP administrative commands, detailing the configuration of appropriate IP subnets and multicast address ranges."
+          "question": "Explain how to configure industrial Ethernet network routing in Sysmac Studio to prioritize high-speed real-time EtherNet/IP tag data links over lower-priority FINS/UDP administrative commands, detailing the configuration of appropriate IP subnets and multicast address ranges?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a monitoring script executed on an NX102 controller that polls diagnostic registers on a managed switch via an SNMP-based REST API or native CIP messaging, detecting port link downs, high CRC error counts, or bandwidth usage spikes, and triggering an immediate system pause on the automotive line."
+          "question": "Develop a monitoring script executed on an NX102 controller that polls diagnostic registers on a managed switch via an SNMP-based REST API or native CIP messaging, detecting port link downs, high CRC error counts, or bandwidth usage spikes, and triggering an immediate system pause on the automotive line.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When troubleshooting an Omron W4S1-05B switch, what physical LED status combinations indicate a 'Link/Activity' error on Port 3, and how do you differentiate between a physical cable degradation (attenuation) and a port auto-negotiation duplex mismatch?"
+          "question": "When troubleshooting an Omron W4S1-05B switch, what physical LED status combinations indicate a 'Link/Activity' error on Port 3, and how do you differentiate between a physical cable degradation (attenuation) and a port auto-negotiation duplex mismatch?",
+          "manufacturer": "Omron",
+          "product_examples": [ "W4S1-05B" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A commissioning engineer inadvertently connects both PLC-facing networks (Port 1 and Port 2 of an NX102 controller) to the same unmanaged W4S1 switch without configuring routing tables or NAT, creating an IP routing loop. What are the logical consequences of this loop on cyclic data exchange, and how do you resolve it?"
+          "question": "A commissioning engineer inadvertently connects both PLC-facing networks (Port 1 and Port 2 of an NX102 controller) to the same unmanaged W4S1 switch without configuring routing tables or NAT, creating an IP routing loop. What are the logical consequences of this loop on cyclic data exchange, and how do you resolve it?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102", "W4S1" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During high-current spot welding sequences, the industrial Ethernet network suffers transient packet losses and node drops. How do you analyze if this is caused by electromagnetic interference (EMI) coupling into unshielded CAT5e cables, and what are the shielding and M12 D-coded connector grounding rules to eliminate this?"
+          "question": "During high-current spot welding sequences, the industrial Ethernet network suffers transient packet losses and node drops. How do you analyze if this is caused by electromagnetic interference (EMI) coupling into unshielded CAT5e cables, and what are the shielding and M12 D-coded connector grounding rules to eliminate this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "M12 D-coded connector" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To satisfy ISA/IEC 62443 security compliance requirements on an automotive assembly floor, what measures must be implemented concerning the physical ports of a DIN-rail mounted W4S1 switch, and how can MAC address filtering be configured to prevent unauthorized connection of engineering laptops?"
+          "question": "To satisfy ISA/IEC 62443 security compliance requirements on an automotive assembly floor, what measures must be implemented concerning the physical ports of a DIN-rail mounted W4S1 switch, and how can MAC address filtering be configured to prevent unauthorized connection of engineering laptops?",
+          "manufacturer": "Omron",
+          "product_examples": [ "W4S1" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron S8VK-S12024 (120W, 24VDC) and an S8VK-X12024-EIP (120W, Smart Power Supply with EtherNet/IP) when designing a control cabinet for an automotive robotic cell that requires predictive maintenance tracking of total running hours and output current peaks?"
+          "question": "How do you select between an Omron S8VK-S12024 (120W, 24VDC) and an S8VK-X12024-EIP (120W, Smart Power Supply with EtherNet/IP) when designing a control cabinet for an automotive robotic cell that requires predictive maintenance tracking of total running hours and output current peaks?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-S12024", "S8VK-X12024-EIP" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting two Omron S8VK-WA24024 power supplies in a redundant parallel configuration using an S8VK-R20 redundancy module, what output voltage balancing adjustments must be made on each power supply to ensure symmetrical load sharing and stable diode operation?"
+          "question": "When connecting two Omron S8VK-WA24024 power supplies in a redundant parallel configuration using an S8VK-R20 redundancy module, what output voltage balancing adjustments must be made on each power supply to ensure symmetrical load sharing and stable diode operation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-WA24024", "S8VK-R20" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the peak current capability percentage (boost current) of an Omron S8VK-G24024 power supply, and how do you calculate if the power supply can handle the inrush current of 12 parallel inductive solenoid valves (2.4W nominal each with an 8x inrush peak) without entering overcurrent hiccup mode?"
+          "question": "What is the peak current capability percentage (boost current) of an Omron S8VK-G24024 power supply, and how do you calculate if the power supply can handle the inrush current of 12 parallel inductive solenoid valves (2.4W nominal each with an 8x inrush peak) without entering overcurrent hiccup mode?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-G24024" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "How does the thermal derating curve of an Omron S8VK-S series power supply change when it is mounted horizontally on a DIN rail instead of the recommended vertical orientation, and what is the maximum continuous current rating at an ambient temperature of 60°C in this configuration?"
+          "question": "How does the thermal derating curve of an Omron S8VK-S series power supply change when it is mounted horizontally on a DIN rail instead of the recommended vertical orientation, and what is the maximum continuous current rating at an ambient temperature of 60°C in this configuration?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-S" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the steps to map and configure the cyclic EtherNet/IP data exchange between an Omron S8VK-X power supply and an NX1P2 PLC in Sysmac Studio, specifically retrieving variables for 'Replacement Time Calculation' (years remaining) and 'Output Current' (A)."
+          "question": "Detail the steps to map and configure the cyclic EtherNet/IP data exchange between an Omron S8VK-X power supply and an NX1P2 PLC in Sysmac Studio, specifically retrieving variables for 'Replacement Time Calculation' (years remaining) and 'Output Current' (A).",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-X", "NX1P2" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a Structured Text (ST) program in Sysmac Studio that reads the lifetime prediction parameters from an S8VK-X power supply via OPC UA, calculates the rate of degradation over a 30-day moving average, and triggers an early replacement alarm on an NA5 HMI before the unit hits 10% remaining life."
+          "question": "Write a Structured Text (ST) program in Sysmac Studio that reads the lifetime prediction parameters from an S8VK-X power supply via OPC UA, calculates the rate of degradation over a 30-day moving average, and triggers an early replacement alarm on an NA5 HMI before the unit hits 10% remaining life.",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-X", "NA5" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What internal circuit conditions cause an Omron S8VK power supply to enter Overvoltage Protection (OVP) latch-off mode, and what is the physical procedure required to reset the internal protection circuit and restore the 24VDC output?"
+          "question": "What internal circuit conditions cause an Omron S8VK power supply to enter Overvoltage Protection (OVP) latch-off mode, and what is the physical procedure required to reset the internal protection circuit and restore the 24VDC output?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During installation, a technician mistakenly wires a single-phase Omron S8VK-S power supply input to two phases of a 480VAC delta grid (line-to-line) instead of 230VAC (line-to-neutral). What internal components (such as varistors or input fuses) are damaged, and how does the front panel LED respond?"
+          "question": "During installation, a technician mistakenly wires a single-phase Omron S8VK-S power supply input to two phases of a 480VAC delta grid (line-to-line) instead of 230VAC (line-to-neutral). What internal components (such as varistors or input fuses) are damaged, and how does the front panel LED respond?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK-S" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electrical harmonics generated by a group of heavy AC variable frequency drives (VFDs) on the same factory power distribution line cause thermal overheating and output voltage ripple on an adjacent S8VK power supply. How do you diagnose this mains-side interference, and what line filters must be added?"
+          "question": "High-frequency electrical harmonics generated by a group of heavy AC variable frequency drives (VFDs) on the same factory power distribution line cause thermal overheating and output voltage ripple on an adjacent S8VK power supply. How do you diagnose this mains-side interference, and what line filters must be added?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When designing a control cabinet requiring UL 508 and Class 2 power supply safety limits (UL 1310) for automotive sensor networks, what output power constraints must be met by the S8VK power supply system, and how do you implement multi-channel electronic circuit protectors to maintain Class 2 compliance on each branch?"
+          "question": "When designing a control cabinet requiring UL 508 and Class 2 power supply safety limits (UL 1310) for automotive sensor networks, what output power constraints must be met by the S8VK power supply system, and how do you implement multi-channel electronic circuit protectors to maintain Class 2 compliance on each branch?",
+          "manufacturer": "Omron",
+          "product_examples": [ "S8VK" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "When selecting an industrial timer for a high-repetition pneumatic cylinder curing station, what parameters dictate choosing an Omron H5CX-A11D-N (Digital, 11-pin) over an H3DK-M1 (Analog, DIN-rail mount), particularly regarding timing repeat accuracy and decimal display resolution?"
+          "question": "When selecting an industrial timer for a high-repetition pneumatic cylinder curing station, what parameters dictate choosing an Omron H5CX-A11D-N (Digital, 11-pin) over an H3DK-M1 (Analog, DIN-rail mount), particularly regarding timing repeat accuracy and decimal display resolution?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX-A11D-N", "H3DK-M1" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you interface the solid-state gate/reset/key-protect inputs of an Omron H5CX-AD-N (24VDC/12-24VAC) digital timer with an open-collector NPN transistor output from an Omron proximity sensor, ensuring proper electrical isolation and voltage level matching?"
+          "question": "How do you interface the solid-state gate/reset/key-protect inputs of an Omron H5CX-AD-N (24VDC/12-24VAC) digital timer with an open-collector NPN transistor output from an Omron proximity sensor, ensuring proper electrical isolation and voltage level matching?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX-AD-N" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the maximum electrical contact load limits (resistive vs. inductive, COSφ = 0.4) of the internal SPDT relay output on an Omron H3DK-S2 star-delta timer, and what precautions must be taken when directly switching a high-draw 230VAC motor contactor coil?"
+          "question": "What are the maximum electrical contact load limits (resistive vs. inductive, COSφ = 0.4) of the internal SPDT relay output on an Omron H3DK-S2 star-delta timer, and what precautions must be taken when directly switching a high-draw 230VAC motor contactor coil?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H3DK-S2" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "The Omron H5CX digital timer has an IP66 front panel rating. When flush-mounting the timer onto an outdoor-exposed generator control box, what panel thickness, gasket installation, and chemical exposure constraints must be considered to prevent water ingress into the internal electronics?"
+          "question": "The Omron H5CX digital timer has an IP66 front panel rating. When flush-mounting the timer onto an outdoor-exposed generator control box, what panel thickness, gasket installation, and chemical exposure constraints must be considered to prevent water ingress into the internal electronics?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to wire and configure an Omron H5CX-ASD-N timer for a dual-timer flicker-off-start (twin timer) control cycle, where a physical external start switch initiates the sequence and an external reset switch interrupts it instantly."
+          "question": "Explain how to wire and configure an Omron H5CX-ASD-N timer for a dual-timer flicker-off-start (twin timer) control cycle, where a physical external start switch initiates the sequence and an external reset switch interrupts it instantly.",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX-ASD-N" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a control sequence where an Omron H3DK-M2 multi-range analog timer is configured in 'Signal OFF-delay' mode (Mode G) to control a cooling fan after an industrial heater is switched off. Illustrate the terminal wiring configuration between the control switch, the auxiliary input (B1), and the power supply terminals (A1, A2)."
+          "question": "Design a control sequence where an Omron H3DK-M2 multi-range analog timer is configured in 'Signal OFF-delay' mode (Mode G) to control a cooling fan after an industrial heater is switched off. Illustrate the terminal wiring configuration between the control switch, the auxiliary input (B1), and the power supply terminals (A1, A2).",
+          "manufacturer": "Omron",
+          "product_examples": [ "H3DK-M2" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you diagnose an 'E1' (Memory Error/EEPROM failure) or 'E2' (Key Protection Error) error code on an Omron H5CX digital timer, and is there a factory reset procedure or does it require hardware replacement?"
+          "question": "How do you diagnose an 'E1' (Memory Error/EEPROM failure) or 'E2' (Key Protection Error) error code on an Omron H5CX digital timer, and is there a factory reset procedure or does it require hardware replacement?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer mistakenly configures the input mode of an H5CX-A-N timer to 'NPN' (no-voltage input) but wires a 24VDC 'PNP' (voltage input) signal directly to the signal input terminals. What occurs to the input detection circuitry, and how do you recover?"
+          "question": "An installer mistakenly configures the input mode of an H5CX-A-N timer to 'NPN' (no-voltage input) but wires a 24VDC 'PNP' (voltage input) signal directly to the signal input terminals. What occurs to the input detection circuitry, and how do you recover?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX-A-N" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High electromagnetic interference (EMI) from an adjacent high-frequency induction furnace induces transient voltage spikes on the long-distance start/reset wiring of an H5CX timer, causing premature triggering. How do you implement RC snubber networks, opto-isolators, or shielded cabling to eliminate this crosstalk?"
+          "question": "High electromagnetic interference (EMI) from an adjacent high-frequency induction furnace induces transient voltage spikes on the long-distance start/reset wiring of an H5CX timer, causing premature triggering. How do you implement RC snubber networks, opto-isolators, or shielded cabling to eliminate this crosstalk?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H5CX" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What safety standards (such as EN 61812-1) govern the design of industrial timing relays, and can a standard H3DK timer be used as the primary timing element in a safety-critical Category 3 PL d safety function (e.g., safety-gate delayed unlocking)?"
+          "question": "What safety standards (such as EN 61812-1) govern the design of industrial timing relays, and can a standard H3DK timer be used as the primary timing element in a safety-critical Category 3 PL d safety function (e.g., safety-gate delayed unlocking)?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H3DK" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron K3HB-XVD (DC Voltage Input) and a K3HB-VLC (Load Cell Input) panel meter when configuring a load-pressing quality assurance station on an automotive manual assembly workbench?"
+          "question": "How do you select between an Omron K3HB-XVD (DC Voltage Input) and a K3HB-VLC (Load Cell Input) panel meter when configuring a load-pressing quality assurance station on an automotive manual assembly workbench?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB-XVD", "K3HB-VLC" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting a 4-20mA pressure transmitter to an Omron K3HB-XAD (Process Indicator), how do you configure the sensor power supply (24VDC) loop wiring using the internal transmitter power supply of the K3HB, and what are the matching impedance specifications?"
+          "question": "When connecting a 4-20mA pressure transmitter to an Omron K3HB-XAD (Process Indicator), how do you configure the sensor power supply (24VDC) loop wiring using the internal transmitter power supply of the K3HB, and what are the matching impedance specifications?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB-XAD" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum conversion speed and sampling rate of the K3HB-S (Linear Sensor Indicator) compared to standard panel meters, and what is the input threshold limit before analog-to-digital converter (ADC) saturation occurs?"
+          "question": "What is the maximum conversion speed and sampling rate of the K3HB-S (Linear Sensor Indicator) compared to standard panel meters, and what is the input threshold limit before analog-to-digital converter (ADC) saturation occurs?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB-S" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In a high-vibration engine testing facility where the panel meter is embedded directly in an operator pendant, what are the mounting panel thickness limitations and vibration-tolerance specifications of the K3HB series to prevent physical segment failure on the display?"
+          "question": "In a high-vibration engine testing facility where the panel meter is embedded directly in an operator pendant, what are the mounting panel thickness limitations and vibration-tolerance specifications of the K3HB series to prevent physical segment failure on the display?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB series" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure the optional DeviceNet (K33-FLK1B) or RS-485 (K33-FLK3B) communications board in a K3HB panel meter to continuously transmit measured PV (Present Value) data and peak hold values to a master PLC using Modbus RTU protocol?"
+          "question": "How do you configure the optional DeviceNet (K33-FLK1B) or RS-485 (K33-FLK3B) communications board in a K3HB panel meter to continuously transmit measured PV (Present Value) data and peak hold values to a master PLC using Modbus RTU protocol?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB", "K33-FLK1B", "K33-FLK3B" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design the parameter mapping (using the front panel keys) for a K3HB-R (Rotary Tachometer indicator) to measure the rotational speed of an automotive engine flywheel using a 60-pulse-per-revolution proximity sensor, including scaling factor 'prescale' parameter calculations to display direct RPM."
+          "question": "Design the parameter mapping (using the front panel keys) for a K3HB-R (Rotary Tachometer indicator) to measure the rotational speed of an automotive engine flywheel using a 60-pulse-per-revolution proximity sensor, including scaling factor 'prescale' parameter calculations to display direct RPM.",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB-R" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What physical conditions cause a K3HB panel meter to display the flashing message 'Err' or 'o.FL' (Over Flow) / 'u.FL' (Under Flow), and how do you systematically diagnose whether the issue lies in the input sensor wiring, scaling configuration, or internal ADC board failure?"
+          "question": "What physical conditions cause a K3HB panel meter to display the flashing message 'Err' or 'o.FL' (Over Flow) / 'u.FL' (Under Flow), and how do you systematically diagnose whether the issue lies in the input sensor wiring, scaling configuration, or internal ADC board failure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An operator sets the high/low comparison outputs (PASS, HH, H, LL, L) on a K3HB-S meter but forgets to configure the hysteresis parameter (HYS). Why does this cause rapid, destructive chattering of the physical output relays when the process variable hovers near the setpoint, and what is the optimal hysteresis value configuration?"
+          "question": "An operator sets the high/low comparison outputs (PASS, HH, H, LL, L) on a K3HB-S meter but forgets to configure the hysteresis parameter (HYS). Why does this cause rapid, destructive chattering of the physical output relays when the process variable hovers near the setpoint, and what is the optimal hysteresis value configuration?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB-S" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency common-mode noise from a nearby servo motor driver induces a 50Hz/60Hz hum on the sensitive mV-level load cell input of a K3HB-S meter. How do you configure the digital filter and average processing parameters in the meter's advanced function menu to filter out this noise?"
+          "question": "High-frequency common-mode noise from a nearby servo motor driver induces a 50Hz/60Hz hum on the sensitive mV-level load cell input of a K3HB-S meter. How do you configure the digital filter and average processing parameters in the meter's advanced function menu to filter out this noise?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB-S" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To meet UL 61010-1 (Safety Requirements for Electrical Equipment for Measurement, Control, and Laboratory Use) when installing a K3HB meter in a main power distribution cabinet, what overcurrent protection fuse ratings must be added to the AC auxiliary power supply input lines?"
+          "question": "To meet UL 61010-1 (Safety Requirements for Electrical Equipment for Measurement, Control, and Laboratory Use) when installing a K3HB meter in a main power distribution cabinet, what overcurrent protection fuse ratings must be added to the AC auxiliary power supply input lines?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K3HB" ]
         }
       ]
     }

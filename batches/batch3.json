@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron KM-N2-FLK (DIN rail mounted) and a KM-N3-FLK (panel mounted) energy monitoring device when designing a multi-circuit power distribution panel for an automotive paint booth requiring continuous tracking of both three-phase 380VAC motors and single-phase 220VAC auxiliary loads?"
+          "question": "How do you select between an Omron KM-N2-FLK (DIN rail mounted) and a KM-N3-FLK (panel mounted) energy monitoring device when designing a multi-circuit power distribution panel for an automotive paint booth requiring continuous tracking of both three-phase 380VAC motors and single-phase 220VAC auxiliary loads?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N2-FLK", "KM-N3-FLK" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron KM-N2-FLK monitor with third-party split-core current transformers (CTs), what secondary voltage output standards must the CTs adhere to, and how do you configure the CT ratio parameters on the KM-N2 to match a 0-100mV AC output scale instead of the proprietary KM20-CTF series?"
+          "question": "When interfacing an Omron KM-N2-FLK monitor with third-party split-core current transformers (CTs), what secondary voltage output standards must the CTs adhere to, and how do you configure the CT ratio parameters on the KM-N2 to match a 0-100mV AC output scale instead of the proprietary KM20-CTF series?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N2-FLK", "KM20-CTF series" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum voltage input limit of the Omron KM-N3-FLK direct voltage measurement terminals without utilizing external Potential Transformers (PTs), and what are the system degradation implications if the device is exposed to transient overvoltages exceeding 1.2 times nominal rating during major industrial motor starts?"
+          "question": "What is the maximum voltage input limit of the Omron KM-N3-FLK direct voltage measurement terminals without utilizing external Potential Transformers (PTs), and what are the system degradation implications if the device is exposed to transient overvoltages exceeding 1.2 times nominal rating during major industrial motor starts?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N3-FLK" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In a heavy metal stamping facility with high concentrations of airborne graphite dust and vibration from 500-ton hydraulic presses, what IP-rated enclosure and DIN rail damping techniques must be used to house a KM-N2-FLK energy meter to prevent internal dielectric tracking and terminal loose connections?"
+          "question": "In a heavy metal stamping facility with high concentrations of airborne graphite dust and vibration from 500-ton hydraulic presses, what IP-rated enclosure and DIN rail damping techniques must be used to house a KM-N2-FLK energy meter to prevent internal dielectric tracking and terminal loose connections?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N2-FLK" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the configuration steps in Sysmac Studio to establish a Modbus RTU (RS-485) network between an Omron NX102-9020 master and four KM-N2-FLK energy meters, specifically addressing baud rate limitations, slave address assignment, and the mapping of dual-word 32-bit floating-point registers for active power (kW) and cumulative energy (kWh)."
+          "question": "Detail the configuration steps in Sysmac Studio to establish a Modbus RTU (RS-485) network between an Omron NX102-9020 master and four KM-N2-FLK energy meters, specifically addressing baud rate limitations, slave address assignment, and the mapping of dual-word 32-bit floating-point registers for active power (kW) and cumulative energy (kWh).",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102-9020", "KM-N2-FLK" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a Structured Text (ST) routine for an NX102 controller that reads the accumulated energy consumption (kWh) from a KM-N3-FLK every 10 seconds, calculates the carbon footprint (CO2 equivalent) based on a dynamic industrial coefficient, and automatically logs this calculated string variable to an external SQL database at the end of each production shift."
+          "question": "Write a Structured Text (ST) routine for an NX102 controller that reads the accumulated energy consumption (kWh) from a KM-N3-FLK every 10 seconds, calculates the carbon footprint (CO2 equivalent) based on a dynamic industrial coefficient, and automatically logs this calculated string variable to an external SQL database at the end of each production shift.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102", "KM-N3-FLK" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When an Omron KM-N2-FLK displays an 'E-SYS' (System Error) or flashes a frequency out-of-range alarm on the front display, what internal hardware subsystems are being flagged as compromised, and what diagnostics should be run to verify if the internal memory calibration factors have been corrupted?"
+          "question": "When an Omron KM-N2-FLK displays an 'E-SYS' (System Error) or flashes a frequency out-of-range alarm on the front display, what internal hardware subsystems are being flagged as compromised, and what diagnostics should be run to verify if the internal memory calibration factors have been corrupted?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N2-FLK" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning of a KM-N2-FLK monitor on a three-phase three-wire system, an electrician accidentally reverses the physical polarity of the Current Transformer clamp on Phase 3 (wiring L to K instead of K to L). What specific abnormal measurement readings will appear on the HMI regarding active power and power factor, and how does the device flag this phasing anomaly?"
+          "question": "During commissioning of a KM-N2-FLK monitor on a three-phase three-wire system, an electrician accidentally reverses the physical polarity of the Current Transformer clamp on Phase 3 (wiring L to K instead of K to L). What specific abnormal measurement readings will appear on the HMI regarding active power and power factor, and how does the device flag this phasing anomaly?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N2-FLK" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency third-harmonic current distortion (THD-I) generated by bank of adjacent variable frequency drives (VFDs) is causing the power factor measurements on an Omron KM-N3-FLK to fluctuate erratically. How do you isolate this harmonic interference from fundamental grid frequency shifts, and what line filtering solutions are required?"
+          "question": "High-frequency third-harmonic current distortion (THD-I) generated by bank of adjacent variable frequency drives (VFDs) is causing the power factor measurements on an Omron KM-N3-FLK to fluctuate erratically. How do you isolate this harmonic interference from fundamental grid frequency shifts, and what line filtering solutions are required?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N3-FLK" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To achieve ISO 50001 (Energy Management) certification for an automotive assembly plant, what calibration interval and measurement accuracy class standards (such as IEC 62053-22 Class 0.5S) must be formally documented for the Omron KM-N series meters deployed across key manufacturing zones?"
+          "question": "To achieve ISO 50001 (Energy Management) certification for an automotive assembly plant, what calibration interval and measurement accuracy class standards (such as IEC 62053-22 Class 0.5S) must be formally documented for the Omron KM-N series meters deployed across key manufacturing zones?",
+          "manufacturer": "Omron",
+          "product_examples": [ "KM-N series" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "When specifying a controller for a high-temperature curing oven, how do you select between an Omron E5CC-QX2ASM-800 (voltage output for driving Solid State Relays) and an E5CC-RX2ASM-800 (relay output) considering contact lifecycle, switching frequency, and system thermal lag?"
+          "question": "When specifying a controller for a high-temperature curing oven, how do you select between an Omron E5CC-QX2ASM-800 (voltage output for driving Solid State Relays) and an E5CC-RX2ASM-800 (relay output) considering contact lifecycle, switching frequency, and system thermal lag?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC-QX2ASM-800", "E5CC-RX2ASM-800" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting an Omron ES1B non-contact infrared temperature sensor to an E5CC controller, what input type parameter (CN-t) must be configured, and how do you calibrate the E5CC's input shift and span parameters to match the non-linear millivolt output of the infrared sensor?"
+          "question": "When connecting an Omron ES1B non-contact infrared temperature sensor to an E5CC controller, what input type parameter (CN-t) must be configured, and how do you calibrate the E5CC's input shift and span parameters to match the non-linear millivolt output of the infrared sensor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ES1B", "E5CC" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "The Omron E5CC-CX2ASM-800 features a linear current control output (4-20mA). What is the maximum load impedance constraint for this analog output circuit, and what are the failure symptoms if the connected SCR power regulator's input impedance exceeds this limit?"
+          "question": "The Omron E5CC-CX2ASM-800 features a linear current control output (4-20mA). What is the maximum load impedance constraint for this analog output circuit, and what are the failure symptoms if the connected SCR power regulator's input impedance exceeds this limit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC-CX2ASM-800" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron E5CC controller is flush-mounted on the stainless-steel door of a food-grade industrial autoclave subject to clean-in-place (CIP) chemicals and high-pressure steam washdowns. What specific physical gasketing (such as Y92S-P8) is required to maintain the IP66 front panel rating, and what chemical constraints must be observed?"
+          "question": "An Omron E5CC controller is flush-mounted on the stainless-steel door of a food-grade industrial autoclave subject to clean-in-place (CIP) chemicals and high-pressure steam washdowns. What specific physical gasketing (such as Y92S-P8) is required to maintain the IP66 front panel rating, and what chemical constraints must be observed?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC", "Y92S-P8" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to establish Programless Communications between an Omron E5CC-RX2DUM-800 (RS-485 model) and an Omron CJ2M-CPU33 PLC, detailing how to configure the E5CC parameter settings (such as protocol, unit number, and baud rate) to automatically map temperature SV and PV to D-registers without writing FINS PLC commands."
+          "question": "Explain how to establish Programless Communications between an Omron E5CC-RX2DUM-800 (RS-485 model) and an Omron CJ2M-CPU33 PLC, detailing how to configure the E5CC parameter settings (such as protocol, unit number, and baud rate) to automatically map temperature SV and PV to D-registers without writing FINS PLC commands.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC-RX2DUM-800", "CJ2M-CPU33" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a logic sequence on an E5CC where the controller utilizes dual-loop PID parameters (using the 'PID group' select function) to switch tuning parameters when heating a dual-phase material that transitions from solid to liquid at 150°C, preventing thermal overshoot and material degradation."
+          "question": "Design a logic sequence on an E5CC where the controller utilizes dual-loop PID parameters (using the 'PID group' select function) to switch tuning parameters when heating a dual-phase material that transitions from solid to liquid at 150\u00b0C, preventing thermal overshoot and material degradation.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What physical hardware failures cause an Omron E5CC temperature controller to flash 's.err' (Sensor Error) on the display, and what electrical test on the thermocouple terminals allows you to distinguish between a broken sensor wire and a damaged internal cold-junction compensation circuit?"
+          "question": "What physical hardware failures cause an Omron E5CC temperature controller to flash 's.err' (Sensor Error) on the display, and what electrical test on the thermocouple terminals allows you to distinguish between a broken sensor wire and a damaged internal cold-junction compensation circuit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An engineer executes the Auto-Tuning (AT) function on an E5CC controller while the target thermal chamber door is wide open. Why will this result in highly unstable PID constants when the chamber door is subsequently closed, and what is the proper step-by-step physical state of the process during AT commissioning?"
+          "question": "An engineer executes the Auto-Tuning (AT) function on an E5CC controller while the target thermal chamber door is wide open. Why will this result in highly unstable PID constants when the chamber door is subsequently closed, and what is the proper step-by-step physical state of the process during AT commissioning?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-voltage capacitive coupling from adjacent three-phase AC motor wires is inducing 120VAC noise onto an unshielded K-type thermocouple wire connected to an E5CC. What specific symptoms will occur in the PV reading on the E5CC, and how do you implement shielding, grounding, and digital filtering parameters (dF) to resolve this?"
+          "question": "High-voltage capacitive coupling from adjacent three-phase AC motor wires is inducing 120VAC noise onto an unshielded K-type thermocouple wire connected to an E5CC. What specific symptoms will occur in the PV reading on the E5CC, and how do you implement shielding, grounding, and digital filtering parameters (dF) to resolve this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To meet NFPA 86 industrial safety standards for high-temperature limit controllers in thermal processing ovens, what parameters must be locked out on an E5CC temperature controller, and how do you wire the auxiliary alarm relay output to a safety-certified power-disconnect contactor?"
+          "question": "To meet NFPA 86 industrial safety standards for high-temperature limit controllers in thermal processing ovens, what parameters must be locked out on an E5CC temperature controller, and how do you wire the auxiliary alarm relay output to a safety-certified power-disconnect contactor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E5CC" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron H7CC-A (Standard Digital Counter) and an H7CC-R (Tachometer/Speed Indicator) for a rotary bottling line that needs to simultaneously display current unit count per batch and the real-time angular speed of the main conveyor drive shaft?"
+          "question": "How do you select between an Omron H7CC-A (Standard Digital Counter) and an H7CC-R (Tachometer/Speed Indicator) for a rotary bottling line that needs to simultaneously display current unit count per batch and the real-time angular speed of the main conveyor drive shaft?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC-A", "H7CC-R" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting an Omron E2E-X10D1-N 2-wire DC proximity sensor to the count input terminals of an H7CC-AD1 (24VDC powered) counter, what internal jumper or parameter setting must be modified to toggle between NPN and PNP input modes, and what external bleeder resistor is required to prevent sensor leakage current from registering false counts?"
+          "question": "When connecting an Omron E2E-X10D1-N 2-wire DC proximity sensor to the count input terminals of an H7CC-AD1 (24VDC powered) counter, what internal jumper or parameter setting must be modified to toggle between NPN and PNP input modes, and what external bleeder resistor is required to prevent sensor leakage current from registering false counts?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E-X10D1-N", "H7CC-AD1" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the physical maximum input frequency (e.g., 30Hz vs 10kHz) of the H7CC count terminals when configured for quadrature (differential phase A/B) mode, and what are the system consequences if an encoder rotates at a speed generating 15kHz input pulses?"
+          "question": "What is the physical maximum input frequency (e.g., 30Hz vs 10kHz) of the H7CC count terminals when configured for quadrature (differential phase A/B) mode, and what are the system consequences if an encoder rotates at a speed generating 15kHz input pulses?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron H7CC counter is mounted on a portable cutting rig exposed to heavy misting from coolant and ambient grinding dust. How do you enforce the NEMA 4X / IP66 front-face environmental seal using the Y92S-38 rubber packing, and what are the limitations of the housing when exposed to oil-based chemicals?"
+          "question": "An Omron H7CC counter is mounted on a portable cutting rig exposed to heavy misting from coolant and ambient grinding dust. How do you enforce the NEMA 4X / IP66 front-face environmental seal using the Y92S-38 rubber packing, and what are the limitations of the housing when exposed to oil-based chemicals?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC", "Y92S-38" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to wire and configure an Omron H7CC-AWSD (with RS-485 communication) to transmit current counter values (PV) and target set values (SV) to a master PLC via Modbus RTU, detailing slave addressing, parity bits, and the specific Modbus function codes used to write a new preset target value."
+          "question": "Explain how to wire and configure an Omron H7CC-AWSD (with RS-485 communication) to transmit current counter values (PV) and target set values (SV) to a master PLC via Modbus RTU, detailing slave addressing, parity bits, and the specific Modbus function codes used to write a new preset target value.",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC-AWSD" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design the input/output logic parameters on an H7CC counter for a continuous web cutting machine where the counter must receive pulse inputs from a rotary wheel encoder (1 pulse = 10mm), output an 'early warning' signal (Output 1) at 950mm, output a 'cut trigger' signal (Output 2) at 1000mm, and automatically reset its value to zero with a 50ms pulse delay."
+          "question": "Design the input/output logic parameters on an H7CC counter for a continuous web cutting machine where the counter must receive pulse inputs from a rotary wheel encoder (1 pulse = 10mm), output an 'early warning' signal (Output 1) at 950mm, output a 'cut trigger' signal (Output 2) at 1000mm, and automatically reset its value to zero with a 50ms pulse delay.",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When an Omron H7CC counter displays 'E1' on the screen, what does this indicate regarding the health of the internal EEPROM non-volatile memory, and what operational habits (such as excessive physical reset operations or cyclic power cycling) accelerate this hardware failure?"
+          "question": "When an Omron H7CC counter displays 'E1' on the screen, what does this indicate regarding the health of the internal EEPROM non-volatile memory, and what operational habits (such as excessive physical reset operations or cyclic power cycling) accelerate this hardware failure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During installation of an H7CC-A counter, a technician sets the input speed switch (input filter parameter) to 30Hz to prevent contact bounce from a mechanical microswitch, but later upgrades the line to an optical sensor generating pulses at 2kHz. Why will the counter fail to register counts at higher speeds, and how is this parameter updated?"
+          "question": "During installation of an H7CC-A counter, a technician sets the input speed switch (input filter parameter) to 30Hz to prevent contact bounce from a mechanical microswitch, but later upgrades the line to an optical sensor generating pulses at 2kHz. Why will the counter fail to register counts at higher speeds, and how is this parameter updated?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC-A" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An Omron H7CC counter exhibits erratic double-counting behavior on a high-speed packaging line. How do you trace if this is caused by mechanical vibration of the physical sensor mounting bracket (sensor contact chatter) or high-frequency inductive coupling from a parallel 460VAC motor cable, and what are the respective mitigation strategies?"
+          "question": "An Omron H7CC counter exhibits erratic double-counting behavior on a high-speed packaging line. How do you trace if this is caused by mechanical vibration of the physical sensor mounting bracket (sensor contact chatter) or high-frequency inductive coupling from a parallel 460VAC motor cable, and what are the respective mitigation strategies?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When integrating an H7CC-A counter into a safety-monitored pneumatic stamping press control system to track total strokes before safety inspections are required, what standard compliance steps (such as UL 61010-1 and CE marking) must be verified on the counter's relay contact isolation circuits?"
+          "question": "When integrating an H7CC-A counter into a safety-monitored pneumatic stamping press control system to track total strokes before safety inspections are required, what standard compliance steps (such as UL 61010-1 and CE marking) must be verified on the counter's relay contact isolation circuits?",
+          "manufacturer": "Omron",
+          "product_examples": [ "H7CC-A" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron ZEN-10C1AR-A-V2 (AC powered, relay outputs) and an Omron ZEN-10C1DT-D-V2 (DC powered, transistor outputs) when designing a localized water pump station control panel with high daily switching cycles?"
+          "question": "How do you select between an Omron ZEN-10C1AR-A-V2 (AC powered, relay outputs) and an Omron ZEN-10C1DT-D-V2 (DC powered, transistor outputs) when designing a localized water pump station control panel with high daily switching cycles?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN-10C1AR-A-V2", "ZEN-10C1DT-D-V2" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When using the built-in analog inputs (channels I4 and I5) on an Omron ZEN-10C1DR-D-V2 to monitor a liquid level sensor, what is the maximum acceptable voltage input level, and how do you physically scale the raw 0-10VDC analog signal to drive ladder comparator zones inside the ZEN logic?"
+          "question": "When using the built-in analog inputs (channels I4 and I5) on an Omron ZEN-10C1DR-D-V2 to monitor a liquid level sensor, what is the maximum acceptable voltage input level, and how do you physically scale the raw 0-10VDC analog signal to drive ladder comparator zones inside the ZEN logic?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN-10C1DR-D-V2" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum ladder program capacity (lines of code and contact blocks per line) of an Omron ZEN-V2 CPU unit, and what memory constraints must be managed when configuring multiple Weekly Timers and Calendar Timers inside a single project?"
+          "question": "What is the maximum ladder program capacity (lines of code and contact blocks per line) of an Omron ZEN-V2 CPU unit, and what memory constraints must be managed when configuring multiple Weekly Timers and Calendar Timers inside a single project?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN-V2" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron ZEN unit inside an unheated outdoor junction box in an environment where temperatures drop below -10°C, what are the degradation risks to the integrated LCD screen, and how does the low temperature affect the accuracy of the internal battery-backed real-time clock?"
+          "question": "When deploying an Omron ZEN unit inside an unheated outdoor junction box in an environment where temperatures drop below -10\u00b0C, what are the degradation risks to the integrated LCD screen, and how does the low temperature affect the accuracy of the internal battery-backed real-time clock?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you connect and configure the optional RS-485 communication module (ZEN-COM01) to link an Omron ZEN with a master HMI, and what are the specific steps to map holding registers for manual input bits from the HMI screen?"
+          "question": "How do you connect and configure the optional RS-485 communication module (ZEN-COM01) to link an Omron ZEN with a master HMI, and what are the specific steps to map holding registers for manual input bits from the HMI screen?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN-COM01", "ZEN" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a ladder logic routine in ZEN-Soft01 that automates a dual-pump lead-lag rotation system: Pump 1 (Q0) and Pump 2 (Q1) must alternate duties every 100 operating hours (monitored by internal timers), but if the high-level float switch (I2) remains active for more than 5 minutes, both pumps must run simultaneously and trigger an audible alarm (Q2)."
+          "question": "Develop a ladder logic routine in ZEN-Soft01 that automates a dual-pump lead-lag rotation system: Pump 1 (Q0) and Pump 2 (Q1) must alternate duties every 100 operating hours (monitored by internal timers), but if the high-level float switch (I2) remains active for more than 5 minutes, both pumps must run simultaneously and trigger an audible alarm (Q2).",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN-Soft01" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What causes an Omron ZEN controller to display a 'Memory Error' (ERR flag) on startup, and what physical diagnostic steps must be taken to verify if the external EEPROM memory cassette (ZEN-ME01) has been corrupted or physically dislodged?"
+          "question": "What causes an Omron ZEN controller to display a 'Memory Error' (ERR flag) on startup, and what physical diagnostic steps must be taken to verify if the external EEPROM memory cassette (ZEN-ME01) has been corrupted or physically dislodged?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN", "ZEN-ME01" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A technician programs a ZEN controller and assigns the same output coil (e.g., Q0) to multiple rungs throughout the ladder logic. Why will only the last rung in the sequence dictate the actual physical state of the output terminal, and how do you refactor the code using internal auxiliary relays (M0-M15) to prevent this 'double coil' error?"
+          "question": "A technician programs a ZEN controller and assigns the same output coil (e.g., Q0) to multiple rungs throughout the ladder logic. Why will only the last rung in the sequence dictate the actual physical state of the output terminal, and how do you refactor the code using internal auxiliary relays (M0-M15) to prevent this 'double coil' error?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Heavy inductive voltage spikes (back-EMF) from adjacent contactor coils are causing the CPU of an Omron ZEN controller to intermittently crash or perform unauthorized resets. How do you implement external RC snubbers or varistors on the ZEN AC outputs to suppress this electromagnetic interference?"
+          "question": "Heavy inductive voltage spikes (back-EMF) from adjacent contactor coils are causing the CPU of an Omron ZEN controller to intermittently crash or perform unauthorized resets. How do you implement external RC snubbers or varistors on the ZEN AC outputs to suppress this electromagnetic interference?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "Can an Omron ZEN programmable relay be utilized as the primary safety-monitoring device for a Category 4 light curtain muting system under ISO 13849-1 standards? What are the regulatory and physical hardware architecture reasons for this safety classification limit?"
+          "question": "Can an Omron ZEN programmable relay be utilized as the primary safety-monitoring device for a Category 4 light curtain muting system under ISO 13849-1 standards? What are the regulatory and physical hardware architecture reasons for this safety classification limit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZEN" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron A22NN (Non-lighted, plastic bezel) and an A22NL (Lighted, metal bezel) pushbutton switch for an industrial metal grinding console where physical impact, accumulation of conductive metal shavings, and visual feedback under low lighting are primary factors?"
+          "question": "How do you select between an Omron A22NN (Non-lighted, plastic bezel) and an A22NL (Lighted, metal bezel) pushbutton switch for an industrial metal grinding console where physical impact, accumulation of conductive metal shavings, and visual feedback under low lighting are primary factors?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22NN", "A22NL" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting an Omron A22NN switch with a standard contact block (A22NZ-S-G1A) to an Omron NX-ID5142 24VDC high-speed PLC input card, what are the minimum switching load requirements (voltage and current), and when must you specify gold-plated contact blocks instead of standard silver contacts?"
+          "question": "When connecting an Omron A22NN switch with a standard contact block (A22NZ-S-G1A) to an Omron NX-ID5142 24VDC high-speed PLC input card, what are the minimum switching load requirements (voltage and current), and when must you specify gold-plated contact blocks instead of standard silver contacts?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22NN", "A22NZ-S-G1A", "NX-ID5142" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum rated thermal current (Ith) and switching voltage of an Omron A22N series contact block under AC-15 (inductive load) and DC-13 conditions, and what occurs to the physical contact junctions if they are subjected to an inrush current that exceeds the limit during solenoid valve actuation?"
+          "question": "What is the maximum rated thermal current (Ith) and switching voltage of an Omron A22N series contact block under AC-15 (inductive load) and DC-13 conditions, and what occurs to the physical contact junctions if they are subjected to an inrush current that exceeds the limit during solenoid valve actuation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22N series" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron A22NL illuminated switch is installed on a control panel in an oil-mist extraction room. What specific physical boots (such as A22NZ-A-D) and bezel materials must be integrated to achieve IP66 and NEMA 4X compliance while resisting breakdown from cutting oils and industrial lubricants?"
+          "question": "An Omron A22NL illuminated switch is installed on a control panel in an oil-mist extraction room. What specific physical boots (such as A22NZ-A-D) and bezel materials must be integrated to achieve IP66 and NEMA 4X compliance while resisting breakdown from cutting oils and industrial lubricants?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22NL", "A22NZ-A-D" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Design a physical wiring diagram layout for a standard operator station using Omron A22N switches, incorporating a common 24VDC rail for indicators, direct NC contact series daisy-chaining for dual-channel emergency stop verification, and proper ground terminations for the metal switch collars."
+          "question": "Design a physical wiring diagram layout for a standard operator station using Omron A22N switches, incorporating a common 24VDC rail for indicators, direct NC contact series daisy-chaining for dual-channel emergency stop verification, and proper ground terminations for the metal switch collars.",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22N" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PLC ladder logic rung that evaluates a physical dual-pushbutton control station (using two momentary Omron A22NN-MN switches) to initiate a high-force pneumatic rivet gun. The logic must enforce 'two-hand control' parameters (Type III safety validation), requiring both switches to be pressed within 500 milliseconds of each other."
+          "question": "Write a PLC ladder logic rung that evaluates a physical dual-pushbutton control station (using two momentary Omron A22NN-MN switches) to initiate a high-force pneumatic rivet gun. The logic must enforce 'two-hand control' parameters (Type III safety validation), requiring both switches to be pressed within 500 milliseconds of each other.",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22NN-MN" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What diagnostic symptoms occur on the control cabinet input status indicators when an Omron A22N contact block suffers from contact welding or physical slide spring failure, and what physical test on the block terminals proves the mechanical separation of contacts is compromised?"
+          "question": "What diagnostic symptoms occur on the control cabinet input status indicators when an Omron A22N contact block suffers from contact welding or physical slide spring failure, and what physical test on the block terminals proves the mechanical separation of contacts is compromised?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22N" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During panel assembly, an electrician over-torques the mounting ring of an Omron A22N switch body using a mechanical tool instead of the recommended manual tightening tool (A22NZ-A-C1). How does this mechanical distortion affect the operational alignment of the switch actuator and contact block coupling mechanism?"
+          "question": "During panel assembly, an electrician over-torques the mounting ring of an Omron A22N switch body using a mechanical tool instead of the recommended manual tightening tool (A22NZ-A-C1). How does this mechanical distortion affect the operational alignment of the switch actuator and contact block coupling mechanism?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22N", "A22NZ-A-C1" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "In a tire manufacturing facility using high-sulfur vulcanizing processes, the silver-plated contacts of an Omron A22N switch corrode rapidly, causing intermittent signal failures (high contact resistance). How do you diagnose this environmental chemical interference, and what alternative contact configurations must be specified?"
+          "question": "In a tire manufacturing facility using high-sulfur vulcanizing processes, the silver-plated contacts of an Omron A22N switch corrode rapidly, causing intermittent signal failures (high contact resistance). How do you diagnose this environmental chemical interference, and what alternative contact configurations must be specified?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22N" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "Explain the safety implications of utilizing standard Omron A22NN pushbutton switches for machine E-stop functions instead of dedicated Omron A22NE-MP emergency stop switches, specifically comparing compliance with IEC/EN 60947-5-5 and the necessity of positive opening mechanisms."
+          "question": "Explain the safety implications of utilizing standard Omron A22NN pushbutton switches for machine E-stop functions instead of dedicated Omron A22NE-MP emergency stop switches, specifically comparing compliance with IEC/EN 60947-5-5 and the necessity of positive opening mechanisms.",
+          "manufacturer": "Omron",
+          "product_examples": [ "A22NN", "A22NE-MP" ]
         }
       ]
     }

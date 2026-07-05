@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron MY4N-D2 (24VDC with built-in diode for surge suppression) and a standard MY4N-Y-24VDC when switching inductive DC solenoid valves from PLC digital outputs?"
+          "question": "How do you select between an Omron MY4N-D2 (24VDC with built-in diode for surge suppression) and a standard MY4N-Y-24VDC when switching inductive DC solenoid valves from PLC digital outputs?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MY4N-D2", "MY4N-Y-24VDC" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron G2RV-SR slim relay to an NX-OD5256 high-density PLC output card, how do you verify if the output card's off-state leakage current will prevent the relay coil from de-energizing, and what impedance shunt matches the circuit?"
+          "question": "When interfacing an Omron G2RV-SR slim relay to an NX-OD5256 high-density PLC output card, how do you verify if the output card's off-state leakage current will prevent the relay coil from de-energizing, and what impedance shunt matches the circuit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G2RV-SR", "NX-OD5256" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the minimum electrical contact load limit (e.g., 5VDC, 1mA) for an Omron MY4-series relay when selecting gold-clad crossbar contacts instead of standard silver alloy contacts in low-current signal loop applications?"
+          "question": "What is the minimum electrical contact load limit (e.g., 5VDC, 1mA) for an Omron MY4-series relay when selecting gold-clad crossbar contacts instead of standard silver alloy contacts in low-current signal loop applications?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MY4" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "For an electromechanical relay panel operating in an automotive heat-curing environment at 60°C ambient, what derating factors must be applied to the maximum continuous carry current of an Omron LY2 series power relay?"
+          "question": "For an electromechanical relay panel operating in an automotive heat-curing environment at 60°C ambient, what derating factors must be applied to the maximum continuous carry current of an Omron LY2 series power relay?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LY2" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you wire and physically integrate the NC and NO contacts of an Omron G7SA force-guided safety relay into the feedback loop of a dual-channel safety monitoring circuit to detect contact welding?"
+          "question": "How do you wire and physically integrate the NC and NO contacts of an Omron G7SA force-guided safety relay into the feedback loop of a dual-channel safety monitoring circuit to detect contact welding?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G7SA" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a hardwired electrical interlocking logic circuit utilizing two Omron LY2 relays to switch a control system between main grid power and emergency generator backup, ensuring both sources can never be connected simultaneously."
+          "question": "Design a hardwired electrical interlocking logic circuit utilizing two Omron LY2 relays to switch a control system between main grid power and emergency generator backup, ensuring both sources can never be connected simultaneously.",
+          "manufacturer": "Omron",
+          "product_examples": [ "LY2" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you perform a millivolt drop test under load to diagnose contact oxidation and contact pitting on an Omron MY4N relay that is exhibiting intermittent high contact resistance in a conveyor motor control circuit?"
+          "question": "How do you perform a millivolt drop test under load to diagnose contact oxidation and contact pitting on an Omron MY4N relay that is exhibiting intermittent high contact resistance in a conveyor motor control circuit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MY4N" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning, a technician reverses the polarity of the DC supply connections on the coil of an Omron MY4N-D2 (diode model). Why does this cause an immediate short circuit that trips the upstream 24VDC control fuse?"
+          "question": "During commissioning, a technician reverses the polarity of the DC supply connections on the coil of an Omron MY4N-D2 (diode model). Why does this cause an immediate short circuit that trips the upstream 24VDC control fuse?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MY4N-D2" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When an Omron G2R relay switches an un-suppressed parallel AC contactor coil, severe contact-bounce transients and back-EMF spikes are generated. How do you select and install an RC snubber network to mitigate this inductive noise?"
+          "question": "When an Omron G2R relay switches an un-suppressed parallel AC contactor coil, severe contact-bounce transients and back-EMF spikes are generated. How do you select and install an RC snubber network to mitigate this inductive noise?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G2R" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with EN ISO 13849-1 and EN 60204-1 safety standards for machine emergency stop loops, what physical verification rules must be documented when using an Omron G7SA force-guided relay in safety-critical circuits?"
+          "question": "To comply with EN ISO 13849-1 and EN 60204-1 safety standards for machine emergency stop loops, what physical verification rules must be documented when using an Omron G7SA force-guided relay in safety-critical circuits?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G7SA" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron G3PE-225B-3 (built-in heatsink, zero-cross function) and a G3PE-225BL (no zero-cross / instant-on) for a rapid PWM-controlled heater loop vs. a highly inductive load?"
+          "question": "How do you select between an Omron G3PE-225B-3 (built-in heatsink, zero-cross function) and a G3PE-225BL (no zero-cross / instant-on) for a rapid PWM-controlled heater loop vs. a highly inductive load?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3PE-225B-3", "G3PE-225BL" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When controlling an Omron G3NA-210B SSR with the 12VDC voltage output of an E5CC temperature controller, how do you verify that the E5CC's drive capacity is electrically compatible with the SSR's input impedance and operating current?"
+          "question": "When controlling an Omron G3NA-210B SSR with the 12VDC voltage output of an E5CC temperature controller, how do you verify that the E5CC's drive capacity is electrically compatible with the SSR's input impedance and operating current?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3NA-210B", "E5CC" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "Using the current-to-temperature derating curve for an Omron G3NA-220B, how do you calculate the required heatsink surface area and thermal resistance rating ($R_{th(j-c)}$) to operate continuously at 15A in a 45°C control cabinet?"
+          "question": "Using the current-to-temperature derating curve for an Omron G3NA-220B, how do you calculate the required heatsink surface area and thermal resistance rating ($R_{th(j-c)}$) to operate continuously at 15A in a 45°C control cabinet?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3NA-220B" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When mounting multiple Omron G3PJ solid state relays side-by-side on a standard DIN rail inside a sealed IP54 box, what are the specific horizontal clearance requirements to prevent thermal runaway and output degradation?"
+          "question": "When mounting multiple Omron G3PJ solid state relays side-by-side on a standard DIN rail inside a sealed IP54 box, what are the specific horizontal clearance requirements to prevent thermal runaway and output degradation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3PJ" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you physically integrate an Omron G3PC SSR with heater burnout detection into a PLC system, specifically detailing the auxiliary transistor output wiring that signals a load line breakage?"
+          "question": "How do you physically integrate an Omron G3PC SSR with heater burnout detection into a PLC system, specifically detailing the auxiliary transistor output wiring that signals a load line breakage?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3PC" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a high-precision PWM temperature control strategy on an NX102 controller where the duty cycle period is set to 0.5 seconds, adjusting the proportional control output to coordinate with the fast switching response of an Omron G3PE SSR."
+          "question": "Develop a high-precision PWM temperature control strategy on an NX102 controller where the duty cycle period is set to 0.5 seconds, adjusting the proportional control output to coordinate with the fast switching response of an Omron G3PE SSR.",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3PE" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An Omron G3NA solid state relay fails in a permanently 'closed' (ON) state even when input control voltage is removed. How do you diagnose thermal junction punch-through vs. off-state leakage current causing false indicator activation?"
+          "question": "An Omron G3NA solid state relay fails in a permanently 'closed' (ON) state even when input control voltage is removed. How do you diagnose thermal junction punch-through vs. off-state leakage current causing false indicator activation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3NA" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the physical impact on heat dissipation performance when an installer mounts an Omron G3NA SSR to a backplate without applying thermal grease (silicone paste), and how quickly will the SSR hit its thermal limits under full rated load?"
+          "question": "What is the physical impact on heat dissipation performance when an installer mounts an Omron G3NA SSR to a backplate without applying thermal grease (silicone paste), and how quickly will the SSR hit its thermal limits under full rated load?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3NA" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-voltage lightning transients and high $dv/dt$ on the main electrical service line cause intermittent, unauthorized gating (false firing) of an Omron G3NE SSR. How do you implement external varistors (MOVs) to suppress this grid interference?"
+          "question": "High-voltage lightning transients and high $dv/dt$ on the main electrical service line cause intermittent, unauthorized gating (false firing) of an Omron G3NE SSR. How do you implement external varistors (MOVs) to suppress this grid interference?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3NE" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To maintain UL 508 and EN 60947-4-3 standards when protecting a solid-state relay circuit, what are the strict coordination guidelines for matching semiconductor fuses with the $I^2t$ thermal limit of an Omron G3PE SSR?"
+          "question": "To maintain UL 508 and EN 60947-4-3 standards when protecting a solid-state relay circuit, what are the strict coordination guidelines for matching semiconductor fuses with the $I^2t$ thermal limit of an Omron G3PE SSR?",
+          "manufacturer": "Omron",
+          "product_examples": [ "G3PE" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "What parameters dictate selecting Omron XW5T Push-In Plus terminal blocks over traditional XW5S screw-type terminal blocks on high-vibration automotive robotic welding fixtures?"
+          "question": "What parameters dictate selecting Omron XW5T Push-In Plus terminal blocks over traditional XW5S screw-type terminal blocks on high-vibration automotive robotic welding fixtures?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T", "XW5S" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When using Omron XW5T terminal blocks with 14 AWG finely stranded machine tool wire, what style of wire ferrule (pin length and sleeve type) must be selected to guarantee a gas-tight, high-retention connection?"
+          "question": "When using Omron XW5T terminal blocks with 14 AWG finely stranded machine tool wire, what style of wire ferrule (pin length and sleeve type) must be selected to guarantee a gas-tight, high-retention connection?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the continuous current carrying capacity limits and maximum voltage ratings of an Omron XW5T-S4.0-1.1 terminal block according to IEC 60947-7-1, and how do you calculate the maximum temperature rise at full load?"
+          "question": "What are the continuous current carrying capacity limits and maximum voltage ratings of an Omron XW5T-S4.0-1.1 terminal block according to IEC 60947-7-1, and how do you calculate the maximum temperature rise at full load?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T-S4.0-1.1" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In an automotive paint shop exposed to high humidity and corrosive solvent fumes, what chemical resistance limitations affect the copper alloy busbars and stainless steel springs inside Omron XW5T terminal blocks?"
+          "question": "In an automotive paint shop exposed to high humidity and corrosive solvent fumes, what chemical resistance limitations affect the copper alloy busbars and stainless steel springs inside Omron XW5T terminal blocks?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you implement a proper analog signal shield grounding architecture using green/yellow Omron XW5G ground terminal blocks bonded directly to a zinc-plated steel DIN rail?"
+          "question": "How do you implement a proper analog signal shield grounding architecture using green/yellow Omron XW5G ground terminal blocks bonded directly to a zinc-plated steel DIN rail?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5G" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a high-density 24VDC control distribution manifold using a group of 10 Omron XW5T terminal blocks and a dual-pole plug-in bridge bar (XW5S), preventing the hazards of common daisy-chain loop wiring."
+          "question": "Design a high-density 24VDC control distribution manifold using a group of 10 Omron XW5T terminal blocks and a dual-pole plug-in bridge bar (XW5S), preventing the hazards of common daisy-chain loop wiring.",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T", "XW5S" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What diagnostic steps do you execute to measure and isolate high contact resistance (millivolt drop) across a series of field-terminated Omron terminal blocks that are causing analog voltage drop errors on a loop?"
+          "question": "What diagnostic steps do you execute to measure and isolate high contact resistance (millivolt drop) across a series of field-terminated Omron terminal blocks that are causing analog voltage drop errors on a loop?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the physical outcome when an operator inserts a stripped, stranded conductor into an Omron XW5T Push-In Plus terminal block without using a ferrule or activating the internal release button, and how does this affect pull-out force?"
+          "question": "What is the physical outcome when an operator inserts a stripped, stranded conductor into an Omron XW5T Push-In Plus terminal block without using a ferrule or activating the internal release button, and how does this affect pull-out force?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Severe floor vibration in an engine block milling cell causes micro-motions at the terminal-to-wire interface. How do you assess if this environment is causing fretting corrosion, and how does the spring-tension clamp of XW5T prevent this?"
+          "question": "Severe floor vibration in an engine block milling cell causes micro-motions at the terminal-to-wire interface. How do you assess if this environment is causing fretting corrosion, and how does the spring-tension clamp of XW5T prevent this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with UL 1059 and ATEX/IECEx standards for equipment deployed in Class I, Zone 2 hazardous gas locations, what specific insulation properties and creepage distances must be maintained on XW5T terminal block installations?"
+          "question": "To comply with UL 1059 and ATEX/IECEx standards for equipment deployed in Class I, Zone 2 hazardous gas locations, what specific insulation properties and creepage distances must be maintained on XW5T terminal block installations?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XW5T" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "When designing an operator station on a rotating indexing turntable, what parameters justify selecting the Omron A2W (922.5 MHz Sub-GHz) wireless, battery-less pushbutton system over a slip-ring wired assembly?"
+          "question": "When designing an operator station on a rotating indexing turntable, what parameters justify selecting the Omron A2W (922.5 MHz Sub-GHz) wireless, battery-less pushbutton system over a slip-ring wired assembly?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you interface the 8 physical transistor outputs on an Omron A2W master unit receiver directly with an Omron NX-ID5142 PLC input card, ensuring the matching electrical sinking/sourcing requirements are met?"
+          "question": "How do you interface the 8 physical transistor outputs on an Omron A2W master unit receiver directly with an Omron NX-ID5142 PLC input card, ensuring the matching electrical sinking/sourcing requirements are met?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W", "NX-ID5142" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the physical limit of the piezo-electric kinetic energy generator inside the Omron A2W pushbutton, and what is the maximum cycle frequency of rapid operator button presses before transmission fails due to energy depletion?"
+          "question": "What is the physical limit of the piezo-electric kinetic energy generator inside the Omron A2W pushbutton, and what is the maximum cycle frequency of rapid operator button presses before transmission fails due to energy depletion?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "The Omron A2W wireless switch utilizes a 922.5 MHz frequency band. How do you calculate signal attenuation when transmitting through structural concrete walls and safety-rated metal wire mesh fencing in an automotive cell?"
+          "question": "The Omron A2W wireless switch utilizes a 922.5 MHz frequency band. How do you calculate signal attenuation when transmitting through structural concrete walls and safety-rated metal wire mesh fencing in an automotive cell?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain the step-by-step procedure to pair and assign an Omron A2W wireless pushbutton switch to Output Channel 4 on an A2W master receiver unit using the on-board dip switches and front-panel LEDs."
+          "question": "Explain the step-by-step procedure to pair and assign an Omron A2W wireless pushbutton switch to Output Channel 4 on an A2W master receiver unit using the on-board dip switches and front-panel LEDs.",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a watchdog control logic block in an Omron NX102 controller that monitors the cyclic communication of the A2W receiver's system status, triggering a safe process shutdown if communication is lost for more than 1 second."
+          "question": "Develop a watchdog control logic block in an Omron NX102 controller that monitors the cyclic communication of the A2W receiver's system status, triggering a safe process shutdown if communication is lost for more than 1 second.",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W", "NX102" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When troubleshooting the Omron A2W system, what does a red LED flash on the physical pushbutton indicate upon activation, and how do you verify if the button's internal RF transmitter has suffered a hardware failure?"
+          "question": "When troubleshooting the Omron A2W system, what does a red LED flash on the physical pushbutton indicate upon activation, and how do you verify if the button's internal RF transmitter has suffered a hardware failure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A commissioning engineer mounts the external antenna of an A2W master unit flat against the inside wall of a grounded steel control enclosure. Why does this create a Faraday cage effect, and what is the correct physical antenna placement?"
+          "question": "A commissioning engineer mounts the external antenna of an A2W master unit flat against the inside wall of a grounded steel control enclosure. Why does this create a Faraday cage effect, and what is the correct physical antenna placement?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency RF interference from a nearby 900MHz automated barcode scanning gate is causing intermittent signal drops on an A2W wireless pushbutton line. How do you assess signal strength using the Wireless Switch Support Tool?"
+          "question": "High-frequency RF interference from a nearby 900MHz automated barcode scanning gate is causing intermittent signal drops on an A2W wireless pushbutton line. How do you assess signal strength using the Wireless Switch Support Tool?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What are the regulatory differences and frequency allocation constraints when deploying the Omron A2W wireless system in North America (FCC Part 15 compliance) versus Europe (RED Directive compliance)?"
+          "question": "What are the regulatory differences and frequency allocation constraints when deploying the Omron A2W wireless system in North America (FCC Part 15 compliance) versus Europe (RED Directive compliance)?",
+          "manufacturer": "Omron",
+          "product_examples": [ "A2W" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron K8AK-PM1 (three-phase asymmetry, phase sequence, phase loss monitoring) and a K8AK-AW1 (overcurrent/undercurrent) when designing a protective monitoring panel for a critical coolant pump?"
+          "question": "How do you select between an Omron K8AK-PM1 (three-phase asymmetry, phase sequence, phase loss monitoring) and a K8AK-AW1 (overcurrent/undercurrent) when designing a protective monitoring panel for a critical coolant pump?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K8AK-PM1", "K8AK-AW1" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating an Omron K6CM-CI motor current condition monitor with an enterprise SCADA system, how do you map the continuous Modbus TCP registers to extract raw current waveforms and calculate load distortion parameters?"
+          "question": "When integrating an Omron K6CM-CI motor current condition monitor with an enterprise SCADA system, how do you map the continuous Modbus TCP registers to extract raw current waveforms and calculate load distortion parameters?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K6CM-CI" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the voltage input threshold limits and response delay setting ranges on an Omron K8AK-VS voltage monitoring relay to prevent nuisance tripping during transient motor starting voltage sags?"
+          "question": "What are the voltage input threshold limits and response delay setting ranges on an Omron K8AK-VS voltage monitoring relay to prevent nuisance tripping during transient motor starting voltage sags?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K8AK-VS" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron K6PM thermal condition monitoring camera inside a medium-voltage switchgear cabinet, how do you adjust for surface emissivity, alignment angles, and internal cabinet ambient temperature rises?"
+          "question": "When deploying an Omron K6PM thermal condition monitoring camera inside a medium-voltage switchgear cabinet, how do you adjust for surface emissivity, alignment angles, and internal cabinet ambient temperature rises?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K6PM" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the physical wiring and communication setup to connect a group of three K8AK-LS liquid level controllers to an NX102 PLC over RS-485 Modbus RTU, including terminal terminations and termination resistor rules."
+          "question": "Detail the physical wiring and communication setup to connect a group of three K8AK-LS liquid level controllers to an NX102 PLC over RS-485 Modbus RTU, including terminal terminations and termination resistor rules.",
+          "manufacturer": "Omron",
+          "product_examples": [ "K8AK-LS", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PLC logic block that reads continuous vibration velocity (for misalignment) and acceleration (for bearing wear) data from an Omron K6CM-VBM sensor to dynamically scale the feed rate of an industrial mill as limits approach."
+          "question": "Write a PLC logic block that reads continuous vibration velocity (for misalignment) and acceleration (for bearing wear) data from an Omron K6CM-VBM sensor to dynamically scale the feed rate of an industrial mill as limits approach.",
+          "manufacturer": "Omron",
+          "product_examples": [ "K6CM-VBM" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What does a solid red 'ERR' indicator on an Omron K6CM motor monitor signify regarding current transformer (CT) sensor connection status, and how do you diagnose if the problem lies in the sensor cable or the module's ADC?"
+          "question": "What does a solid red 'ERR' indicator on an Omron K6CM motor monitor signify regarding current transformer (CT) sensor connection status, and how do you diagnose if the problem lies in the sensor cable or the module's ADC?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K6CM" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer sets the current threshold on a K8AK-AW overcurrent relay to match the motor full-load amps but leaves the operating time delay at 0.1s. Why does this trigger immediate tripping during startup, and what is the proper delay setting?"
+          "question": "An installer sets the current threshold on a K8AK-AW overcurrent relay to match the motor full-load amps but leaves the operating time delay at 0.1s. Why does this trigger immediate tripping during startup, and what is the proper delay setting?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K8AK-AW" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Turbulent fluid surfaces and dense chemical foam in a dynamic mixing tank cause erratic resistance readings on an Omron K8AK-LS electrode liquid level controller. How do you adjust the sensitivity and delay parameters to stabilize the loop?"
+          "question": "Turbulent fluid surfaces and dense chemical foam in a dynamic mixing tank cause erratic resistance readings on an Omron K8AK-LS electrode liquid level controller. How do you adjust the sensitivity and delay parameters to stabilize the loop?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K8AK-LS" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with EN 60255 protection relay standards and UL panel listings, what dielectric strength and surge immunity testing protocols must be verified for K8-series monitoring modules in main power panels?"
+          "question": "To comply with EN 60255 protection relay standards and UL panel listings, what dielectric strength and surge immunity testing protocols must be verified for K8-series monitoring modules in main power panels?",
+          "manufacturer": "Omron",
+          "product_examples": [ "K8-series" ]
         }
       ]
     }

@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron J7MN-3R-10 manual motor starter and a combined J7KC-12-10 contactor with a J7TC-1-E15 thermal overload relay when designing a motor control branch for a 3.0 kW automotive conveyor drive?"
+          "question": "How do you select between an Omron J7MN-3R-10 manual motor starter and a combined J7KC-12-10 contactor with a J7TC-1-E15 thermal overload relay when designing a motor control branch for a 3.0 kW automotive conveyor drive?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7MN-3R-10", "J7KC-12-10", "J7TC-1-E15" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When attaching a J73KC-AM-11 auxiliary contact block to a J7KC magnetic contactor, what mechanical locking and electrical alignment steps must be verified to prevent auxiliary contact misalignment during rapid switching cycles?"
+          "question": "When attaching a J73KC-AM-11 auxiliary contact block to a J7KC magnetic contactor, what mechanical locking and electrical alignment steps must be verified to prevent auxiliary contact misalignment during rapid switching cycles?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J73KC-AM-11", "J7KC" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the contact electrical durability limit differences (in operating cycles) for an Omron J7KC contactor when switching a pure resistive heater load (AC-1) versus a highly inductive motor load (AC-3) at its maximum current rating?"
+          "question": "What are the contact electrical durability limit differences (in operating cycles) for an Omron J7KC contactor when switching a pure resistive heater load (AC-1) versus a highly inductive motor load (AC-3) at its maximum current rating?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7KC" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron J7TC thermal overload relay is installed in a compact, sealed control panel on an automotive paint line with ambient temperatures reaching 55°C. What precise temperature compensation and current-setting adjustment parameters must be applied to prevent nuisance tripping?"
+          "question": "An Omron J7TC thermal overload relay is installed in a compact, sealed control panel on an automotive paint line with ambient temperatures reaching 55°C. What precise temperature compensation and current-setting adjustment parameters must be applied to prevent nuisance tripping?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7TC" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you physically wire and integrate the auxiliary NC contact of an Omron J7MN manual motor starter into an NX-ID5142 digital input unit to provide real-time diagnostic feedback to an NX102 controller when a thermal trip occurs?"
+          "question": "How do you physically wire and integrate the auxiliary NC contact of an Omron J7MN manual motor starter into an NX-ID5142 digital input unit to provide real-time diagnostic feedback to an NX102 controller when a thermal trip occurs?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7MN", "NX-ID5142", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design the electrical interlocking schematic for a forward/reversing motor control circuit utilizing two Omron J7KC contactors, showing how physical auxiliary NC contacts are cross-wired to prevent both contactor coils from energizing simultaneously."
+          "question": "Design the electrical interlocking schematic for a forward/reversing motor control circuit utilizing two Omron J7KC contactors, showing how physical auxiliary NC contacts are cross-wired to prevent both contactor coils from energizing simultaneously.",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7KC" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you interpret the physical indication flags on an Omron J7MN manual motor starter to diagnose whether a fault trip was caused by an instantaneous short-circuit current (magnetic trip) or a sustained overload condition (thermal trip)?"
+          "question": "How do you interpret the physical indication flags on an Omron J7MN manual motor starter to diagnose whether a fault trip was caused by an instantaneous short-circuit current (magnetic trip) or a sustained overload condition (thermal trip)?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7MN" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning, a technician sets the dial of a J7TC thermal overload relay to the motor's starting current (inrush) rather than its full-load current (FLA). Why does this compromise the thermal protection of the motor winding, and how do you rectify the setting?"
+          "question": "During commissioning, a technician sets the dial of a J7TC thermal overload relay to the motor's starting current (inrush) rather than its full-load current (FLA). Why does this compromise the thermal protection of the motor winding, and how do you rectify the setting?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7TC" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electrical harmonics and severe voltage sags from an adjacent robotic welder cause the coil of an AC-operated J7KC contactor to chatter intermittently. How do you diagnose this coil-dropout issue, and what is the benefit of retrofitting a J7KC-AC/DC universal coil model?"
+          "question": "High-frequency electrical harmonics and severe voltage sags from an adjacent robotic welder cause the coil of an AC-operated J7KC contactor to chatter intermittently. How do you diagnose this coil-dropout issue, and what is the benefit of retrofitting a J7KC-AC/DC universal coil model?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7KC" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with IEC 60947-4-1 Type 2 short-circuit coordination standards in an automotive panel, what coordination guidelines must be documented when selecting upstream semiconductor fuses to protect an Omron J7KC contactor from welding during a short-circuit event?"
+          "question": "To comply with IEC 60947-4-1 Type 2 short-circuit coordination standards in an automotive panel, what coordination guidelines must be documented when selecting upstream semiconductor fuses to protect an Omron J7KC contactor from welding during a short-circuit event?",
+          "manufacturer": "Omron",
+          "product_examples": [ "J7KC" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron WLCA2-N (roller lever) and a WLD2-N (sealed plunger) limit switch for high-precision end-of-stroke detection on a CNC machining gantry where heavy synthetic cutting oil splash is continuous?"
+          "question": "How do you select between an Omron WLCA2-N (roller lever) and a WLD2-N (sealed plunger) limit switch for high-precision end-of-stroke detection on a CNC machining gantry where heavy synthetic cutting oil splash is continuous?",
+          "manufacturer": "Omron",
+          "product_examples": [ "WLCA2-N", "WLD2-N" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron Z-15GW22-B basic microswitch with an NX-ID5142 24VDC PLC input card, what are the minimum contact load requirements, and why should a gold-alloy contact variant be used instead of standard silver contacts to prevent signal failure?"
+          "question": "When interfacing an Omron Z-15GW22-B basic microswitch with an NX-ID5142 24VDC PLC input card, what are the minimum contact load requirements, and why should a gold-alloy contact variant be used instead of standard silver contacts to prevent signal failure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Z-15GW22-B", "NX-ID5142" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum allowable mechanical overtravel (OT) limit of an Omron D4N-4120 safety limit switch, and what physical structural damages occur if the actuator cam is set to push the plunger beyond this threshold?"
+          "question": "What is the maximum allowable mechanical overtravel (OT) limit of an Omron D4N-4120 safety limit switch, and what physical structural damages occur if the actuator cam is set to push the plunger beyond this threshold?",
+          "manufacturer": "Omron",
+          "product_examples": [ "D4N-4120" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron WL-N limit switch is deployed in a low-temperature cold storage area at -30°C. What specialized low-temperature seal and lubricant modifications must be specified in the model code to prevent actuator freeze-up and seal cracking?"
+          "question": "An Omron WL-N limit switch is deployed in a low-temperature cold storage area at -30°C. What specialized low-temperature seal and lubricant modifications must be specified in the model code to prevent actuator freeze-up and seal cracking?",
+          "manufacturer": "Omron",
+          "product_examples": [ "WL-N" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to wire a dual-channel Omron D4N safety limit switch utilizing its direct opening mechanism (positive opening NC contacts) to an NX-SID800 safety input unit to achieve a Category 4 safety architecture."
+          "question": "Explain how to wire a dual-channel Omron D4N safety limit switch utilizing its direct opening mechanism (positive opening NC contacts) to an NX-SID800 safety input unit to achieve a Category 4 safety architecture?",
+          "manufacturer": "Omron",
+          "product_examples": [ "D4N", "NX-SID800" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a logic routine in Sysmac Studio that monitors the state of two discordant limit switches on a safety guard door, verifying that both change state within 500ms of each other and triggering a system lock if a fault is detected."
+          "question": "Develop a logic routine in Sysmac Studio that monitors the state of two discordant limit switches on a safety guard door, verifying that both change state within 500ms of each other and triggering a system lock if a fault is detected.",
+          "manufacturer": "Omron",
+          "product_examples": [ "D4N" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you diagnose contact welding or spring fatigue in an Omron Z-15G microswitch operating in a high-vibration engine assembly area, and what resistance measurements indicate a failing internal mechanism?"
+          "question": "How do you diagnose contact welding or spring fatigue in an Omron Z-15G microswitch operating in a high-vibration engine assembly area, and what resistance measurements indicate a failing internal mechanism?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Z-15G" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During installation of an Omron WLCA2-N limit switch, the cam is mounted at an angle that exceeds the recommended 30-degree approach. What mechanical stresses does this place on the roller lever, and how does it accelerate physical actuator failure?"
+          "question": "During installation of an Omron WLCA2-N limit switch, the cam is mounted at an angle that exceeds the recommended 30-degree approach. What mechanical stresses does this place on the roller lever, and how does it accelerate physical actuator failure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "WLCA2-N" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Conductive metallic grinding dust penetrates the poorly sealed conduit entry of an Omron D4B-4111N limit switch, causing electrical tracking and intermittent short-circuits. How do you implement proper conduit sealing using SC-series connectors to prevent this?"
+          "question": "Conductive metallic grinding dust penetrates the poorly sealed conduit entry of an Omron D4B-4111N limit switch, causing electrical tracking and intermittent short-circuits. How do you implement proper conduit sealing using SC-series connectors to prevent this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "D4B-4111N", "SC-series" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with EN ISO 14119 for interlocking devices associated with guards, what tamper-resistance measures and mounting guidelines must be followed when installing an Omron D4N safety limit switch on an automated robotic enclosure?"
+          "question": "To comply with EN ISO 14119 for interlocking devices associated with guards, what tamper-resistance measures and mounting guidelines must be followed when installing an Omron D4N safety limit switch on an automated robotic enclosure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "D4N" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "Under what application conditions on a continuous packaging line would you select an Omron E3S-DC21 color mark photoelectric sensor over an E3NX-CA41 high-speed fiber-optic color amplifier with dedicated sensing heads?"
+          "question": "Under what application conditions on a continuous packaging line would you select an Omron E3S-DC21 color mark photoelectric sensor over an E3NX-CA41 high-speed fiber-optic color amplifier with dedicated sensing heads?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC21", "E3NX-CA41" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron E3S-DC21 color mark sensor with an NX-ID3443 high-speed digital input card, how do you align the sensor's 50µs response time with the PLC input card's hardware filter settings to ensure sub-millisecond mark registration?"
+          "question": "When interfacing an Omron E3S-DC21 color mark sensor with an NX-ID3443 high-speed digital input card, how do you align the sensor's 50µs response time with the PLC input card's hardware filter settings to ensure sub-millisecond mark registration?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC21", "NX-ID3443" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the minimum optical color contrast ratio (ΔE) and spatial mark dimension (in millimeters) that the Omron E3NX-CA can reliably detect on a metallic, highly reflective packaging foil moving at 5 meters per second?"
+          "question": "What is the minimum optical color contrast ratio (ΔE) and spatial mark dimension (in millimeters) that the Omron E3NX-CA can reliably detect on a metallic, highly reflective packaging foil moving at 5 meters per second?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3NX-CA" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In a bakery packaging environment with high concentrations of airborne flour dust, how do you prevent optical signal degradation on the lens of an E3S-DC sensor, and what are the mounting rules for an external air purge attachment?"
+          "question": "In a bakery packaging environment with high concentrations of airborne flour dust, how do you prevent optical signal degradation on the lens of an E3S-DC sensor, and what are the mounting rules for an external air purge attachment?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure an Omron E3S-DCP21 IO-Link model to transmit raw RGB intensity values in real-time to an NX-ILM400 master, and how are these values mapped to process data variables in Sysmac Studio?"
+          "question": "How do you configure an Omron E3S-DCP21 IO-Link model to transmit raw RGB intensity values in real-time to an NX-ILM400 master, and how are these values mapped to process data variables in Sysmac Studio?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DCP21", "NX-ILM400" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a Structured Text (ST) routine for an NX102 controller that reads continuous RGB values from an IO-Link-enabled E3S-DCP21 sensor, calculates a dynamic threshold baseline, and triggers a physical cutting axis via an EtherCAT servo drive."
+          "question": "Write a Structured Text (ST) routine for an NX102 controller that reads continuous RGB values from an IO-Link-enabled E3S-DCP21 sensor, calculates a dynamic threshold baseline, and triggers a physical cutting axis via an EtherCAT servo drive.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102", "E3S-DCP21" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What does a flashing combination of the orange and green LEDs on an Omron E3S-DC sensor indicate during the initial teach phase, and what diagnostic steps should be executed to resolve a 'teach failure' on a low-contrast color boundary?"
+          "question": "What does a flashing combination of the orange and green LEDs on an Omron E3S-DC sensor indicate during the initial teach phase, and what diagnostic steps should be executed to resolve a 'teach failure' on a low-contrast color boundary?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An engineer teaches the E3S-DC sensor to detect a red mark on a yellow background but performs the teach operation at a distance of 20mm instead of the specified focal spot distance of 10mm. Why does this cause erratic triggering, and how do you adjust the sensor bracket?"
+          "question": "An engineer teaches the E3S-DC sensor to detect a red mark on a yellow background but performs the teach operation at a distance of 20mm instead of the specified focal spot distance of 10mm. Why does this cause erratic triggering, and how do you adjust the sensor bracket?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Strobe lights from an adjacent automated quality inspection camera are causing false registrations on an Omron E3S-DC color mark sensor. How do you shield the optical path, and what digital filtering parameter adjustments can mitigate this?"
+          "question": "Strobe lights from an adjacent automated quality inspection camera are causing false registrations on an Omron E3S-DC color mark sensor. How do you shield the optical path, and what digital filtering parameter adjustments can mitigate this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What CE and UL safety classifications govern the high-intensity light-emitting diode (LED) sources used in the Omron E3S-DC series, and what optical emission safety standards (such as IEC 62471) must be documented in the system assembly file?"
+          "question": "What CE and UL safety classifications govern the high-intensity light-emitting diode (LED) sources used in the Omron E3S-DC series, and what optical emission safety standards (such as IEC 62471) must be documented in the system assembly file?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3S-DC" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron E3AS-F100 (Time-of-Flight background suppression) and an E3Z-D61 (diffuse reflective) sensor when detecting irregular black rubber automotive parts on a highly reflective metal conveyor?"
+          "question": "How do you select between an Omron E3AS-F100 (Time-of-Flight background suppression) and an E3Z-D61 (diffuse reflective) sensor when detecting irregular black rubber automotive parts on a highly reflective metal conveyor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-F100", "E3Z-D61" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When replacing a legacy three-wire NPN photoelectric sensor with a modern Omron E3Z-T81 (PNP model) on an older control panel, what wiring conversion adjustments are required, and how do you ensure pull-up/pull-down resistor compatibility?"
+          "question": "When replacing a legacy three-wire NPN photoelectric sensor with a modern Omron E3Z-T81 (PNP model) on an older control panel, what wiring conversion adjustments are required, and how do you ensure pull-up/pull-down resistor compatibility?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-T81" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum operational sensing distance limit of an Omron E3Z-R61 retroreflective sensor when utilizing a high-efficiency E39-R1S reflector, and what is the minimum target object size it can reliably resolve?"
+          "question": "What is the maximum operational sensing distance limit of an Omron E3Z-R61 retroreflective sensor when utilizing a high-efficiency E39-R1S reflector, and what is the minimum target object size it can reliably resolve?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-R61", "E39-R1S" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron E3AS-HL500LMN sensor is deployed in an automotive engine washdown booth exposed to high-pressure hot water (IP69K) and nitric-acid-based cleaning detergents. What housing materials (such as SUS316L) and structural protections must be verified?"
+          "question": "An Omron E3AS-HL500LMN sensor is deployed in an automotive engine washdown booth exposed to high-pressure hot water (IP69K) and nitric-acid-based cleaning detergents. What housing materials (such as SUS316L) and structural protections must be verified?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-HL500LMN" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the configuration steps in Sysmac Studio to access the IO-Link diagnostic parameters of an Omron E3AS-F sensor to monitor physical optical lens contamination levels and map a dirty-lens warning bit to a SCADA alarm."
+          "question": "Detail the configuration steps in Sysmac Studio to access the IO-Link diagnostic parameters of an Omron E3AS-F sensor to monitor physical optical lens contamination levels and map a dirty-lens warning bit to a SCADA alarm.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-F" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a ladder logic sequence for an Omron NX1P2 PLC that uses a through-beam E3Z-T61 sensor to count dynamic product batches, incorporating an automatic debounce timer that ignores gap spaces smaller than 100 milliseconds."
+          "question": "Develop a ladder logic sequence for an Omron NX1P2 PLC that uses a through-beam E3Z-T61 sensor to count dynamic product batches, incorporating an automatic debounce timer that ignores gap spaces smaller than 100 milliseconds.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-T61", "NX1P2" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What internal fault condition is indicated when the green stability indicator on an Omron E3Z sensor remains off while the orange output indicator is on, and how do you troubleshoot an output transistor short-circuit latch-off?"
+          "question": "What internal fault condition is indicated when the green stability indicator on an Omron E3Z sensor remains off while the orange output indicator is on, and how do you troubleshoot an output transistor short-circuit latch-off?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A technician mounts an Omron E3Z-R61 retroreflective sensor directly facing a shiny steel guard plate located behind the target path. Why does this cause the sensor to continuously report a clear path even when an object is present, and how is this aligned?"
+          "question": "A technician mounts an Omron E3Z-R61 retroreflective sensor directly facing a shiny steel guard plate located behind the target path. Why does this cause the sensor to continuously report a clear path even when an object is present, and how is this aligned?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-R61" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Dense water condensation forms on the lens of an Omron E3Z-T61 emitter/receiver pair in a high-humidity food line, leading to false triggering. How do you implement pneumatic air-knife systems and optical hoods to maintain continuous operation?"
+          "question": "Dense water condensation forms on the lens of an Omron E3Z-T61 emitter/receiver pair in a high-humidity food line, leading to false triggering. How do you implement pneumatic air-knife systems and optical hoods to maintain continuous operation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-T61" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When utilizing a standard Omron E3Z photoelectric sensor to detect muting zones on an ISO 13849-1 safety light curtain system, what technical safety and diagnostic coverage requirements must be met to preserve the PL d rating of the system?"
+          "question": "When utilizing a standard Omron E3Z photoelectric sensor to detect muting zones on an ISO 13849-1 safety light curtain system, what technical safety and diagnostic coverage requirements must be met to preserve the PL d rating of the system?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron NX-ILM400 (4-channel IO-Link master, rack-mounted) and an on-machine IP67 NXR-ILM08C-EIT (8-channel EtherNet/IP IO-Link master) for a distributed modular conveyor cell?"
+          "question": "How do you select between an Omron NX-ILM400 (4-channel IO-Link master, rack-mounted) and an on-machine IP67 NXR-ILM08C-EIT (8-channel EtherNet/IP IO-Link master) for a distributed modular conveyor cell?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ILM400", "NXR-ILM08C-EIT" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating a third-party IO-Link level transmitter with an Omron NX-ILM400 master unit, what are the steps in Sysmac Studio to import the IODD file, map the process data structure, and configure user parameters?"
+          "question": "When integrating a third-party IO-Link level transmitter with an Omron NX-ILM400 master unit, what are the steps in Sysmac Studio to import the IODD file, map the process data structure, and configure user parameters?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ILM400" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the auxiliary current limits per port (e.g., L+ and L- current ratings) on an Omron NXR-CD166C-FDT IO-Link I/O hub when driving multiple high-current 24VDC pneumatic solenoid valves simultaneously?"
+          "question": "What are the auxiliary current limits per port (e.g., L+ and L- current ratings) on an Omron NXR-CD166C-FDT IO-Link I/O hub when driving multiple high-current 24VDC pneumatic solenoid valves simultaneously?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NXR-CD166C-FDT" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an on-machine Omron NXR-series master in an engine-block milling station with high EMI and metallic chips, what cable length limits and shielding connection requirements apply to the M12 IO-Link connections?"
+          "question": "When deploying an on-machine Omron NXR-series master in an engine-block milling station with high EMI and metallic chips, what cable length limits and shielding connection requirements apply to the M12 IO-Link connections?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NXR-series" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure the cyclic EtherCAT process data object (PDO) mapping on an NX-ILM400 master unit to ensure both the primary measured value and secondary diagnostic parameters of all four connected devices are transmitted?"
+          "question": "How do you configure the cyclic EtherCAT process data object (PDO) mapping on an NX-ILM400 master unit to ensure both the primary measured value and secondary diagnostic parameters of all four connected devices are transmitted?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ILM400" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PLC logic block in Sysmac Studio that executes the IO-Link parameter backup/restore function on an NX-ILM400 master, allowing an operator to swap a damaged sensor with a new one without manual software configuration."
+          "question": "Write a PLC logic block in Sysmac Studio that executes the IO-Link parameter backup/restore function on an NX-ILM400 master, allowing an operator to swap a damaged sensor with a new one without manual software configuration.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ILM400" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you troubleshoot Sysmac Event Code '0x04B40000' (IO-Link Communication Error) on an NX-ILM400 module, and how do you isolate a physical wire-break from a failing internal transceiver?"
+          "question": "How do you troubleshoot Sysmac Event Code '0x04B40000' (IO-Link Communication Error) on an NX-ILM400 module, and how do you isolate a physical wire-break from a failing internal transceiver?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ILM400" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A field installer connects an IO-Link device requiring Class B auxiliary power (such as a multi-zone manifold) to a Class A master port on an NXR-ILM08C-EIT. What are the electrical consequences, and how do you resolve this with an external power tap?"
+          "question": "A field installer connects an IO-Link device requiring Class B auxiliary power (such as a multi-zone manifold) to a Class A master port on an NXR-ILM08C-EIT. What are the electrical consequences, and how do you resolve this with an external power tap?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NXR-ILM08C-EIT" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electromagnetic interference from adjacent VFD motor cables causes communication drops on an unshielded IO-Link cable connected to an NX-ILM400. How do you analyze communication quality (retries) and resolve the routing path?"
+          "question": "High-frequency electromagnetic interference from adjacent VFD motor cables causes communication drops on an unshielded IO-Link cable connected to an NX-ILM400. How do you analyze communication quality (retries) and resolve the routing path?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-ILM400" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What cybersecurity hardening measures and port-disabling configurations must be set up on the web server interface of an Omron NXR-series IP67 master to ensure compliance with IEC 62443-4-2 industrial security standards?"
+          "question": "What cybersecurity hardening measures and port-disabling configurations must be set up on the web server interface of an Omron NXR-series IP67 master to ensure compliance with IEC 62443-4-2 industrial security standards?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NXR-series" ]
         }
       ]
     }

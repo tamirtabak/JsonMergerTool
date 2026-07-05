@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between the Omron FH-UMAI1 deep learning software license and the standard FH-L-series firmware package when deploying an inspection system designed to detect micro-cracks in multi-textured, cast-aluminum automotive engine blocks?"
+          "question": "How do you select between the Omron FH-UMAI1 deep learning software license and the standard FH-L-series firmware package when deploying an inspection system designed to detect micro-cracks in multi-textured, cast-aluminum automotive engine blocks?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH-UMAI1", "FH-L-series" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When developing a custom C# operator interface to interact with the Omron FJ-AP software package on an industrial PC, what specific steps must be implemented to register and exchange memory arrays using the FJ runtime DLL libraries without causing thread conflicts?"
+          "question": "When developing a custom C# operator interface to interact with the Omron FJ-AP software package on an industrial PC, what specific steps must be implemented to register and exchange memory arrays using the FJ runtime DLL libraries without causing thread conflicts?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FJ-AP", "FJ" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum thread allocation limit of the multi-input inspection flow in Omron FH Tool software, and how do you configure parallel processing of three independent GigE cameras to prevent internal RAM buffer overflow when operating at 120 cycles per minute?"
+          "question": "What is the maximum thread allocation limit of the multi-input inspection flow in Omron FH Tool software, and how do you configure parallel processing of three independent GigE cameras to prevent internal RAM buffer overflow when operating at 120 cycles per minute?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH Tool" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying Omron FJ-series vision software inside a virtualized Windows Server environment using a hypervisor, what specific CPU core affinities and PCIe passthrough settings must be locked to prevent real-time image capture latency jitter?"
+          "question": "When deploying Omron FJ-series vision software inside a virtualized Windows Server environment using a hypervisor, what specific CPU core affinities and PCIe passthrough settings must be locked to prevent real-time image capture latency jitter?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FJ-series" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure the Ethernet/IP tag data links within Omron FH Software to transmit 32-bit floating-point coordinates from multiple dynamic 'Shape Search III' tools to an NX102 PLC, detailing the exact assembly instances and packet RPI rates required."
+          "question": "Explain how to configure the Ethernet/IP tag data links within Omron FH Software to transmit 32-bit floating-point coordinates from multiple dynamic 'Shape Search III' tools to an NX102 PLC, detailing the exact assembly instances and packet RPI rates required?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH Software", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a vision processing flowchart in FH Tool that calculates the concentricity of an automotive rubber seal, utilizing a combination of 'Edge Pitch', 'Circle Fit', and custom macro calculations to evaluate and output pass/fail states in micro-radians."
+          "question": "Design a vision processing flowchart in FH Tool that calculates the concentricity of an automotive rubber seal, utilizing a combination of 'Edge Pitch', 'Circle Fit', and custom macro calculations to evaluate and output pass/fail states in micro-radians.",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH Tool" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What diagnostic steps should you take when the FH software logs Error Code '0x10120000' (Scene Data Allocation Memory Error), and how do you optimize scene memory layout in the software configuration to prevent this runtime crash?"
+          "question": "What diagnostic steps should you take when the FH software logs Error Code '0x10120000' (Scene Data Allocation Memory Error), and how do you optimize scene memory layout in the software configuration to prevent this runtime crash?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An engineer imports a calibrated lens profile into the FH software but forgets to execute the master origin recalibration routine after adjusting the camera mounting pitch by 5 degrees. Why does this cause coordinate translation errors, and how do you correct the spatial scaling parameters?"
+          "question": "An engineer imports a calibrated lens profile into the FH software but forgets to execute the master origin recalibration routine after adjusting the camera mounting pitch by 5 degrees. Why does this cause coordinate translation errors, and how do you correct the spatial scaling parameters?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A factory's network layer experiences periodic packet storms that cause the FH software to drop connection to two remote GigE cameras. How do you adjust the software's network socket timeout parameters and frame-recovery retry counts to mitigate these drops without halting the main inspection loop?"
+          "question": "A factory's network layer experiences periodic packet storms that cause the FH software to drop connection to two remote GigE cameras. How do you adjust the software's network socket timeout parameters and frame-recovery retry counts to mitigate these drops without halting the main inspection loop?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "How do you configure the multi-level user administration, automated audit trail exports, and system change-logging features within the Omron FH software environment to comply with FDA 21 CFR Part 11 requirements for pharmaceutical packaging lines?"
+          "question": "How do you configure the multi-level user administration, automated audit trail exports, and system change-logging features within the Omron FH software environment to comply with FDA 21 CFR Part 11 requirements for pharmaceutical packaging lines?",
+          "manufacturer": "Omron",
+          "product_examples": [ "FH" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "Under what floor condition and operational payload center-of-gravity constraints would you specify an Omron HD-1500 AMR over an LD-250 model when designing a heavy pallet transportation system for an automotive body shop?"
+          "question": "Under what floor condition and operational payload center-of-gravity constraints would you specify an Omron HD-1500 AMR over an LD-250 model when designing a heavy pallet transportation system for an automotive body shop?",
+          "manufacturer": "Omron",
+          "product_examples": [ "HD-1500", "LD-250" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating an Omron EM2100 Fleet Manager with a factory's WMS via REST APIs, how do you map and structure the JSON payloads for the 'get_robot_status' and 'queue_job' endpoints to ensure deterministic dispatching of multiple LD-90 vehicles?"
+          "question": "When integrating an Omron EM2100 Fleet Manager with a factory's WMS via REST APIs, how do you map and structure the JSON payloads for the 'get_robot_status' and 'queue_job' endpoints to ensure deterministic dispatching of multiple LD-90 vehicles?",
+          "manufacturer": "Omron",
+          "product_examples": [ "EM2100", "LD-90" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum payload degradation curve for an Omron LD-250 AMR when climbing a continuous 5% ramp, and how does the internal controller adjust battery consumption limits and thermal alarm thresholds under high ambient heat?"
+          "question": "What is the maximum payload degradation curve for an Omron LD-250 AMR when climbing a continuous 5% ramp, and how does the internal controller adjust battery consumption limits and thermal alarm thresholds under high ambient heat?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LD-250" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron LD-60 AMR on an epoxy floor with potential oil-mist accumulation, what traction-control coefficients and deceleration distance offsets must be updated in MobilePlanner to prevent wheel slip during emergency stopping maneuvers?"
+          "question": "When deploying an Omron LD-60 AMR on an epoxy floor with potential oil-mist accumulation, what traction-control coefficients and deceleration distance offsets must be updated in MobilePlanner to prevent wheel slip during emergency stopping maneuvers?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LD-60", "MobilePlanner" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure the Wi-Fi roaming parameters (such as RSSI threshold and scan channel ranges) on an Omron LD AMR to ensure seamless AP-to-AP handoffs on an enterprise 5GHz network without dropping Fleet Manager communication?"
+          "question": "How do you configure the Wi-Fi roaming parameters (such as RSSI threshold and scan channel ranges) on an Omron LD AMR to ensure seamless AP-to-AP handoffs on an enterprise 5GHz network without dropping Fleet Manager communication?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LD AMR" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a customized task sequence in MobilePlanner that uses laser-guided localization, dynamic obstacles detection, and precise 'sensor-based docking' logic to park an Omron AMR within +/- 5mm of a physical motorized conveyor transfer station."
+          "question": "Develop a customized task sequence in MobilePlanner that uses laser-guided localization, dynamic obstacles detection, and precise 'sensor-based docking' logic to park an Omron AMR within +/- 5mm of a physical motorized conveyor transfer station.",
+          "manufacturer": "Omron",
+          "product_examples": [ "MobilePlanner" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the physical diagnostics procedure when an Omron HD-1500 reports error code '0x2035' (Safety Scanner Angle Mismatch Fault), and how do you recalibrate the primary and secondary safety laser scanners using the MobilePlanner utility?"
+          "question": "What is the physical diagnostics procedure when an Omron HD-1500 reports error code '0x2035' (Safety Scanner Angle Mismatch Fault), and how do you recalibrate the primary and secondary safety laser scanners using the MobilePlanner utility?",
+          "manufacturer": "Omron",
+          "product_examples": [ "HD-1500", "MobilePlanner" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer fails to properly define 'Forbidden Zones' on a shared forklift-AMR route, resulting in frequent safety scanner lockouts and localization loss. How do you map dynamic obstacles and establish appropriate clearance zones to prevent fleet congestion?"
+          "question": "An installer fails to properly define 'Forbidden Zones' on a shared forklift-AMR route, resulting in frequent safety scanner lockouts and localization loss. How do you map dynamic obstacles and establish appropriate clearance zones to prevent fleet congestion?",
+          "manufacturer": "Omron",
+          "product_examples": [ "AMR" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-intensity LED strobe lights from adjacent quality check booths interfere with an Omron AMR's 3D depth cameras, causing the robot to mistake the light for physical barriers. How do you implement optical shielding or adjust sensor filter zones to resolve this localization drift?"
+          "question": "High-intensity LED strobe lights from adjacent quality check booths interfere with an Omron AMR's 3D depth cameras, causing the robot to mistake the light for physical barriers. How do you implement optical shielding or adjust sensor filter zones to resolve this localization drift?",
+          "manufacturer": "Omron",
+          "product_examples": [ "AMR" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To ensure compliance with ANSI/RIA R15.08 and ISO 3691-4 safety standards, what specific testing protocols and diagnostic verification steps must be documented for the dynamic safety field switching of an Omron AMR carrying variable-length payloads?"
+          "question": "To ensure compliance with ANSI/RIA R15.08 and ISO 3691-4 safety standards, what specific testing protocols and diagnostic verification steps must be documented for the dynamic safety field switching of an Omron AMR carrying variable-length payloads?",
+          "manufacturer": "Omron",
+          "product_examples": [ "AMR" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron TM5-900 (integrated vision, 5kg payload) and an Omron TM12 (12kg payload) for an automotive assembly station requiring high-tolerance pick-and-place of metal brackets using a heavy pneumatic vacuum gripper?"
+          "question": "How do you select between an Omron TM5-900 (integrated vision, 5kg payload) and an Omron TM12 (12kg payload) for an automotive assembly station requiring high-tolerance pick-and-place of metal brackets using a heavy pneumatic vacuum gripper?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM5-900", "TM12" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When establishing communications between an Omron TM5 cobot and an NX102-9020 PLC, what are the steps to export the Modbus TCP address table from the TMflow software and map the 16-bit registers into Sysmac Studio global variables?"
+          "question": "When establishing communications between an Omron TM5 cobot and an NX102-9020 PLC, what are the steps to export the Modbus TCP address table from the TMflow software and map the 16-bit registers into Sysmac Studio global variables?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM5", "NX102-9020", "TMflow", "Sysmac Studio" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the maximum collaborative speed and joint force limit thresholds ($F_{max}$ and $P_{max}$) defined in TMflow for a safe pick-and-place application, and how do you calculate the maximum payload offset distance before joint 4 triggers a torque overload alarm?"
+          "question": "What are the maximum collaborative speed and joint force limit thresholds ($F_{max}$ and $P_{max}$) defined in TMflow for a safe pick-and-place application, and how do you calculate the maximum payload offset distance before joint 4 triggers a torque overload alarm?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TMflow" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When mounting an Omron TM14 cobot in an inverted ceiling configuration over an assembly conveyor, what gravity parameter overrides and base-rotation mounting angle settings must be adjusted in TMflow to ensure correct kinematics calculation?"
+          "question": "When mounting an Omron TM14 cobot in an inverted ceiling configuration over an assembly conveyor, what gravity parameter overrides and base-rotation mounting angle settings must be adjusted in TMflow to ensure correct kinematics calculation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM14", "TMflow" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to wire and configure an external Omron OS32C safety laser scanner directly to the safety terminal block of an Omron TM cobot control cabinet to dynamically switch the robot between a high-speed mode and a collaborative speed-limiting mode."
+          "question": "Explain how to wire and configure an external Omron OS32C safety laser scanner directly to the safety terminal block of an Omron TM cobot control cabinet to dynamically switch the robot between a high-speed mode and a collaborative speed-limiting mode.",
+          "manufacturer": "Omron",
+          "product_examples": [ "OS32C", "TM cobot" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop an inspection and assembly sequence in TMflow that utilizes the cobot's eye-in-hand camera to locate an Omron Landmark sticker, realigns the robot's local tool coordinate system (TCP), and executes a precise assembly insertion with a force-monitoring step."
+          "question": "Develop an inspection and assembly sequence in TMflow that utilizes the cobot's eye-in-hand camera to locate an Omron Landmark sticker, realigns the robot's local tool coordinate system (TCP), and executes a precise assembly insertion with a force-monitoring step.",
+          "manufacturer": "Omron",
+          "product_examples": [ "TMflow", "TM Landmark" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What diagnostic checks are required when an Omron TM cobot halts with error code 'C01' (Safety Controller Communication Timeout), and how do you verify if the fault is an internal joint control board issue or an external safety I/O mismatch?"
+          "question": "What diagnostic checks are required when an Omron TM cobot halts with error code 'C01' (Safety Controller Communication Timeout), and how do you verify if the fault is an internal joint control board issue or an external safety I/O mismatch?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM cobot" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An operator manually relocates the TM cobot's control cabinet but fails to update the tool payload center of gravity (CoG) parameters in TMflow, resulting in persistent protective stops during rapid vertical moves. How do you calculate and calibrate the correct CoG coordinates?"
+          "question": "An operator manually relocates the TM cobot's control cabinet but fails to update the tool payload center of gravity (CoG) parameters in TMflow, resulting in persistent protective stops during rapid vertical moves. How do you calculate and calibrate the correct CoG coordinates?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM cobot", "TMflow" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Electromagnetic noise from an adjacent 50kW spot welder induces electrical interference in the TM cobot's internal camera cable, causing intermittent frame loss and TM Landmark localization failure. How do you implement ferrite cores and cabinet isolation to eliminate this EMI?"
+          "question": "Electromagnetic noise from an adjacent 50kW spot welder induces electrical interference in the TM cobot's internal camera cable, causing intermittent frame loss and TM Landmark localization failure. How do you implement ferrite cores and cabinet isolation to eliminate this EMI?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM cobot", "TM Landmark" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To satisfy ISO 10218-1 and ISO/TS 15066 safety requirements for collaborative robot applications, what collision validation measurements must be performed on an Omron TM12 setup, and how do you document the transient and quasi-static force limits?"
+          "question": "To satisfy ISO 10218-1 and ISO/TS 15066 safety requirements for collaborative robot applications, what collision validation measurements must be performed on an Omron TM12 setup, and how do you document the transient and quasi-static force limits?",
+          "manufacturer": "Omron",
+          "product_examples": [ "TM12" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron Cobra 600 SCARA robot and a Hornet 565 parallel Delta robot when designing a high-speed sorting system that requires pick-and-place packaging of parts weighing up to 2.5kg on a continuous conveyor?"
+          "question": "How do you select between an Omron Cobra 600 SCARA robot and a Hornet 565 parallel Delta robot when designing a high-speed sorting system that requires pick-and-place packaging of parts weighing up to 2.5kg on a continuous conveyor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Cobra 600", "Hornet 565" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When mating an Omron Viper 650 6-axis robot with an Omron NJ501-R500 robot controller, what specific EtherCAT node configuration steps and configuration XML files are required in Sysmac Studio to synchronize the robot kinematics with the main PLC execution loop?"
+          "question": "When mating an Omron Viper 650 6-axis robot with an Omron NJ501-R500 robot controller, what specific EtherCAT node configuration steps and configuration XML files are required in Sysmac Studio to synchronize the robot kinematics with the main PLC execution loop?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Viper 650", "NJ501-R500", "Sysmac Studio" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum rated payload inertia ($J_{max}$) for axis 4 of an Omron Cobra 600 SCARA robot, and what are the system consequences regarding cycle times and positional deviation errors if the end-of-arm tool exceeds this moment limit?"
+          "question": "What is the maximum rated payload inertia ($J_{max}$) for axis 4 of an Omron Cobra 600 SCARA robot, and what are the system consequences regarding cycle times and positional deviation errors if the end-of-arm tool exceeds this moment limit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Cobra 600" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron Viper 850 robot inside an automotive paint room with highly volatile chemical concentrations, what specific pressurization cabinet requirements, IP ratings, and purge air pressures must be maintained to prevent explosion hazards?"
+          "question": "When deploying an Omron Viper 850 robot inside an automotive paint room with highly volatile chemical concentrations, what specific pressurization cabinet requirements, IP ratings, and purge air pressures must be maintained to prevent explosion hazards?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Viper 850" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure high-speed conveyor tracking inside the Omron eV+ operating system running on a SmartController EX, specifically detailing the wiring of the hardware belt-encoder to the controller's encoder latch inputs."
+          "question": "Explain how to configure high-speed conveyor tracking inside the Omron eV+ operating system running on a SmartController EX, specifically detailing the wiring of the hardware belt-encoder to the controller's encoder latch inputs.",
+          "manufacturer": "Omron",
+          "product_examples": [ "eV+", "SmartController EX" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write an eV+ program sequence for an Omron Viper robot that executes a palletizing matrix loop, dynamically calculating pick-and-place offsets based on product width variables received from an external FH vision system via TCP/IP socket communications."
+          "question": "Write an eV+ program sequence for an Omron Viper robot that executes a palletizing matrix loop, dynamically calculating pick-and-place offsets based on product width variables received from an external FH vision system via TCP/IP socket communications.",
+          "manufacturer": "Omron",
+          "product_examples": [ "eV+", "Viper", "FH" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the systematic troubleshooting workflow when an Omron eAIB (Amplifier In Base) SCARA robot displays a flashing fault code 'E5' on its status panel, and how do you diagnose if the problem lies in the joint encoder cable or the internal power amplifier?"
+          "question": "What is the systematic troubleshooting workflow when an Omron eAIB (Amplifier In Base) SCARA robot displays a flashing fault code 'E5' on its status panel, and how do you diagnose if the problem lies in the joint encoder cable or the internal power amplifier?",
+          "manufacturer": "Omron",
+          "product_examples": [ "eAIB" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning of a Hornet Delta robot, a technician sets the kinematic arm lengths incorrectly in the ACE software configuration. Why does this cause a circular path command to execute as an asymmetrical ellipse, and how do you perform a physical arm calibration?"
+          "question": "During commissioning of a Hornet Delta robot, a technician sets the kinematic arm lengths incorrectly in the ACE software configuration. Why does this cause a circular path command to execute as an asymmetrical ellipse, and how do you perform a physical arm calibration?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Hornet", "ACE" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Mechanical vibrations from a nearby sheet-metal press are transmitted through the concrete floor to an Omron SCARA robot base, causing subtle positioning overshoot and high-frequency joint encoder tracking errors. How do you isolate the robot base to suppress this mechanical crosstalk?"
+          "question": "Mechanical vibrations from a nearby sheet-metal press are transmitted through the concrete floor to an Omron SCARA robot base, causing subtle positioning overshoot and high-frequency joint encoder tracking errors. How do you isolate the robot base to suppress this mechanical crosstalk?",
+          "manufacturer": "Omron",
+          "product_examples": [ "SCARA" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with ANSI/RIA R15.06 and ISO 10218-1 safety standards for industrial robotic integrations, how must the dual-channel emergency stop and gate monitoring circuits of an Omron SmartController EX be wired to achieve a Category 4 safety rating?"
+          "question": "To comply with ANSI/RIA R15.06 and ISO 10218-1 safety standards for industrial robotic integrations, how must the dual-channel emergency stop and gate monitoring circuits of an Omron SmartController EX be wired to achieve a Category 4 safety rating?",
+          "manufacturer": "Omron",
+          "product_examples": [ "SmartController EX" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron E2E-Next long-distance inductive sensor and an Omron E2EW metal-face sensor with weld-field immunity when configuring cylinder stroke detection on a robotic aluminum stamping jig?"
+          "question": "How do you select between an Omron E2E-Next long-distance inductive sensor and an Omron E2EW metal-face sensor with weld-field immunity when configuring cylinder stroke detection on a robotic aluminum stamping jig?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E-Next", "E2EW" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When wiring a 2-wire DC Omron E2E proximity sensor to an NX-ID5142 24VDC PLC input card, what are the matching impedance requirements, and what value of bleeder resistor must be connected in parallel to prevent the sensor's off-state leakage current from holding the input active?"
+          "question": "When wiring a 2-wire DC Omron E2E proximity sensor to an NX-ID5142 24VDC PLC input card, what are the matching impedance requirements, and what value of bleeder resistor must be connected in parallel to prevent the sensor's off-state leakage current from holding the input active?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E", "NX-ID5142" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum response frequency (Hz) of an Omron E2E-X10D1-N proximity sensor, and what is the target speed limit when detecting teeth on a 60-tooth gear wheel on an automotive shaft before pulse skipping occurs?"
+          "question": "What is the maximum response frequency (Hz) of an Omron E2E-X10D1-N proximity sensor, and what is the target speed limit when detecting teeth on a 60-tooth gear wheel on an automotive shaft before pulse skipping occurs?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E-X10D1-N" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron E2EH proximity sensor is installed inside an industrial autoclave operating at 95°C and subjected to high-pressure nitric-acid washdowns. What are the specific stainless steel grade housing (e.g., SUS316L) and potting compound specifications required to prevent chemical seepage?"
+          "question": "An Omron E2EH proximity sensor is installed inside an industrial autoclave operating at 95°C and subjected to high-pressure nitric-acid washdowns. What are the specific stainless steel grade housing (e.g., SUS316L) and potting compound specifications required to prevent chemical seepage?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2EH" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the configuration steps in Sysmac Studio to access the IO-Link diagnostic variables of an Omron E2E-Next proximity sensor, specifically mapping the dynamic sensing distance ratio parameter and the internal sensor-head temperature variable."
+          "question": "Detail the configuration steps in Sysmac Studio to access the IO-Link diagnostic variables of an Omron E2E-Next proximity sensor, specifically mapping the dynamic sensing distance ratio parameter and the internal sensor-head temperature variable.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E-Next", "Sysmac Studio" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a logic routine in Sysmac Studio that processes analog distance signals from two high-resolution E2C-EDA separate-amplifier proximity sensors, calculating real-time micro-displacement variations and checking for structural eccentricity of a rotating cylinder."
+          "question": "Develop a logic routine in Sysmac Studio that processes analog distance signals from two high-resolution E2C-EDA separate-amplifier proximity sensors, calculating real-time micro-displacement variations and checking for structural eccentricity of a rotating cylinder.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2C-EDA", "Sysmac Studio" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What physical state is indicated when the red and green indicator LEDs on an Omron E2E-Next sensor flash alternately, and what diagnostic electrical steps should you take to verify if the output transistor has been permanently damaged by an overcurrent short-circuit?"
+          "question": "What physical state is indicated when the red and green indicator LEDs on an Omron E2E-Next sensor flash alternately, and what diagnostic electrical steps should you take to verify if the output transistor has been permanently damaged by an overcurrent short-circuit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E-Next" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer flush-mounts an unshielded (non-embeddable) Omron E2E-X18MC1 proximity sensor directly inside a CNC-machined steel pocket. Why does this cause the sensor to remain permanently ON, and what is the proper physical clearance offset required to clear the surrounding metal?"
+          "question": "An installer flush-mounts an unshielded (non-embeddable) Omron E2E-X18MC1 proximity sensor directly inside a CNC-machined steel pocket. Why does this cause the sensor to remain permanently ON, and what is the proper physical clearance offset required to clear the surrounding metal?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E-X18MC1" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electromagnetic fields from an adjacent 150kVA spot welder cause false triggering on standard Omron proximity sensors. How do you isolate this noise, and what are the shielding advantages of upgrading to an E2EW weld-field immune sensor?"
+          "question": "High-frequency electromagnetic fields from an adjacent 150kVA spot welder cause false triggering on standard Omron proximity sensors. How do you isolate this noise, and what are the shielding advantages of upgrading to an E2EW weld-field immune sensor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2EW" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To meet IEC 60947-5-2 proximity switch standards for electrical safety and electromagnetic compatibility (EMC), what specific dielectric strength and surge immunity testing certifications must be verified for the Omron E2E series when used in public assembly areas?"
+          "question": "To meet IEC 60947-5-2 proximity switch standards for electrical safety and electromagnetic compatibility (EMC), what specific dielectric strength and surge immunity testing certifications must be verified for the Omron E2E series when used in public assembly areas?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E2E" ]
         }
       ]
     }

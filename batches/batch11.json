@@ -4,64 +4,84 @@
       "product_name": "Rotary Encoders",
       "questions": [
         {
-          "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
+          "id": 1,
+          "manufacturer": "Omron",
+          "product_examples": [ "E6B2-CWZ6C", "E6B2-CWZ1X" ],
           "question": "How do you select between an Omron E6B2-CWZ6C (NPN open-collector output) and an E6B2-CWZ1X (line-driver output) rotary encoder when planning a high-speed packaging indexing line with a cable run of 45 meters back to the control cabinet?"
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron E6C3-AG5C absolute Gray code encoder with an NX-EC0122 high-speed encoder input module, what electrical and configuration adjustments are required in Sysmac Studio to align the 10-bit resolution map with the module's input registers?"
+          "question": "When interfacing an Omron E6C3-AG5C absolute Gray code encoder with an NX-EC0122 high-speed encoder input module, what electrical and configuration adjustments are required in Sysmac Studio to align the 10-bit resolution map with the module's input registers?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6C3-AG5C", "NX-EC0122", "Sysmac Studio"]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the physical maximum response frequency limit (kHz) of an Omron E6B2-CWZ6C encoder, and how do you calculate the maximum allowable rotational speed (RPM) before pulse clipping occurs on a 2000 PPR unit?"
+          "question": "What is the physical maximum response frequency limit (kHz) of an Omron E6B2-CWZ6C encoder, and how do you calculate the maximum allowable rotational speed (RPM) before pulse clipping occurs on a 2000 PPR unit?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6B2-CWZ6C"]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron E6F-CWZ5G robust rotary encoder is mounted on an automotive engine block milling spindle. What are the radial and axial shaft load limit specifications ($F_r$ and $F_a$) for this IP65-rated model to prevent premature bearing failure?"
+          "question": "An Omron E6F-CWZ5G robust rotary encoder is mounted on an automotive engine block milling spindle. What are the radial and axial shaft load limit specifications ($F_r$ and $F_a$) for this IP65-rated model to prevent premature bearing failure?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6F-CWZ5G"]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to wire and configure an absolute SSI encoder to an Omron NX-EC0112 unit on an EtherCAT node, specifically addressing clock frequency adjustments, data format selection, and framing bit mapping in Sysmac Studio."
+          "question": "Explain how to wire and configure an absolute SSI encoder to an Omron NX-EC0112 unit on an EtherCAT node, specifically addressing clock frequency adjustments, data format selection, and framing bit mapping in Sysmac Studio.",
+          "manufacturer": "Omron",
+          "product_examples": ["NX-EC0112", "Sysmac Studio"]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a Structured Text (ST) routine in Sysmac Studio to decode Gray code input from an Omron E6C3-AG5C encoder into standard binary integers, applying a software-based rolling average filter to suppress mechanical backlash vibrations near zero-speed crossovers."
+          "question": "Write a Structured Text (ST) routine in Sysmac Studio to decode Gray code input from an Omron E6C3-AG5C encoder into standard binary integers, applying a software-based rolling average filter to suppress mechanical backlash vibrations near zero-speed crossovers.",
+          "manufacturer": "Omron",
+          "product_examples": ["E6C3-AG5C", "Sysmac Studio"]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When an NX-EC0122 encoder unit logs Sysmac Event Code '0x04C50000' (Encoder Line Break), what physical diagnostic steps must be taken to isolate a cable-cut from a failing output driver stage on an E6B2-CWZ1X encoder?"
+          "question": "When an NX-EC0122 encoder unit logs Sysmac Event Code '0x04C50000' (Encoder Line Break), what physical diagnostic steps must be taken to isolate a cable-cut from a failing output driver stage on an E6B2-CWZ1X encoder?",
+          "manufacturer": "Omron",
+          "product_examples": ["NX-EC0122", "E6B2-CWZ1X"]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During the commissioning of a rotary indexing system, a technician fails to align the Z-phase marker pulse of an E6B2 encoder with the mechanical machine zero, causing a 1.8-degree homing offset drift during cold restarts. How do you execute a physical phase alignment?"
+          "question": "During the commissioning of a rotary indexing system, a technician fails to align the Z-phase marker pulse of an E6B2 encoder with the mechanical machine zero, causing a 1.8-degree homing offset drift during cold restarts. How do you execute a physical phase alignment?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6B2"]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electromagnetic emissions from an adjacent 37kW VFD motor cable are inducing transient voltage spikes onto the unshielded A/B phase lines of an E6B2 open-collector encoder. How do you diagnose this crosstalk, and what are the shielding and grounding mitigation steps?"
+          "question": "High-frequency electromagnetic emissions from an adjacent 37kW VFD motor cable are inducing transient voltage spikes onto the unshielded A/B phase lines of an E6B2 open-collector encoder. How do you diagnose this crosstalk, and what are the shielding and grounding mitigation steps?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6B2"]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To meet safety-certified speed-monitoring requirements under ISO 13849-1 (PL d/Category 3), under what conditions can a standard non-safety Omron E6B2 encoder be integrated alongside an NX-CSG320 communication control unit?"
+          "question": "To meet safety-certified speed-monitoring requirements under ISO 13849-1 (PL d/Category 3), under what conditions can a standard non-safety Omron E6B2 encoder be integrated alongside an NX-CSG320 communication control unit?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6B2", "NX-CSG320"]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron 1S series R88D-1SN04H-ECT servo drive and an R88D-1SAN04H-ECT drive when configuring a robotic pick-and-place cell that requires advanced integrated safety functions like Safe Limited Speed (SLS) over EtherCAT (FSoE)?"
+          "question": "How do you select between an Omron 1S series R88D-1SN04H-ECT servo drive and an R88D-1SAN04H-ECT drive when configuring a robotic pick-and-place cell that requires advanced integrated safety functions like Safe Limited Speed (SLS) over EtherCAT (FSoE)?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SN04H-ECT", "R88D-1SAN04H-ECT"]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an older G5-series R88M-K servo motor with a modern 1S-series R88D-1SN-ECT drive, what physical feedback cable adapter limitations exist, and how do you resolve serial encoder protocol compatibility mismatches in Sysmac Studio?"
+          "question": "When interfacing an older G5-series R88M-K servo motor with a modern 1S-series R88D-1SN-ECT drive, what physical feedback feedback cable adapter limitations exist, and how do you resolve serial encoder protocol compatibility mismatches in Sysmac Studio?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88M-K", "R88D-1SN-ECT", "Sysmac Studio"]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum internal regeneration capacity of an Omron R88D-1SN04H-ECT drive, and how do you calculate the exact kinetic energy threshold of a 10kg load cycling at 3.0 m/s to determine if an external R88A-RR22047S resistor is required?"
+          "question": "What is the maximum internal regeneration capacity of an Omron R88D-1SN04H-ECT drive, and how do you calculate the exact kinetic energy threshold of a 10kg load cycling at 3.0 m/s to determine if an external R88A-RR22047S resistor is required?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SN04H-ECT", "R88A-RR22047S"]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron R88M-1M40030H-S2 (1S motor) inside an automotive painting cell with an ambient temperature of 45°C under continuous S1 duty cycle, what thermal derating factors must be applied to its continuous output torque?"
+          "question": "When deploying an Omron R88M-1M40030H-S2 (1S motor) inside an automotive painting cell with an ambient temperature of 45°C under continuous S1 duty cycle, what thermal derating factors must be applied to its continuous output torque?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88M-1M40030H-S2"]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the steps in Sysmac Studio to edit the EtherCAT PDO mapping of an R88D-1SN-ECT drive to include real-time monitoring variables for 'Torque Feedback' and 'Following Error' alongside the default profile position parameters."
+          "question": "Detail the steps in Sysmac Studio to edit the EtherCAT PDO mapping of an R88D-1SN-ECT drive to include real-time monitoring variables for 'Torque Feedback' and 'Following Error' alongside the default profile position parameters.",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SN-ECT", "Sysmac Studio"]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a structured PLC logic routine using `MC_MoveAbsolute` and `MC_TouchProbe` instructions to synchronize an R88M-1M servo motor with a registration mark sensor, correcting conveyor position slip within a +/- 0.1mm window."
+          "question": "Develop a structured PLC logic routine using `MC_MoveAbsolute` and `MC_TouchProbe` instructions to synchronize an R88M-1M servo motor with a registration mark sensor, correcting conveyor position slip within a +/- 0.1mm window.",
+          "manufacturer": "Omron",
+          "product_examples": ["R88M-1M"]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An Omron 1S servo drive displays Fault Code 'A35.00' (Overcurrent). What electrical diagnostic tests should you perform on the motor phases (U, V, W) and the drive power stage to distinguish an internal IGBT breakdown from an external motor coil short-circuit?"
+          "question": "An Omron 1S servo drive displays Fault Code 'A35.00' (Overcurrent). What electrical diagnostic tests should you perform on the motor phases (U, V, W) and the drive power stage to distinguish an internal IGBT breakdown from an external motor coil short-circuit?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SN04H-ECT"]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During startup tuning, an engineer sets the 'Inertia Ratio' parameter to 30x motor inertia instead of the actual physical load ratio of 5x. Why does this cause high-frequency torque oscillation (resonance) during deceleration, and how do you execute the Real-time Autotuning routine?"
+          "question": "During startup tuning, an engineer sets the 'Inertia Ratio' parameter to 30x motor inertia instead of the actual physical load ratio of 5x. Why does this cause high-frequency torque oscillation (resonance) during deceleration, and how do you execute the Real-time Autotuning routine?",
+          "manufacturer": "Omron",
+          "product_examples": ["1S"]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency ground currents from a nearby robotic spot welder are causing packet corruption on the EtherCAT IN port of an R88D-1SN-ECT drive, resulting in 'EtherCAT State Transition Error' drops. How do you isolate the network nodes using shielding and specialized M12 connectors?"
+          "question": "High-frequency ground currents from a nearby robotic spot welder are causing packet corruption on the EtherCAT IN port of an R88D-1SN-ECT drive, resulting in 'EtherCAT State Transition Error' drops. How do you isolate the network nodes using shielding and specialized M12 connectors?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SN-ECT"]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with CE EMC Directive EN 61800-3 (Class A), what specific mains-side line filters (such as R88A-FI1S) and motor cable shielding practices must be documented in the technical file of an industrial cabinet housing five 1S drives?"
+          "question": "To comply with CE EMC Directive EN 61800-3 (Class A), what specific mains-side line filters (such as R88A-FI1S) and motor cable shielding practices must be documented in the technical file of an industrial cabinet housing five 1S drives?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88A-FI1S"]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron CK3M-CPU111 (Power PMAC) controller utilizing CK3W-AX1111N (Direct PWM output cards) and a card with standard analog outputs when designing an ultra-high precision sub-micron positioning stage?"
+          "question": "How do you select between an Omron CK3M-CPU111 (Power PMAC) controller utilizing CK3W-AX1111N (Direct PWM output cards) and a card with standard analog outputs when designing an ultra-high precision sub-micron positioning stage?",
+          "manufacturer": "Omron",
+          "product_examples": ["CK3M-CPU111", "CK3W-AX1111N"]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting an external 1Vpp differential linear glass scale encoder to a CK3W-AX1111N direct PWM amplifier expansion card, what interface hardware modifications and encoder conversion parameter settings are required to ensure feedback compatibility?"
+          "question": "When connecting an external 1Vpp differential linear glass scale encoder to a CK3W-AX1111N direct PWM amplifier expansion card, what interface hardware modifications and encoder conversion parameter settings are required to ensure feedback compatibility?",
+          "manufacturer": "Omron",
+          "product_examples": ["CK3W-AX1111N"]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum rated PWM switching frequency (kHz) of the CK3W-AX output driver stage, and how does operating the card at 40kHz instead of 20kHz limit the maximum continuous current output due to thermal switching losses?"
+          "question": "What is the maximum rated PWM switching frequency (kHz) of the CK3W-AX output driver stage, and how does operating the card at 40kHz instead of 20kHz limit the maximum continuous current output due to thermal switching losses?",
+          "manufacturer": "Omron",
+          "product_examples": ["CK3W-AX"]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When installing a multi-axis CK3M controller rack with four direct PWM amplifier modules inside a compact, sealed IP54 console, what thermal dissipation calculations and forced-air routing are necessary to prevent CPU thermal throttling?"
+          "question": "When installing a multi-axis CK3M controller rack with four direct PWM amplifier modules inside a compact, sealed IP54 console, what thermal dissipation calculations and forced-air routing are necessary to prevent CPU thermal throttling?",
+          "manufacturer": "Omron",
+          "product_examples": ["CK3M"]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the software memory-mapping configurations required inside the Power PMAC IDE to continuously stream raw phase PWM duty cycles to the driver stage while receiving real-time phase current feedback at a 100µs servo cycle."
+          "question": "Detail the software memory-mapping configurations required inside the Power PMAC IDE to continuously stream raw phase PWM duty cycles to the driver stage while receiving real-time phase current feedback at a 100µs servo cycle.",
+          "manufacturer": "Omron",
+          "product_examples": ["Power PMAC IDE"]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PMAC C-API custom commutation algorithm for a linear brushless motor, executing inside the real-time phase interrupt task, that maps raw analog Hall sensor signals to direct PWM output phases."
+          "question": "Write a PMAC C-API custom commutation algorithm for a linear brushless motor, executing inside the real-time phase interrupt task, that maps raw analog Hall sensor signals to direct PWM output phases.",
+          "manufacturer": "Omron",
+          "product_examples": ["Power PMAC"]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What does a solid red 'FAULT' LED on a CK3W-AX module signify, and what registers within the PMAC `Motor[x].AmpFault` structure must be polled via a REST API to diagnose whether the fault was a Phase Short Circuit or DC-bus Under-voltage?"
+          "question": "What does a solid red 'FAULT' LED on a CK3W-AX module signify, and what registers within the PMAC `Motor[x].AmpFault` structure must be polled via a REST API to diagnose whether the fault was a Phase Short Circuit or DC-bus Under-voltage?",
+          "manufacturer": "Omron",
+          "product_examples": ["CK3W-AX"]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning of a direct PWM drive, an installer enters an incorrect commutation angle offset parameter (PhaseOffset). Why does this cause a runaway condition or immediate locking of the motor rotor, and how do you safely measure PhaseOffset?"
+          "question": "During commissioning of a direct PWM drive, an installer enters an incorrect commutation angle offset parameter (PhaseOffset). Why does this cause a runaway condition or immediate locking of the motor rotor, and how do you safely measure PhaseOffset?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High $di/dt$ switching noise from the unshielded motor lines of a PWM amplifier is coupling into adjacent high-resolution analog inputs of a nearby sensor rack. How do you implement common-mode choke coils and motor-phase RC snubbers to mitigate this?"
+          "question": "High $di/dt$ switching noise from the unshielded motor lines of a PWM amplifier is coupling into adjacent high-resolution analog inputs of a nearby sensor rack. How do you implement common-mode choke coils and motor-phase RC snubbers to mitigate this?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To maintain compliance with EN 61800-3 guidelines for adjustable speed electrical power drive systems, what are the shielding and ground bonding requirements for the direct PWM phase outputs connected to a high-frequency linear voice-coil stage?"
+          "question": "To maintain compliance with EN 61800-3 guidelines for adjustable speed electrical power drive systems, what are the shielding and ground bonding requirements for the direct PWM phase outputs connected to a high-frequency linear voice-coil stage?",
+          "manufacturer": "Omron",
+          "product_examples": []
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron MX2-V1 (multi-function open-loop vector) and an RX2 series inverter (high-performance closed-loop vector with PG speed feedback option) for an overhead gantry crane hoist motor requiring full holding torque at zero speed?"
+          "question": "How do you select between an Omron MX2-V1 (multi-function open-loop vector) and an RX2 series inverter (high-performance closed-loop vector with PG speed feedback option) for an overhead gantry crane hoist motor requiring full holding torque at zero speed?",
+          "manufacturer": "Omron",
+          "product_examples": ["MX2-V1", "RX2"]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When connecting an Omron E6B2-CWZ6C incremental encoder to an RX2 inverter via the PG-X2 speed feedback expansion card, how do you configure the pulse scaling ratio and determine the correct phase input polarity to prevent encoder feedback runaway?"
+          "question": "When connecting an Omron E6B2-CWZ6C incremental encoder to an RX2 inverter via the PG-X2 speed feedback expansion card, how do you configure the pulse scaling ratio and determine the correct phase input polarity to prevent encoder feedback runaway?",
+          "manufacturer": "Omron",
+          "product_examples": ["E6B2-CWZ6C", "RX2", "PG-X2"]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the continuous output current limit and overload capacity rating (Heavy Duty 150% vs. Normal Duty 120%) of an Omron MX2-A4040 inverter, and how do low output frequencies (<1Hz) impact motor thermal overload tracking?"
+          "question": "What is the continuous output current limit and overload capacity rating (Heavy Duty 150% vs. Normal Duty 120%) of an Omron MX2-A4040 inverter, and how do low output frequencies (<1Hz) impact motor thermal overload tracking?",
+          "manufacturer": "Omron",
+          "product_examples": ["MX2-A4040"]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When mounting four Omron MX2 inverters side-by-side (zero-clearance installation) on a DIN rail inside a sealed IP54 control cabinet, what thermal derating factors must be applied, and what parameters must be modified to lower internal inverter heat generation?"
+          "question": "When mounting four Omron MX2 inverters side-by-side (zero-clearance installation) on a DIN rail inside a sealed IP54 control cabinet, what thermal derating factors must be applied, and what parameters must be modified to lower internal inverter heat generation?",
+          "manufacturer": "Omron",
+          "product_examples": ["MX2"]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to map the Modbus RTU (RS-485) communication registers of an Omron MX2-V1 inverter to an NX1P2 controller, detailing the process of writing control word commands (Run/Stop) and reading status registers for output current."
+          "question": "Explain how to map the Modbus RTU (RS-485) communication registers of an Omron MX2-V1 inverter to an NX1P2 controller, detailing the process of writing control word commands (Run/Stop) and reading status registers for output current.",
+          "manufacturer": "Omron",
+          "product_examples": ["MX2-V1", "NX1P2"]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a Sysmac Studio program utilizing EtherNet/IP communication to implement a closed-loop PID control scheme on an RX2 inverter, where an analog pressure sensor value regulates motor speed with sleep and wake-up threshold logic."
+          "question": "Design a Sysmac Studio program utilizing EtherNet/IP communication to implement a closed-loop PID control scheme on an RX2 inverter, where an analog pressure sensor value regulates motor speed with sleep and wake-up threshold logic.",
+          "manufacturer": "Omron",
+          "product_examples": ["RX2", "Sysmac Studio"]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An Omron RX2 inverter trips with fault code 'E14.x' (Ground Fault). What physical isolation resistance test (using a 500V megohmmeter) should be performed on the motor windings to distinguish a cable breakdown from an internal inverter current sensor failure?"
+          "question": "An Omron RX2 inverter trips with fault code 'E14.x' (Ground Fault). What physical isolation resistance test (using a 500V megohmmeter) should be performed on the motor windings to distinguish a cable breakdown from an internal inverter current sensor failure?",
+          "manufacturer": "Omron",
+          "product_examples": ["RX2"]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer configures an MX2 inverter for a motor cable run of 75 meters but leaves the 'Carrier Frequency' parameter at 15kHz without installing an output AC reactor. Why does this trigger frequent 'E03' (Overcurrent) trips during acceleration, and how do you resolve it?"
+          "question": "An installer configures an MX2 inverter for a motor cable run of 75 meters but leaves the 'Carrier Frequency' parameter at 15kHz without installing an output AC reactor. Why does this trigger frequent 'E03' (Overcurrent) trips during acceleration, and how do you resolve it?",
+          "manufacturer": "Omron",
+          "product_examples": ["MX2"]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Total Harmonic Distortion (THD-V) on the mains power line generated by multiple 22kW RX2 inverters is causing erratic voltage faults on adjacent sensitive weighing instruments. How do you calculate and specify the correct input AC reactor to filter these line harmonics?"
+          "question": "Total Harmonic Distortion (THD-V) on the mains power line generated by multiple 22kW RX2 inverters is causing erratic voltage faults on adjacent sensitive weighing instruments. How do you calculate and specify the correct input AC reactor to filter these line harmonics?",
+          "manufacturer": "Omron",
+          "product_examples": ["RX2"]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To maintain compliance with EN ISO 13849-1 PL d (Category 3) using the built-in Safe Torque Off (STO) function on an Omron MX2 inverter, what dual-channel safety wiring configuration and safety feedback monitoring loop must be implemented?"
+          "question": "To maintain compliance with EN ISO 13849-1 PL d (Category 3) using the built-in Safe Torque Off (STO) function on an Omron MX2 inverter, what dual-channel safety wiring configuration and safety feedback monitoring loop must be implemented?",
+          "manufacturer": "Omron",
+          "product_examples": ["MX2"]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron G5-series R88D-KN (with standard STO safety inputs) and a 1S-series R88D-1SAN (with advanced safety functions including SS1, SLS, SDI, and SBC via FSoE) when upgrading an automated robotic cell?"
+          "question": "How do you select between an Omron G5-series R88D-KN (with standard STO safety inputs) and a 1S-series R88D-1SAN (with advanced safety functions including SS1, SLS, SDI, and SBC via FSoE) when upgrading an automated robotic cell?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-KN", "R88D-1SAN"]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When mating an Omron R88M-1AM safety-rated servo motor with an R88D-1SAN safety drive, how is the safety-certified absolute encoder feedback loop routed, and what diagnostic parameters must be verified in Sysmac Studio to ensure correct startup alignment?"
+          "question": "When mating an Omron R88M-1AM safety-rated servo motor with an R88D-1SAN safety drive, how is the safety-certified absolute encoder feedback loop routed, and what diagnostic parameters must be verified in Sysmac Studio to ensure correct startup alignment?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88M-1AM", "R88D-1SAN", "Sysmac Studio"]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum safety response time (milliseconds) from a Safe Stop 1 (SS1) trigger input to torque termination on an Omron R88D-1SAN drive, and how does the configured deceleration ramp slope impact overall stopping distance?"
+          "question": "What is the maximum safety response time (milliseconds) from a Safe Stop 1 (SS1) trigger input to torque termination on an Omron R88D-1SAN drive, and how does the configured deceleration ramp slope impact overall stopping distance?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SAN"]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "What are the mechanical vibration limits (axis-wise acceleration in $\\text{m/s}^2$) for an Omron R88M safety-rated servo motor to prevent damage to its internal safety-certified encoder and maintain its rated $B_{10d}$ lifecycle value?"
+          "question": "What are the mechanical vibration limits (axis-wise acceleration in $\\text{m/s}^2$) for an Omron R88M safety-rated servo motor to prevent damage to its internal safety-certified encoder and maintain its rated $B_{10d}$ lifecycle value?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88M"]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure the FSoE process data mapping in an Omron NX-SL5500 Safety Controller to command Safe Speed Limits (SLS) and Safe Direction (SDI) on an R88D-1SAN-ECT drive, detailing the safe-state data structures."
+          "question": "Explain how to configure the FSoE process data mapping in an Omron NX-SL5500 Safety Controller to command Safe Speed Limits (SLS) and Safe Direction (SDI) on an R88D-1SAN-ECT drive, detailing the safe-state data structures.",
+          "manufacturer": "Omron",
+          "product_examples": ["NX-SL5500", "R88D-1SAN-ECT"]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a safety logic program in Sysmac Studio Safety Editor that monitors a safety gate non-contact switch, transitions an R88D-1SAN safety drive to Safe Limited Speed (SLS) when the gate is opened, and triggers Safe Torque Off (STO) if the speed limit is exceeded."
+          "question": "Develop a safety logic program in Sysmac Studio Safety Editor that monitors a safety gate non-contact switch, transitions an R88D-1SAN safety drive to Safe Limited Speed (SLS) when the gate is opened, and triggers Safe Torque Off (STO) if the speed limit is exceeded.",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SAN", "Sysmac Studio"]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the troubleshooting procedure when an Omron 1S safety drive logs Safety Fault 'A19.00' (FSoE Communications Error), and how do you differentiate between an physical fiber-optic link issue and an FSoE watchdog timer expiration?"
+          "question": "What is the troubleshooting procedure when an Omron 1S safety drive logs Safety Fault 'A19.00' (FSoE Communications Error), and how do you differentiate between an physical fiber-optic link issue and an FSoE watchdog timer expiration?",
+          "manufacturer": "Omron",
+          "product_examples": ["1S"]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning, a technician misconfigures the Safe Brake Control (SBC) timing parameter on an R88D-1SAN drive, causing the mechanical holding brake to release before motor torque is established. Why does this cause a vertical axis sag, and how do you configure safe starting torque?"
+          "question": "During commissioning, a technician misconfigures the Safe Brake Control (SBC) timing parameter on an R88D-1SAN drive, causing the mechanical holding brake to release before motor torque is established. Why does this cause a vertical axis sag, and how do you configure safe starting torque?",
+          "manufacturer": "Omron",
+          "product_examples": ["R88D-1SAN"]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High electromagnetic interference (EMI) on the safety encoder cable from adjacent 480VAC power lines causes erratic parity check failures in the safety-rated absolute encoder feedback loop. How do you isolate the cables and verify signal integrity?"
+          "question": "High electromagnetic interference (EMI) on the safety encoder cable from adjacent 480VAC power lines causes erratic parity check failures in the safety-rated absolute encoder feedback loop. How do you isolate the cables and verify signal integrity?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To satisfy IEC 61508 SIL3 and ISO 13849-1 PL e safety requirements for a robotic workcell utilizing an Omron 1S safety servo drive, what documentation and diagnostic coverage (DC) calculations must be prepared for the Safe Limited Speed (SLS) function?"
+          "question": "To satisfy IEC 61508 SIL3 and ISO 13849-1 PL e safety requirements for a robotic workcell utilizing an Omron 1S safety servo drive, what documentation and diagnostic coverage (DC) calculations must be prepared for the Safe Limited Speed (SLS) function?",
+          "manufacturer": "Omron",
+          "product_examples": ["1S"]
         }
       ]
     }

@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron E3X-HD41 (PNP discrete output) and an E3X-DAG-S (green light source, analog output) fiber amplifier when designing an optical sorting line that must distinguish between red and green plastic caps?"
+          "question": "How do you select between an Omron E3X-HD41 (PNP discrete output) and an E3X-DAG-S (green light source, analog output) fiber amplifier when designing an optical sorting line that must distinguish between red and green plastic caps?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3X-HD41", "E3X-DAG-S" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When mating an E32-TC200 plastic fiber optic cable with an E3X-HD11 amplifier, what is the purpose of the E39-F4 fiber cutter tool, and how does a rough or angled fiber cut affect the optical coupling insertion loss?"
+          "question": "When mating an E32-TC200 plastic fiber optic cable with an E3X-HD11 amplifier, what is the purpose of the E39-F4 fiber cutter tool, and how does a rough or angled fiber cut affect the optical coupling insertion loss?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E32-TC200", "E3X-HD11", "E39-F4" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum sensing distance limit of an E32-LD11 coaxial diffuse fiber unit when paired with an E3X-NX amplifier in 'Super High Speed' (GIGA) mode compared to 'Ultra High Speed' (UHS) mode, and how does this affect minimum target size resolution?"
+          "question": "What is the maximum sensing distance limit of an E32-LD11 coaxial diffuse fiber unit when paired with an E3X-NX amplifier in 'Super High Speed' (GIGA) mode compared to 'Ultra High Speed' (UHS) mode, and how does this affect minimum target size resolution?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E32-LD11", "E3X-NX" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron E32-T84S heat-resistant glass fiber unit inside an industrial curing oven operating continuously at 300°C, what precautions must be taken regarding the fiber cladding bend radius and the remote mounting distance of the E3X-HD amplifier?"
+          "question": "When deploying an Omron E32-T84S heat-resistant glass fiber unit inside an industrial curing oven operating continuously at 300°C, what precautions must be taken regarding the fiber cladding bend radius and the remote mounting distance of the E3X-HD amplifier?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E32-T84S", "E3X-HD" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure an E3X-ECT EtherCAT communication unit to interface up to 16 E3X-HD0 fiber amplifiers on a single NX102 controller network, detailing how the cyclic process data is mapped to read raw incident light levels in real-time."
+          "question": "Explain how to configure an E3X-ECT EtherCAT communication unit to interface up to 16 E3X-HD0 fiber amplifiers on a single NX102 controller network, detailing how the cyclic process data is mapped to read raw incident light levels in real-time.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3X-ECT", "E3X-HD0", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a PLC ladder logic rung that evaluates input from an E3X-HD amplifier operating in 'Area Output' mode to trigger a high-speed packaging reject gate only when a dynamic product's thickness variation exceeds +/- 0.5mm."
+          "question": "Develop a PLC ladder logic rung that evaluates input from an E3X-HD amplifier operating in 'Area Output' mode to trigger a high-speed packaging reject gate only when a dynamic product's thickness variation exceeds +/- 0.5mm.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3X-HD" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the troubleshooting procedure when an E3X-HD amplifier displays a flashing 'Err' or 'LOC' lock indication on its dual digital display, and how do you verify if the internal light-emitting element has suffered thermal degradation?"
+          "question": "What is the troubleshooting procedure when an E3X-HD amplifier displays a flashing 'Err' or 'LOC' lock indication on its dual digital display, and how do you verify if the internal light-emitting element has suffered thermal degradation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3X-HD" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A technician performs a 'Smart Tuning' (Auto-Teach) calibration on an E3X-HD amplifier while the background conveyor is highly reflective, resulting in frequent false detections. How do you manually adjust the threshold and configure the 'Two-Point Tuning' parameter to resolve this?"
+          "question": "A technician performs a 'Smart Tuning' (Auto-Teach) calibration on an E3X-HD amplifier while the background conveyor is highly reflective, resulting in frequent false detections. How do you manually adjust the threshold and configure the 'Two-Point Tuning' parameter to resolve this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3X-HD" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When ten E3X-HD amplifiers are mounted side-by-side on a DIN rail, mutual optical crosstalk causes erratic output chattering. How do you physically align the units and configure the built-in optical communication channel to synchronize emission pulses and eliminate crosstalk?"
+          "question": "When ten E3X-HD amplifiers are mounted side-by-side on a DIN rail, mutual optical crosstalk causes erratic output chattering. How do you physically align the units and configure the built-in optical communication channel to synchronize emission pulses and eliminate crosstalk?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3X-HD" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What Class 1/Class 2 laser safety and IEC 60825-1 compliance documentation must be prepared when integrating high-power Omron E32 laser-type fiber sensor heads into an open-access manual assembly workbench?"
+          "question": "What Class 1/Class 2 laser safety and IEC 60825-1 compliance documentation must be prepared when integrating high-power Omron E32 laser-type fiber sensor heads into an open-access manual assembly workbench?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E32" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron XS2F-D421-D80-F (M12, PVC jacket, standard) and an XS5F-D421-D80-F (M12, PUR jacket, Smartclick quick-connect) when specifying cabling for a robotic arm subject to continuous torsional flexing and cutting-oil exposure?"
+          "question": "How do you select between an Omron XS2F-D421-D80-F (M12, PVC jacket, standard) and an XS5F-D421-D80-F (M12, PUR jacket, Smartclick quick-connect) when specifying cabling for a robotic arm subject to continuous torsional flexing and cutting-oil exposure?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS2F-D421-D80-F", "XS5F-D421-D80-F" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When mating an Omron XS5 Smartclick quick-connect plug with a standard, non-Omron threaded M12 receptacle, what mechanical locking modifications occur, and does this configuration still maintain its IP67/IP69K environmental rating?"
+          "question": "When mating an Omron XS5 Smartclick quick-connect plug with a standard, non-Omron threaded M12 receptacle, what mechanical locking modifications occur, and does this configuration still maintain its IP67/IP69K environmental rating?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS5" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the continuous current carrying capacity limit of an XS2W-series 4-pole M12 cordset at 40°C ambient, and how do you calculate the voltage drop along a 20-meter cable run when powering a remote 16-port sensor manifold drawing 3.5A?"
+          "question": "What is the continuous current carrying capacity limit of an XS2W-series 4-pole M12 cordset at 40°C ambient, and how do you calculate the voltage drop along a 20-meter cable run when powering a remote 16-port sensor manifold drawing 3.5A?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS2W-series" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An XS5W robot cable is deployed on a dynamic gantry system in an automotive body shop. What are the specific bend radius limits (R≥10×cable diameter) and torsional stress constraints (180∘ /meter) required to prevent conductor fatigue?"
+          "question": "An XS5W robot cable is deployed on a dynamic gantry system in an automotive body shop. What are the specific bend radius limits (R≥10×cable diameter) and torsional stress constraints (180°/meter) required to prevent conductor fatigue?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS5W" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the pinout differences and shielding terminations required when wiring an XS6G-T421-1 (M12 D-coded) connector for a 100Mbps EtherCAT industrial Ethernet network versus an XS6W-6LSUB8SS (M12 X-coded) connector for a 1Gbps Ethernet line."
+          "question": "Detail the pinout differences and shielding terminations required when wiring an XS6G-T421-1 (M12 D-coded) connector for a 100Mbps EtherCAT industrial Ethernet network versus an XS6W-6LSUB8SS (M12 X-coded) connector for a 1Gbps Ethernet line.",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS6G-T421-1", "XS6W-6LSUB8SS" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Design a physical wiring loopback diagnostic method on a PLC where spare conductor pins in an XS2W connector are used to continuously verify physical cable connection integrity and trigger an alert if micro-breaks occur during motion."
+          "question": "Design a physical wiring loopback diagnostic method on a PLC where spare conductor pins in an XS2W connector are used to continuously verify physical cable connection integrity and trigger an alert if micro-breaks occur during motion.",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS2W" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you diagnose an intermittent high-resistance ground loop fault on a shielded XS2W sensor cable, and what electrical diagnostic measurements (such as insulation resistance at 500VDC) indicate a breakdown in the cable's outer jacket?"
+          "question": "How do you diagnose an intermittent high-resistance ground loop fault on a shielded XS2W sensor cable, and what electrical diagnostic measurements (such as insulation resistance at 500VDC) indicate a breakdown in the cable's outer jacket?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS2W" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A field technician uses standard pliers to tighten an M12 XS2 connector, damaging the knurled metal nut and exceeding the recommended tightening torque of 0.49 N·m. How does this mechanical over-stress damage the internal pin carrier and lead to intermittent contacts?"
+          "question": "A field technician uses standard pliers to tighten an M12 XS2 connector, damaging the knurled metal nut and exceeding the recommended tightening torque of 0.49 N·m. How does this mechanical over-stress damage the internal pin carrier and lead to intermittent contacts?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS2" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electromagnetic interference (EMI) from a neighboring VFD cable is coupling into an adjacent unshielded XS2F sensor cordset. What shielding termination techniques (such as 360-degree shield connection to the connector shell) are required to eliminate this noise?"
+          "question": "High-frequency electromagnetic interference (EMI) from a neighboring VFD cable is coupling into an adjacent unshielded XS2F sensor cordset. What shielding termination techniques (such as 360-degree shield connection to the connector shell) are required to eliminate this noise?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS2F" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To comply with UL 2238 (Cable Assemblies for Industrial Control and Signal Distribution) and NFPA 79 panel wiring regulations, what flame retardant and low-smoke halogen-free (LSZH) specifications must be verified on Omron XS5 series cables?"
+          "question": "To comply with UL 2238 (Cable Assemblies for Industrial Control and Signal Distribution) and NFPA 79 panel wiring regulations, what flame retardant and low-smoke halogen-free (LSZH) specifications must be verified on Omron XS5 series cables?",
+          "manufacturer": "Omron",
+          "product_examples": [ "XS5" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron E4C-UDA11 (separate amplifier unit with digital display) and a self-contained E4E-TS50 through-beam ultrasonic sensor when measuring the level of highly volatile, foaming chemical agents in a reactor vessel?"
+          "question": "How do you select between an Omron E4C-UDA11 (separate amplifier unit with digital display) and a self-contained E4E-TS50 through-beam ultrasonic sensor when measuring the level of highly volatile, foaming chemical agents in a reactor vessel?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-UDA11", "E4E-TS50" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing the 4-20mA analog output of an Omron E4C-DS30 ultrasonic sensor to an NX-AD2603 analog input module, how do you scale the raw process values in Sysmac Studio to map the sensor's physical 60mm to 300mm detection range?"
+          "question": "When interfacing the 4-20mA analog output of an Omron E4C-DS30 ultrasonic sensor to an NX-AD2603 analog input module, how do you scale the raw process values in Sysmac Studio to map the sensor's physical 60mm to 300mm detection range?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-DS30", "NX-AD2603" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the physical size of the acoustic dead-band (blind zone) on an E4C-DS80 sensor, and what target distance limitations occur if an object enters within 80mm of the active ultrasonic transducer face?"
+          "question": "What is the physical size of the acoustic dead-band (blind zone) on an E4C-DS80 sensor, and what target distance limitations occur if an object enters within 80mm of the active ultrasonic transducer face?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-DS80" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "How do variations in ambient air temperature, relative humidity, and air convection currents inside a thermal packaging tunnel affect the acoustic speed-of-sound calibration of an E4C sensor, and how do you implement temperature compensation?"
+          "question": "How do variations in ambient air temperature, relative humidity, and air convection currents inside a thermal packaging tunnel affect the acoustic speed-of-sound calibration of an E4C sensor, and how do you implement temperature compensation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to wire and configure the synchronization gate input terminals on two adjacent E4C-UDA amplifiers to prevent mutual acoustic interference (crosstalk) when detecting parts on a dual-lane conveyor."
+          "question": "Explain how to wire and configure the synchronization gate input terminals on two adjacent E4C-UDA amplifiers to prevent mutual acoustic interference (crosstalk) when detecting parts on a dual-lane conveyor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-UDA" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a Structured Text (ST) filter algorithm in Sysmac Studio to process the analog distance signal from an E4C sensor, implementing a rolling median filter to ignore transient signal dropouts caused by airborne dust particles."
+          "question": "Develop a Structured Text (ST) filter algorithm in Sysmac Studio to process the analog distance signal from an E4C sensor, implementing a rolling median filter to ignore transient signal dropouts caused by airborne dust particles.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What does a flashing 'Err' or 'NO_DATA' display on the E4C-UDA separate amplifier indicate regarding the connection status of the remote sensor probe, and what impedance test across terminals 1 and 3 verifies a broken transceiver wire?"
+          "question": "What does a flashing 'Err' or 'NO_DATA' display on the E4C-UDA separate amplifier indicate regarding the connection status of the remote sensor probe, and what impedance test across terminals 1 and 3 verifies a broken transceiver wire?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-UDA" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer mounts an E4C-DS30 sensor perpendicular to a sloped chute, causing the acoustic wave to bounce off the surface at a 15-degree angle. Why does this result in complete signal loss (no echo), and how do you adjust the mounting alignment?"
+          "question": "An installer mounts an E4C-DS30 sensor perpendicular to a sloped chute, causing the acoustic wave to bounce off the surface at a 15-degree angle. Why does this result in complete signal loss (no echo), and how do you adjust the mounting alignment?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-DS30" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency ultrasonic exhaust noise from pneumatic solenoid valves on an adjacent sorting machine is causing erratic distance readings on an E4C sensor. How do you shield the acoustic beam path and adjust the amplifier's response delay to stabilize the loop?"
+          "question": "High-frequency ultrasonic exhaust noise from pneumatic solenoid valves on an adjacent sorting machine is causing erratic distance readings on an E4C sensor. How do you shield the acoustic beam path and adjust the amplifier's response delay to stabilize the loop?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What ATEX/IECEx intrinsically safe design rules and barrier modules must be verified when deploying an Omron E4C-series ultrasonic sensor probe directly inside a Class I, Division 1 hazardous explosive gas environment?"
+          "question": "What ATEX/IECEx intrinsically safe design rules and barrier modules must be verified when deploying an Omron E4C-series ultrasonic sensor probe directly inside a Class I, Division 1 hazardous explosive gas environment?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E4C-series" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron E3AS-HL500LMN (CMOS line-beam laser with background suppression) and an E3Z-D62 (LED diffuse reflective) sensor when detecting dark, highly textured, non-reflective automotive carpet panels?"
+          "question": "How do you select between an Omron E3AS-HL500LMN (CMOS line-beam laser with background suppression) and an E3Z-D62 (LED diffuse reflective) sensor when detecting dark, highly textured, non-reflective automotive carpet panels?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-HL500LMN", "E3Z-D62" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating an Omron E3AS-F100LMN IO-Link photoelectric sensor with a third-party EtherNet/IP IO-Link master, what steps must be executed to import the IODD file and map the process data bytes to read diagnostic parameters?"
+          "question": "When integrating an Omron E3AS-F100LMN IO-Link photoelectric sensor with a third-party EtherNet/IP IO-Link master, what steps must be executed to import the IODD file and map the process data bytes to read diagnostic parameters?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-F100LMN" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum allowable tilt angle (angle of incidence) of an E3AS-HL sensor relative to a highly polished chrome bumper before the reflected laser beam completely misses the internal CMOS receiver array?"
+          "question": "What is the maximum allowable tilt angle (angle of incidence) of an E3AS-HL sensor relative to a highly polished chrome bumper before the reflected laser beam completely misses the internal CMOS receiver array?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-HL" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An E3AS-F sensor is installed inside an engine washdown bay exposed to nitric acid cleaning chemicals and hot steam. What stainless steel grade (SUS316L) and IP69K sealing accessories are required to prevent moisture ingress?"
+          "question": "An E3AS-F sensor is installed inside an engine washdown bay exposed to nitric acid cleaning chemicals and hot steam. What stainless steel grade (SUS316L) and IP69K sealing accessories are required to prevent moisture ingress?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-F" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure the IO-Link parameters on an E3AS-HL sensor to simultaneously output both the primary digital measurement value and the real-time 'excess gain' warning bit to an NX-ILM400 master."
+          "question": "Explain how to configure the IO-Link parameters on an E3AS-HL sensor to simultaneously output both the primary digital measurement value and the real-time 'excess gain' warning bit to an NX-ILM400 master.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS-HL", "NX-ILM400" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PLC logic block that monitors the analog output signal of an E3AS sensor, implementing a dynamic threshold tracking routine that auto-compensates for progressive dust build-up on the sensor face over time."
+          "question": "Write a PLC logic block that monitors the analog output signal of an E3AS sensor, implementing a dynamic threshold tracking routine that auto-compensates for progressive dust build-up on the sensor face over time.",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3AS" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What does a flashing orange and green LED combination on an Omron E3Z through-beam receiver indicate, and how do you troubleshoot an overcurrent short-circuit state in the sensor's internal PNP output transistor?"
+          "question": "What does a flashing orange and green LED combination on an Omron E3Z through-beam receiver indicate, and how do you troubleshoot an overcurrent short-circuit state in the sensor's internal PNP output transistor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A technician mounts an E3Z-R61 retroreflective sensor directly facing a shiny stainless steel machine frame behind the target path. Why does this cause the sensor to remain permanently in a 'clear path' state, and how do you resolve it?"
+          "question": "A technician mounts an Omron E3Z-R61 retroreflective sensor directly facing a shiny stainless steel machine frame behind the target path. Why does this cause the sensor to remain permanently in a 'clear path' state, and how do you resolve it?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-R61" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Mutual optical interference from three adjacent E3Z-T61 through-beam sensors is causing erratic switching. How do you implement physical slit plates or apply the sensor's polarization filter frequency settings to eliminate this?"
+          "question": "Mutual optical interference from three adjacent E3Z-T61 through-beam sensors is causing erratic switching. How do you implement physical slit plates or apply the sensor's polarization filter frequency settings to eliminate this?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z-T61" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When utilizing a standard Omron E3Z photoelectric sensor to detect muting zones in a safety light curtain application, what technical safety and diagnostic coverage parameters must be met to maintain compliance with ISO 13849-1 PL d?"
+          "question": "When utilizing a standard Omron E3Z photoelectric sensor to detect muting zones in a safety light curtain application, what technical safety and diagnostic coverage requirements must be met to maintain compliance with ISO 13849-1 PL d?",
+          "manufacturer": "Omron",
+          "product_examples": [ "E3Z" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron ZW-8000 series (white-light confocal displacement sensor) and a ZX2-LD50 (CMOS laser displacement sensor) for sub-micron thickness profiling of multi-layered transparent glass substrates?"
+          "question": "How do you select between an Omron ZW-8000 series (white-light confocal displacement sensor) and a ZX2-LD50 (CMOS laser displacement sensor) for sub-micron thickness profiling of multi-layered transparent glass substrates?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZW-8000 series", "ZX2-LD50" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing a ZW-7000 confocal controller's high-speed EtherCAT port with an NX701-1600 controller, what minimum task cycle period must be configured in Sysmac Studio to support synchronous, real-time data sampling without frame drops?"
+          "question": "When interfacing a ZW-7000 confocal controller's high-speed EtherCAT port with an NX701-1600 controller, what minimum task cycle period must be configured in Sysmac Studio to support synchronous, real-time data sampling without frame drops?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZW-7000", "NX701-1600" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum sampling frequency of the Omron ZW-8000 (e.g., 20 µs), and how does the internal exposure time setting limit the sensor's ability to measure highly reflective surfaces moving at 10 meters per second?"
+          "question": "What is the maximum sampling frequency of the Omron ZW-8000 (e.g., 20 µs), and how does the internal exposure time setting limit the sensor's ability to measure highly reflective surfaces moving at 10 meters per second?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZW-8000" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "What is the thermal drift coefficient of the ZW-8000 sensor head, and how do you implement a temperature compensation program on the PLC to maintain sub-micron measurement accuracy in a cabinet with fluctuating temperatures?"
+          "question": "What is the thermal drift coefficient of the ZW-8000 sensor head, and how do you implement a temperature compensation program on the PLC to maintain sub-micron measurement accuracy in a cabinet with fluctuating temperatures?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZW-8000" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Detail the configuration steps to map the high-speed Ethernet socket interface of an Omron ZX2 controller to an industrial PC, enabling the continuous retrieval of 2000 thickness samples per second using raw TCP messaging."
+          "question": "Detail the configuration steps to map the high-speed Ethernet socket interface of an Omron ZX2 controller to an industrial PC, enabling the continuous retrieval of 2000 thickness samples per second using raw TCP messaging.",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZX2" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a PLC routine to calculate the runout and ovality of a high-speed rotating steel shaft using two opposing ZX2 displacement sensors, synchronizing measurement captures with a physical encoder index pulse."
+          "question": "Develop a PLC routine to calculate the runout and ovality of a high-speed rotating steel shaft using two opposing ZX2 displacement sensors, synchronizing measurement captures with a physical encoder index pulse.",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZX2" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the diagnostic procedure when a ZW confocal controller displays the 'Light Amount Shortage' error flag, and how do you isolate a dirty fiber optic connector from a failing internal white-light LED source?"
+          "question": "What is the diagnostic procedure when a ZW confocal controller displays the 'Light Amount Shortage' error flag, and how do you isolate a dirty fiber optic connector from a failing internal white-light LED source?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZW" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An engineer mounts a ZX2 laser sensor at exactly 90 degrees to a highly specular (mirror-like) target, causing CMOS receiver saturation. Why does this fail to calculate measurement values, and what is the correct angular offset installation?"
+          "question": "An engineer mounts a ZX2 laser sensor at exactly 90 degrees to a highly specular (mirror-like) target, causing CMOS receiver saturation. Why does this fail to calculate measurement values, and what is the correct angular offset installation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZX2" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Micro-vibrations from a nearby CNC milling machine are distorting the sub-nanometer measurements of a ZW confocal sensor. How can you optimize the controller's moving average and digital low-pass filter settings to filter out this floor noise?"
+          "question": "Micro-vibrations from a nearby CNC milling machine are distorting the sub-nanometer measurements of a ZW confocal sensor. How can you optimize the controller's moving average and digital low-pass filter settings to filter out this floor noise?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZW" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What safety interlock wiring configurations and physical warning indicator rules are required to maintain compliance with FDA Laser Class 3R and IEC 60825-1 safety standards when deploying an Omron ZX2 laser displacement sensor?"
+          "question": "What safety interlock wiring configurations and physical warning indicator rules are required to maintain compliance with FDA Laser Class 3R and IEC 60825-1 safety standards when deploying an Omron ZX2 laser displacement sensor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "ZX2" ]
         }
       ]
     }

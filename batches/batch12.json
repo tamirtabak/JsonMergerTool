@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron Accurax iron-core linear motor (R88L-EC-GW series) and an ironless linear motor (R88L-EC-FW series) for a high-speed semiconductor positioning gantry, specifically evaluating cogging forces, acceleration requirements, and peak force density?"
+          "question": "How do you select between an Omron Accurax iron-core linear motor (R88L-EC-GW series) and an ironless linear motor (R88L-EC-FW series) for a high-speed semiconductor positioning gantry, specifically evaluating cogging forces, acceleration requirements, and peak force density?",
+          "manufacturer": "Omron",
+          "product_examples": [ "R88L-EC-GW", "R88L-EC-FW" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "What configuration parameters and hardware interface steps are required to interface a third-party 1Vpp differential analog linear encoder with an Omron 1S-series linear servo drive (R88D-1SN-ECT-L), and how do you calculate the electronic gear ratio in Sysmac Studio?"
+          "question": "What configuration parameters and hardware interface steps are required to interface a third-party 1Vpp differential analog linear encoder with an Omron 1S-series linear servo drive (R88D-1SN-ECT-L), and how do you calculate the electronic gear ratio in Sysmac Studio?",
+          "manufacturer": "Omron",
+          "product_examples": [ "R88D-1SN-ECT-L", "Sysmac Studio" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you calculate the thermal dissipation and continuous root-mean-square (RMS) force ($F_{rms}$) of an Omron Accurax linear motor to prevent triggering a drive-level $I^2t$ thermal overload alarm during a continuous, high-duty-cycle reciprocating motion profile?"
+          "question": "How do you calculate the thermal dissipation and continuous root-mean-square (RMS) force ($F_{rms}$) of an Omron Accurax linear motor to prevent triggering a drive-level $I^2t$ thermal overload alarm during a continuous, high-duty-cycle reciprocating motion profile?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Accurax" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron iron-core linear motor in an environment with high concentrations of airborne metallic grinding dust, what physical guarding, bellows, and magnetic track slide isolation designs are necessary to prevent physical damage from the strong magnetic attraction forces?"
+          "question": "When deploying an Omron iron-core linear motor in an environment with high concentrations of airborne metallic grinding dust, what physical guarding, bellows, and magnetic track slide isolation designs are necessary to prevent physical damage from the strong magnetic attraction forces?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure Sysmac Studio drive parameters to map local hardware overtravel limit switches and home sensor inputs directly to the 1S linear drive over EtherCAT, ensuring that the drive handles axis deceleration deterministically without PLC processor intervention."
+          "question": "Explain how to configure Sysmac Studio drive parameters to map local hardware overtravel limit switches and home sensor inputs directly to the 1S linear drive over EtherCAT, ensuring that the drive handles axis deceleration deterministically without PLC processor intervention?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio", "1S" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a Structured Text (ST) routine in Sysmac Studio that executes a high-speed positioning cycle using the `MC_MoveAbsolute` instruction on a linear axis, incorporating real-time adjustment of notch filter parameters to suppress high-frequency mechanical resonance in the linear carriage."
+          "question": "Develop a Structured Text (ST) routine in Sysmac Studio that executes a high-speed positioning cycle using the `MC_MoveAbsolute` instruction on a linear axis, incorporating real-time adjustment of notch filter parameters to suppress high-frequency mechanical resonance in the linear carriage.",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the systematic troubleshooting protocol when an Omron 1S linear drive displays Error Code 'A30.00' (Linear Encoder Communication Error), and how do you verify if the fault lies in optical read-head misalignment, cable attenuation, or serial protocol mismatch?"
+          "question": "What is the systematic troubleshooting protocol when an Omron 1S linear drive displays Error Code 'A30.00' (Linear Encoder Communication Error), and how do you verify if the fault lies in optical read-head misalignment, cable attenuation, or serial protocol mismatch?",
+          "manufacturer": "Omron",
+          "product_examples": [ "1S" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During the commissioning of an Accurax linear motor, a technician mistakenly wires the motor's U and V phases in reverse. Why does this cause an immediate high-acceleration runaway condition upon axis enabling, and how do you safely perform a magnetic pole auto-phasing test to resolve it?"
+          "question": "During the commissioning of an Accurax linear motor, a technician mistakenly wires the motor's U and V phases in reverse. Why does this cause an immediate high-acceleration runaway condition upon axis enabling, and how do you safely perform a magnetic pole auto-phasing test to resolve it?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Accurax" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High electromagnetic interference (EMI) radiated from an adjacent high-flex 480VAC power carrier is inducing voltage noise onto the linear encoder's feedback cable, causing periodic micro-positioning jumps. How do you implement proper shielding, ground clamps, and ferrite chokes to isolate this noise?"
+          "question": "High electromagnetic interference (EMI) radiated from an adjacent high-flex 480VAC power carrier is inducing voltage noise onto the linear encoder's feedback cable, causing periodic micro-positioning jumps. How do you implement proper shielding, ground clamps, and ferrite chokes to isolate this noise?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To satisfy ISO 13849-1 PL d safety requirements on a high-speed linear motor axis, what safe brake-control and dynamic short-circuit winding braking systems must be integrated with the 1S drive's STO (Safe Torque Off) and SS1 (Safe Stop 1) circuits?"
+          "question": "To satisfy ISO 13849-1 PL d safety requirements on a high-speed linear motor axis, what safe brake-control and dynamic short-circuit winding braking systems must be integrated with the 1S drive's STO (Safe Torque Off) and SS1 (Safe Stop 1) circuits?",
+          "manufacturer": "Omron",
+          "product_examples": [ "1S" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron V410-H standard industrial handheld scanner and an Omron V450-H ultra-rugged DPM reader when designing a traceability station for laser-etched 2D DataMatrix codes on cast-aluminum engine components?"
+          "question": "How do you select between an Omron V410-H standard industrial handheld scanner and an Omron V450-H ultra-rugged DPM reader when designing a traceability station for laser-etched 2D DataMatrix codes on cast-aluminum engine components?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V410-H", "V450-H" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When interfacing an Omron V410-H scanner with an Omron NB7W HMI terminal, what physical cable variants and serial communication protocols (such as USB-Keyboard, USB-COM, or RS-232) must be selected to ensure data is correctly populated into screen input fields?"
+          "question": "When interfacing an Omron V410-H scanner with an Omron NB7W HMI terminal, what physical cable variants and serial communication protocols (such as USB-Keyboard, USB-COM, or RS-232) must be selected to ensure data is correctly populated into screen input fields?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V410-H", "NB7W" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum scan rate capacity (decodes per second) of an Omron V410-H scanner, and what are the internal buffer storage limits when operating the wireless Bluetooth model in batch mode outside the receiver's range?"
+          "question": "What is the maximum scan rate capacity (decodes per second) of an Omron V410-H scanner, and what are the internal buffer storage limits when operating the wireless Bluetooth model in batch mode outside the receiver's range?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V410-H" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In an automotive assembly bay where handheld scanners are frequently dropped onto concrete floors and exposed to engine lubricants, what physical drop ratings (such as 1.8m drops) and IP ratings (IP65 vs IP67) distinguish the V450-H from the V410-H?"
+          "question": "In an automotive assembly bay where handheld scanners are frequently dropped onto concrete floors and exposed to engine lubricants, what physical drop ratings (such as 1.8m drops) and IP ratings (IP65 vs IP67) distinguish the V450-H from the V410-H?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V450-H", "V410-H" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure an Omron HS-360X handheld scanner gateway to establish an EtherNet/IP connection to an NX102 PLC, and how are the input assembly instances mapped to extract barcode data string arrays?"
+          "question": "How do you configure an Omron HS-360X handheld scanner gateway to establish an EtherNet/IP connection to an NX102 PLC, and how are the input assembly instances mapped to extract barcode data string arrays?",
+          "manufacturer": "Omron",
+          "product_examples": [ "HS-360X", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PLC logic sequence that parses a scanned ASCII string from an Omron handheld reader, extracts a 12-digit serial code, evaluates it against an internal PLC lookup table, and outputs a reject bit if the part does not match the active production recipe."
+          "question": "Write a PLC logic sequence that parses a scanned ASCII string from an Omron handheld reader, extracts a 12-digit serial code, evaluates it against an internal PLC lookup table, and outputs a reject bit if the part does not match the active production recipe.",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What do specific beep sequences and red flashing LED patterns on an Omron V410-H signify regarding hardware component failure (e.g., optical imaging engine failure), and how do you perform a factory default reset using configuration barcodes?"
+          "question": "What do specific beep sequences and red flashing LED patterns on an Omron V410-H signify regarding hardware component failure (e.g., optical imaging engine failure), and how do you perform a factory default reset using configuration barcodes?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V410-H" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An operator reports that an Omron handheld scanner is unable to read dynamic PDF417 barcodes on shipping labels. How do you resolve this commissioning mistake by activating the specific barcode symbologies in the WebLinkPC configuration utility?"
+          "question": "An operator reports that an Omron handheld scanner is unable to read dynamic PDF417 barcodes on shipping labels. How do you resolve this commissioning mistake by activating the specific barcode symbologies in the WebLinkPC configuration utility?",
+          "manufacturer": "Omron",
+          "product_examples": [ "WebLinkPC" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-intensity overhead sodium-vapor lighting on an assembly floor is causing reflection glare on shiny metal labels, preventing the handheld scanner from decoding. How do you configure the reader's internal illumination settings or change the target polarizer to mitigate this glare?"
+          "question": "High-intensity overhead sodium-vapor lighting on an assembly floor is causing reflection glare on shiny metal labels, preventing the handheld scanner from decoding. How do you configure the reader's internal illumination settings or change the target polarizer to mitigate this glare?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To meet GS1 compliance for medical device manufacturing, how do you verify that the Omron V450-H scanner output format aligns with GS1 parsing regulations and complies with ISO/IEC 15415 and ISO/IEC TR 29158 data matrix grading standards?"
+          "question": "To meet GS1 compliance for medical device manufacturing, how do you verify that the Omron V450-H scanner output format aligns with GS1 parsing regulations and complies with ISO/IEC 15415 and ISO/IEC TR 29158 data matrix grading standards?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V450-H" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron LVS-9510 desktop barcode verifier and an LVS-9580 handheld portable verifier when designing a label inspection station for varying packaging sizes in a medical device facility?"
+          "question": "How do you select between an Omron LVS-9510 desktop barcode verifier and an LVS-9580 handheld portable verifier when designing a label inspection station for varying packaging sizes in a medical device facility?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS-9510", "LVS-9580" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating LVS-9580 verification software with a local SQL database and enterprise ERP via XML export/import, how do you structure the XML schema to ensure that verification reports are automatically logged and traceable?"
+          "question": "When integrating LVS-9580 verification software with a local SQL database and enterprise ERP via XML export/import, how do you structure the XML schema to ensure that verification reports are automatically logged and traceable?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS-9580" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the field-of-view (FOV) size limits and minimum x-dimension resolution constraints of the LVS-9510 when verifying high-density 5-mil 1D linear barcodes versus larger 10-mil 2D DataMatrix codes?"
+          "question": "What are the field-of-view (FOV) size limits and minimum x-dimension resolution constraints of the LVS-9510 when verifying high-density 5-mil 1D linear barcodes versus larger 10-mil 2D DataMatrix codes?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS-9510" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "How do you calibrate and operate an LVS-9580 verifier on an open packaging floor with dusty environments and varying ambient light, and what are the best practices for keeping the certified NIST-traceable calibration card in pristine condition?"
+          "question": "How do you calibrate and operate an LVS-9580 verifier on an open packaging floor with dusty environments and varying ambient light, and what are the best practices for keeping the certified NIST-traceable calibration card in pristine condition?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS-9580" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure the LVS software to transmit a pass/fail output and graded verification score (A, B, C, D, F) to an NX102 controller via an Active-X control or TCP/IP socket connection?"
+          "question": "How do you configure the LVS software to transmit a pass/fail output and graded verification score (A, B, C, D, F) to an NX102 controller via an Active-X control or TCP/IP socket connection?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS software", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a PLC logic sequence that intercepts the 5-tier grade output from an LVS verifier, tracks the rolling average grade over a 100-label sample window, and triggers a warning alarm if the average quality drops below Grade C (ISO 2.0)."
+          "question": "Write a PLC logic sequence that intercepts the 5-tier grade output from an LVS verifier, tracks the rolling average grade over a 100-label sample window, and triggers a warning alarm if the average quality drops below Grade C (ISO 2.0).",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS verifier" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you troubleshoot a persistent 'Calibration Expired' or 'Camera Saturation' error on the LVS-9510 software, and what is the step-by-step physical calibration procedure using the certified NIST-traceable card?"
+          "question": "How do you troubleshoot a persistent 'Calibration Expired' or 'Camera Saturation' error on the LVS-9510 software, and what is the step-by-step physical calibration procedure using the certified NIST-traceable card?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS-9510" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the impact of configuring an incorrect aperture size (e.g., setting a 5-mil aperture for a 20-mil code) on an Omron LVS verifier, and how does this mistake affect the final ISO/IEC grading of the print quality?"
+          "question": "What is the impact of configuring an incorrect aperture size (e.g., setting a 5-mil aperture for a 20-mil code) on an Omron LVS verifier, and how does this mistake affect the final ISO/IEC grading of the print quality?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS verifier" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you diagnose and eliminate print-medium glare (such as on high-gloss thermal transfer paper) causing false 'Grade F' results due to low contrast, and what software or physical polarization methods are used to stabilize readings?"
+          "question": "How do you diagnose and eliminate print-medium glare (such as on high-gloss thermal transfer paper) causing false 'Grade F' results due to low contrast, and what software or physical polarization methods are used to stabilize readings?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "What security configurations and audit trail settings must be enabled on the LVS software to ensure compliance with FDA 21 CFR Part 11 electronic records regulations and GS1 General Specifications?"
+          "question": "What security configurations and audit trail settings must be enabled on the LVS software to ensure compliance with FDA 21 CFR Part 11 electronic records regulations and GS1 General Specifications?",
+          "manufacturer": "Omron",
+          "product_examples": [ "LVS software" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron MicroHAWK V430-F with liquid lens autofocus and an Omron V440-F high-resolution C-mount reader when reading 1.5mm laser-etched 2D DataMatrix codes on PCBs moving at high speed on an SMT conveyor?"
+          "question": "How do you select between an Omron MicroHAWK V430-F with liquid lens autofocus and an Omron V440-F high-resolution C-mount reader when reading 1.5mm laser-etched 2D DataMatrix codes on PCBs moving at high speed on an SMT conveyor?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MicroHAWK V430-F", "V440-F" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating an Omron V430-F reader into an EtherNet/IP network with an NJ501 controller, what specific steps must be taken to align the reader's hardware trigger input with the physical timing of an external high-speed digital output?"
+          "question": "When integrating an Omron V430-F reader into an EtherNet/IP network with an NJ501 controller, what specific steps must be taken to align the reader's hardware trigger input with the physical timing of an external high-speed digital output?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V430-F", "NJ501" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum decode frame rate (frames per second) of a MicroHAWK V430-F when operating with multiple processing tools active (such as simultaneously reading a barcode, checking print quality, and measuring width)?"
+          "question": "What is the maximum decode frame rate (frames per second) of a MicroHAWK V430-F when operating with multiple processing tools active (such as simultaneously reading a barcode, checking print quality, and measuring width)?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MicroHAWK V430-F" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When mounting a V430-F barcode reader inside an industrial grinding booth with persistent oily residues, what specific IP67-rated protective housing windows and pneumatic air-blast nozzle accessories must be integrated?"
+          "question": "When mounting a V430-F barcode reader inside an industrial grinding booth with persistent oily residues, what specific IP67-rated protective housing windows and pneumatic air-blast nozzle accessories must be integrated?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V430-F" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure an Omron V430-F reader to establish an FTP/SFTP connection to directly stream raw captured images to a remote NAS server, while simultaneously transmitting ASCII decode strings to a PLC over a TCP/IP port?"
+          "question": "How do you configure an Omron V430-F reader to establish an FTP/SFTP connection to directly stream raw captured images to a remote NAS server, while simultaneously transmitting ASCII decode strings to a PLC over a TCP/IP port?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V430-F" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a ladder logic program in Sysmac Studio that parses a 1D shipping code read by an Omron V430-F, checks the prefix against a dynamic routing array, and fires a fast output pneumatic sorting arm with a precise tracking offset."
+          "question": "Write a ladder logic program in Sysmac Studio that parses a 1D shipping code read by an Omron V430-F, checks the prefix against a dynamic routing array, and fires a fast output pneumatic sorting arm with a precise tracking offset.",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio", "V430-F" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the systematic procedure to diagnose a persistent 'No Read' or 'Decode Timeout' fault on a V430-F via the WebLink interface, and how do you differentiate between an underexposure fault and a physically damaged code?"
+          "question": "What is the systematic procedure to diagnose a persistent 'No Read' or 'Decode Timeout' fault on a V430-F via the WebLink interface, and how do you differentiate between an underexposure fault and a physically damaged code?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V430-F", "WebLink" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An engineer configures a MicroHAWK V430-F via WebLink but fails to save the active settings to flash memory. Why does the reader lose its configuration after a power cycle, and how do you automate settings backup/restore?"
+          "question": "An engineer configures a MicroHAWK V430-F via WebLink but fails to save the active settings to flash memory. Why does the reader lose its configuration after a power cycle, and how do you automate settings backup/restore?",
+          "manufacturer": "Omron",
+          "product_examples": [ "MicroHAWK V430-F" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Severe mechanical vibrations from a high-speed packaging indexing table cause the V430-F autofocus liquid lens to oscillate, resulting in blurry images and read failures. How do you lock the lens at a static focus or isolate vibrations?"
+          "question": "Severe mechanical vibrations from a high-speed packaging indexing table cause the V430-F autofocus liquid lens to oscillate, resulting in blurry images and read failures. How do you lock the lens at a static focus or isolate vibrations?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V430-F" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To meet FDA quality requirements for medical packaging, how do you configure the V430-F to output code quality metrics (such as Modulation, Decodability, and Contrast) and map these parameters to meet ISO/IEC 15415 verification standards?"
+          "question": "To meet FDA quality requirements for medical packaging, how do you configure the V430-F to output code quality metrics (such as Modulation, Decodability, and Contrast) and map these parameters to meet ISO/IEC 15415 verification standards?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V430-F" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron V680S-HMD64-ETN (integrated Ethernet/IP-Modbus TCP read/write head) and a V680 series separate amplifier/head system when tagging heavy engine block pallets on a metal assembly track?"
+          "question": "How do you select between an Omron V680S-HMD64-ETN (integrated Ethernet/IP-Modbus TCP read/write head) and a V680 series separate amplifier/head system when tagging heavy engine block pallets on a metal assembly track?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680S-HMD64-ETN", "V680 series" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When mating an Omron V680-HS63 read/write head with a V680S-HMD63-EIP amplifier block, how do you verify physical mounting distances and antenna diameters to match the read range requirements of a V680-D8KF67 tag?"
+          "question": "When mating an Omron V680-HS63 read/write head with a V680S-HMD63-EIP amplifier block, how do you verify physical mounting distances and antenna diameters to match the read range requirements of a V680-D8KF67 tag?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680-HS63", "V680S-HMD63-EIP", "V680-D8KF67" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What is the maximum conveyor speed (meters per minute) and read/write execution time limit of a V680S system when writing 256 bytes of structured manufacturing tracking data to an EEPROM tag during continuous transit?"
+          "question": "What is the maximum conveyor speed (meters per minute) and read/write execution time limit of a V680S system when writing 256 bytes of structured manufacturing tracking data to an EEPROM tag during continuous transit?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680S" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In a high-temperature curing oven environment reaching 180°C, what specialized heat-resistant passive RFID tags (such as the V680-D8KF68) must be specified, and what is the thermal recovery time required before the next read cycle?"
+          "question": "In a high-temperature curing oven environment reaching 180°C, what specialized heat-resistant passive RFID tags (such as the V680-D8KF68) must be specified, and what is the thermal recovery time required before the next read cycle?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680-D8KF68" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to configure an Omron V680S-HMD64-ETN over Modbus TCP to interact with an NX1P2 PLC, detailing the function codes and register mapping to execute the 'Read Multi-Address' and 'Write Block' command structures."
+          "question": "Explain how to configure an Omron V680S-HMD64-ETN over Modbus TCP to interact with an NX1P2 PLC, detailing the function codes and register mapping to execute the 'Read Multi-Address' and 'Write Block' command structures?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680S-HMD64-ETN", "NX1P2" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a Structured Text (ST) block in Sysmac Studio that executes an RFID write transaction, monitors the 'Write Busy' and 'Write Completed' status flags, and increments a fault counter to reject the pallet if a timeout occurs after three write retries."
+          "question": "Write a Structured Text (ST) block in Sysmac Studio that executes an RFID write transaction, monitors the 'Write Busy' and 'Write Completed' status flags, and increments a fault counter to reject the pallet if a timeout occurs after three write retries.",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "When troubleshooting a V680S system, what does error code '0x70' (RF Communication Error) or '0x71' (Tag Missing) signify, and what physical checks are necessary to isolate head-to-tag misalignment from tag corruption?"
+          "question": "When troubleshooting a V680S system, what does error code '0x70' (RF Communication Error) or '0x71' (Tag Missing) signify, and what physical checks are necessary to isolate head-to-tag misalignment from tag corruption?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680S" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An installer mounts a V680S read/write head flush into a solid steel bracket. Why does this create eddy currents that severely compress the electromagnetic transmission field, and what is the minimum required distance separation or isolation spacer thickness?"
+          "question": "An installer mounts a V680S read/write head flush into a solid steel bracket. Why does this create eddy currents that severely compress the electromagnetic transmission field, and what is the minimum required distance separation or isolation spacer thickness?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680S" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High-frequency electromagnetic noise from an adjacent 15kW VFD motor cable is inducing interference on the V680 antenna cable, causing random read drops. How do you implement double-shielded cables and route them along separate cable trays?"
+          "question": "High-frequency electromagnetic noise from an adjacent 15kW VFD motor cable is inducing interference on the V680 antenna cable, causing random read drops. How do you implement double-shielded cables and route them along separate cable trays?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "How do you verify that the Omron V680S RFID system meets the ISO/IEC 18000-3 (13.56 MHz HF band) international standard, and what are the radiation limit compliance guidelines under FCC Part 15 and CE EN 300 330?"
+          "question": "How do you verify that the Omron V680S RFID system meets the ISO/IEC 18000-3 (13.56 MHz HF band) international standard, and what are the radiation limit compliance guidelines under FCC Part 15 and CE EN 300 330?",
+          "manufacturer": "Omron",
+          "product_examples": [ "V680S" ]
         }
       ]
     },
@@ -332,61 +432,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select the correct software license tier of Omron Sysmac Studio (e.g., Sysmac Studio Standard SYSMAC-SE200L vs. Sysmac Studio Vision Edition vs. Sysmac Studio Lite) when designing a high-speed robotic workcell containing an NX502, an FH vision controller, and a TM12 cobot?"
+          "question": "How do you select the correct software license tier of Omron Sysmac Studio (e.g., Sysmac Studio Standard SYSMAC-SE200L vs. Sysmac Studio Vision Edition vs. Sysmac Studio Lite) when designing a high-speed robotic workcell containing an NX502, an FH vision controller, and a TM12 cobot?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio", "SYSMAC-SE200L", "NX502", "FH", "TM12" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the configuration steps and potential driver conflicts to resolve when running legacy CX-Programmer projects (CX-One suite) alongside modern Sysmac Studio projects on a single Windows 11 host PC?"
+          "question": "What are the configuration steps and potential driver conflicts to resolve when running legacy CX-Programmer projects (CX-One suite) alongside modern Sysmac Studio projects on a single Windows 11 host PC?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CX-Programmer", "CX-One", "Sysmac Studio" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the variable registration limits and internal variable memory capacity constraints within Sysmac Studio's database, and how does registering excessive Global Variables (over 20,000) affect the compilation time and PLC memory utilization?"
+          "question": "What are the variable registration limits and internal variable memory capacity constraints within Sysmac Studio's database, and how does registering excessive Global Variables (over 20,000) affect the compilation time and PLC memory utilization?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure Sysmac Studio and MobilePlanner in a multi-user, version-controlled repository using Git integration, and what are the specific merge conflict resolution steps for binary project files?"
+          "question": "How do you configure Sysmac Studio and MobilePlanner in a multi-user, version-controlled repository using Git integration, and what are the specific merge conflict resolution steps for binary project files?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio", "MobilePlanner" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain the configuration process within Sysmac Studio to establish secure OPC UA and MQTT client communications on an NX102 controller, detailing certificate installation, user authentication, and packet telemetry structure."
+          "question": "Explain the configuration process within Sysmac Studio to establish secure OPC UA and MQTT client communications on an NX102 controller, detailing certificate installation, user authentication, and packet telemetry structure.",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio", "NX102" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a structured sequence inside Sysmac Studio Safety Editor to program a complex multi-zone emergency stop muting scheme, using the built-in safety function blocks (such as `SF_Muting` and `SF_GuardMonitoring`) to enforce dual-channel redundancy."
+          "question": "Develop a structured sequence inside Sysmac Studio Safety Editor to program a complex multi-zone emergency stop muting scheme, using the built-in safety function blocks (such as `SF_Muting` and `SF_GuardMonitoring`) to enforce dual-channel redundancy.",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the systematic procedure to troubleshoot a compilation error or a 'Project File Corrupted' failure during a Sysmac Studio synchronization attempt (online/offline compare), and how can you recover the local project using the auto-backup recovery database?"
+          "question": "What is the systematic procedure to troubleshoot a compilation error or a 'Project File Corrupted' failure during a Sysmac Studio synchronization attempt (online/offline compare), and how can you recover the local project using the auto-backup recovery database?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A commissioning engineer accidentally downloads a partial project mapping to an active NX102 controller without performing an online safety validation. Why does this prevent the safety CPU from running, and how do you execute a safety project verification?"
+          "question": "A commissioning engineer accidentally downloads a partial project mapping to an active NX102 controller without performing an online safety validation. Why does this prevent the safety CPU from running, and how do you execute a safety project verification?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "Severe corporate IT firewall rules and port blocking (e.g., blocking port 9600 for FINS or port 44818 for EtherNet/IP) prevent Sysmac Studio from connecting online to controllers. How do you diagnose and resolve these software routing roadblocks?"
+          "question": "Severe corporate IT firewall rules and port blocking (e.g., blocking port 9600 for FINS or port 44818 for EtherNet/IP) prevent Sysmac Studio from connecting online to controllers. How do you diagnose and resolve these software routing roadblocks?",
+          "manufacturer": "Omron",
+          "product_examples": []
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "How do you enforce and verify that the PLC code generated within Sysmac Studio strictly adheres to the IEC 61131-3 standard for programming languages, and how do you execute the static code analysis tool to check for syntax compliance?"
+          "question": "How do you enforce and verify that the PLC code generated within Sysmac Studio strictly adheres to the IEC 61131-3 standard for programming languages, and how do you execute the static code analysis tool to check for syntax compliance?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Sysmac Studio" ]
         }
       ]
     }

@@ -7,61 +7,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select between an Omron NX502-1300 and an NX502-1500 controller when planning a high-speed automotive assembly line that requires real-time SQL database logging and synchronization of 32 physical EtherCAT servo axes?"
+          "question": "How do you select between an Omron NX502-1300 and an NX502-1500 controller when planning a high-speed automotive assembly line that requires real-time SQL database logging and synchronization of 32 physical EtherCAT servo axes?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX502-1300", "NX502-1500" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When integrating a third-party EtherCAT linear motor drive into an Omron NJ501-1300 controller network, what specific steps must be taken in Sysmac Studio to import and configure the XML ESI file, and how do you resolve a PDO mapping mismatch error during download?"
+          "question": "When integrating a third-party EtherCAT linear motor drive into an Omron NJ501-1300 controller network, what specific steps must be taken in Sysmac Studio to import and configure the XML ESI file, and how do you resolve a PDO mapping mismatch error during download?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NJ501-1300" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "An NX1P2-9024DT controller is configured with an EtherCAT cycle time of 1.0 ms. What are the diagnostic steps to take when the controller's primary periodic task execution time exceeds 80% of the allocated cycle, causing a Task Period Exceeded error?"
+          "question": "An NX1P2-9024DT controller is configured with an EtherCAT cycle time of 1.0 ms. What are the diagnostic steps to take when the controller's primary periodic task execution time exceeds 80% of the allocated cycle, causing a Task Period Exceeded error?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX1P2-9024DT" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "In an automotive body shop environment with high ambient temperatures and localized heat from welding robots, what thermal derating factors must be applied to an NX701-1700 controller mounted in a sealed IP54 control cabinet, and how does this affect its maximum CPU load capacity?"
+          "question": "In an automotive body shop environment with high ambient temperatures and localized heat from welding robots, what thermal derating factors must be applied to an NX701-1700 controller mounted in a sealed IP54 control cabinet, and how does this affect its maximum CPU load capacity?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX701-1700" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure the built-in OPC UA server on an NX102-9020 controller to securely expose structured IEC 61131-3 user-defined data types (UDTs) to an enterprise SCADA client, including the generation of self-signed security certificates and endpoint protection selection?"
+          "question": "How do you configure the built-in OPC UA server on an NX102-9020 controller to securely expose structured IEC 61131-3 user-defined data types (UDTs) to an enterprise SCADA client, including the generation of self-signed security certificates and endpoint protection selection?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102-9020" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a structured text (ST) routine for an NX502 controller to execute an electronic camming profile (using MC_CamIn) that synchronizes a rotary knife servo axis with a continuous conveyor encoder axis, handling real-time dynamic cam scaling changes based on a changing product length parameter."
+          "question": "Develop a structured text (ST) routine for an NX502 controller to execute an electronic camming profile (using MC_CamIn) that synchronizes a rotary knife servo axis with a continuous conveyor encoder axis, handling real-time dynamic cam scaling changes based on a changing product length parameter.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX502" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What is the systematic troubleshooting procedure when an Omron NJ501 controller displays a solid red 'ERR' LED and reports Sysmac Studio Controller Error Code '0x14030000' (EtherCAT Communication Link Error), specifically detailing how to identify the failing node in a ring topology?"
+          "question": "What is the systematic troubleshooting procedure when an Omron NJ501 controller displays a solid red 'ERR' LED and reports Sysmac Studio Controller Error Code '0x14030000' (EtherCAT Communication Link Error), specifically detailing how to identify the failing node in a ring topology?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NJ501" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During the commissioning of an NX1P2 controller, a field technician configures both built-in Ethernet/IP ports (Port 1 and Port 2) with IP addresses on the same IP subnet (e.g., 192.168.250.10 and 192.168.250.11). Why does this cause communication failures, and how do you resolve the routing conflict?"
+          "question": "During the commissioning of an NX1P2 controller, a field technician configures both built-in Ethernet/IP ports (Port 1 and Port 2) with IP addresses on the same IP subnet (e.g., 192.168.250.10 and 192.168.250.11). Why does this cause communication failures, and how do you resolve the routing conflict?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX1P2" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you diagnose and mitigate high-frequency electromagnetic interference (EMI) originating from an adjacent 45kW variable frequency drive that is causing random 'EtherCAT Frame Loss' packets and dropping node connections on an NJ501 controller's EtherCAT network?"
+          "question": "How do you diagnose and mitigate high-frequency electromagnetic interference (EMI) originating from an adjacent 45kW variable frequency drive that is causing random 'EtherCAT Frame Loss' packets and dropping node connections on an NJ501 controller's EtherCAT network?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NJ501" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When integrating an NX-SL5500 Safety Controller into an NX102 CPU rack to achieve an ISO 13849-1 Category 4, PL e safety rating for a robotic cell, what are the documentation and system architecture requirements regarding safe EtherCAT (FSoE) communication validation?"
+          "question": "When integrating an NX-SL5500 Safety Controller into an NX102 CPU rack to achieve an ISO 13849-1 Category 4, PL e safety rating for a robotic cell, what are the documentation and system architecture requirements regarding safe EtherCAT (FSoE) communication validation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX-SL5500", "NX102" ]
         }
       ]
     },
@@ -72,61 +92,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "When selecting a compact PLC for a small-scale automotive component test bench, what technical parameters justify choosing an Omron CP2E-N series controller over a CP2E-S series model, particularly regarding Ethernet communication channels and hardware high-speed counter inputs?"
+          "question": "When selecting a compact PLC for a small-scale automotive component test bench, what technical parameters justify choosing an Omron CP2E-N series controller over a CP2E-S series model, particularly regarding Ethernet communication channels and hardware high-speed counter inputs?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CP2E-N", "CP2E-S" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the configuration steps and memory allocation requirements in CX-Programmer when migrating legacy PLC code from an older CQM1H controller to a modern CJ2H-CPU64-EIP, specifically addressing differences in physical I/O addressing and memory area layouts?"
+          "question": "What are the configuration steps and memory allocation requirements in CX-Programmer when migrating legacy PLC code from an older CQM1H controller to a modern CJ2H-CPU64-EIP, specifically addressing differences in physical I/O addressing and memory area layouts?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CQM1H", "CJ2H-CPU64-EIP" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "When utilizing a CJ2H-CPU68-EIP PLC for a complex material handling system, what are the maximum capacity constraints of the CIO and DM memory areas, and how does the controller handle an overflow condition in the index registers (IR0 to IR15) during indirect addressing loops?"
+          "question": "When utilizing a CJ2H-CPU68-EIP PLC for a complex material handling system, what are the maximum capacity constraints of the CIO and DM memory areas, and how does the controller handle an overflow condition in the index registers (IR0 to IR15) during indirect addressing loops?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CJ2H-CPU68-EIP" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "What specialized steps must be taken when deploying an Omron CP2E PLC in an outdoor, unheated control panel located in a region with winter temperatures dropping to -20°C, and what are the limitations of the internal real-time clock (RTC) battery under these conditions?"
+          "question": "What specialized steps must be taken when deploying an Omron CP2E PLC in an outdoor, unheated control panel located in a region with winter temperatures dropping to -20°C, and what are the limitations of the internal real-time clock (RTC) battery under these conditions?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CP2E" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "Explain how to construct a FINS/UDP network routing table in CX-Integrator to allow a CJ2M-CPU33 PLC to communicate across three different IP subnets to read data registers from older CS1G PLCs, including IP address to FINS node address conversion rules."
+          "question": "Explain how to construct a FINS/UDP network routing table in CX-Integrator to allow a CJ2M-CPU33 PLC to communicate across three different IP subnets to read data registers from older CS1G PLCs, including IP address to FINS node address conversion rules.",
+          "manufacturer": "Omron",
+          "product_examples": [ "CJ2M-CPU33", "CS1G" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write a ladder logic routine for an Omron CJ2H PLC that implements a dynamic FIFO (First-In, First-Out) tracking buffer for a 50-pallet conveyor buffer in an automotive assembly line, utilizing the FIFO stack instructions (PUSH and FIFO) to track continuous barcode strings."
+          "question": "Write a ladder logic routine for an Omron CJ2H PLC that implements a dynamic FIFO (First-In, First-Out) tracking buffer for a 50-pallet conveyor buffer in an automotive assembly line, utilizing the FIFO stack instructions (PUSH and FIFO) to track continuous barcode strings.",
+          "manufacturer": "Omron",
+          "product_examples": [ "CJ2H" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "How do you diagnose and recover from a flashing 'ERR/ALM' LED on an Omron CJ2M CPU, specifically when the auxiliary area flag A401.09 (FALS Error Flag) is active, and how do you retrieve the specific FALS error code via CX-Programmer?"
+          "question": "How do you diagnose and recover from a flashing 'ERR/ALM' LED on an Omron CJ2M CPU, specifically when the auxiliary area flag A401.09 (FALS Error Flag) is active, and how do you retrieve the specific FALS error code via CX-Programmer?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CJ2M" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What occurs when an engineer sets the front-panel rotary switches (MACH No. and UNIT No.) on a CJ1W-NC413 position control module to values that conflict with an existing CJ1W-AD041 analog input card on the same rack, and how does the CPU report this configuration conflict?"
+          "question": "What occurs when an engineer sets the front-panel rotary switches (MACH No. and UNIT No.) on a CJ1W-NC413 position control module to values that conflict with an existing CJ1W-AD041 analog input card on the same rack, and how does the CPU report this configuration conflict?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CJ1W-NC413", "CJ1W-AD041" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A CP2E PLC analog input expansion module (CP1W-AD042) is exhibiting severe signal fluctuation on a 4-20mA sensor line inside an automotive paint booth. How do you identify if this is due to common-mode electrical noise, and what are the grounding and shielding isolation methods to stabilize the signal?"
+          "question": "A CP2E PLC analog input expansion module (CP1W-AD042) is exhibiting severe signal fluctuation on a 4-20mA sensor line inside an automotive paint booth. How do you identify if this is due to common-mode electrical noise, and what are the grounding and shielding isolation methods to stabilize the signal?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CP2E", "CP1W-AD042" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When designing an electrical control panel utilizing an Omron CJ2H PLC system for deployment in a Class I, Division 2 hazardous industrial location, what are the installation rules and cabinet purge requirements to maintain compliance with UL and CSA hazardous area certifications?"
+          "question": "When designing an electrical control panel utilizing an Omron CJ2H PLC system for deployment in a Class I, Division 2 hazardous industrial location, what are the installation rules and cabinet purge requirements to maintain compliance with UL and CSA hazardous area certifications?",
+          "manufacturer": "Omron",
+          "product_examples": [ "CJ2H" ]
         }
       ]
     },
@@ -137,61 +177,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "When selecting an HMI for an automotive stamping press line, under what operating conditions would you specify an Omron NA5-12W101B capacitive touchscreen over a cost-effective NB10W-TW01B resistive touchscreen, considering operator gloved-hand interactions and display resolution?"
+          "question": "When selecting an HMI for an automotive stamping press line, under what operating conditions would you specify an Omron NA5-12W101B capacitive touchscreen over a cost-effective NB10W-TW01B resistive touchscreen, considering operator gloved-hand interactions and display resolution?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5-12W101B", "NB10W-TW01B" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "Explain the step-by-step synchronization process in Sysmac Studio when mapping global variables from an NX102 controller directly to the internal variable database of an NA5 HMI, and how changes to UDT structures on the PLC side impact the HMI project compilation."
+          "question": "Explain the step-by-step synchronization process in Sysmac Studio when mapping global variables from an NX102 controller directly to the internal variable database of an NA5 HMI, and how changes to UDT structures on the PLC side impact the HMI project compilation?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102", "NA5" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the performance impacts and limits when an NB7W HMI is configured to continuously poll more than 500 Ethernet/IP tags from an NX1P2 controller, and how do you optimize the tag scan group update rates in NB-Designer to prevent screen transition lag?"
+          "question": "What are the performance impacts and limits when an NB7W HMI is configured to continuously poll more than 500 Ethernet/IP tags from an NX1P2 controller, and how do you optimize the tag scan group update rates in NB-Designer to prevent screen transition lag?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NB7W", "NX1P2" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "An Omron NA5 HMI is installed in an automotive washdown area requiring IP66F protection. What physical mounting, gasketing, and cabinet integration precautions must be executed during panel assembly to maintain this environmental seal rating against high-pressure chemical spray?"
+          "question": "An Omron NA5 HMI is installed in an automotive washdown area requiring IP66F protection. What physical mounting, gasketing, and cabinet integration precautions must be executed during panel assembly to maintain this environmental seal rating against high-pressure chemical spray?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure an Omron NA5 HMI to act as an OPC UA client, establishing a secure connection to a remote, non-Omron industrial PC server, including certificate exchanges, user authentication, and mapping nested node IDs to graphical components?"
+          "question": "How do you configure an Omron NA5 HMI to act as an OPC UA client, establishing a secure connection to a remote, non-Omron industrial PC server, including certificate exchanges, user authentication, and mapping nested node IDs to graphical components?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a Visual Basic (.NET) page script inside an NA5 HMI project that automatically reads a CSV recipe file from an inserted SD card, parses the comma-separated string parameters into an internal HMI array, and safely writes the values to a structured tag on an NX502 PLC."
+          "question": "Develop a Visual Basic (.NET) page script inside an NA5 HMI project that automatically reads a CSV recipe file from an inserted SD card, parses the comma-separated string parameters into an internal HMI array, and safely writes the values to a structured tag on an NX502 PLC.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5", "NX502" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During startup of an Omron NB series HMI, the screen displays a black screen with an error code pointing to 'Media Card Read Failure'. What diagnostic steps do you execute to determine if the local project flash runtime is corrupted or if the internal hardware storage has failed?"
+          "question": "During startup of an Omron NB series HMI, the screen displays a black screen with an error code pointing to 'Media Card Read Failure'. What diagnostic steps do you execute to determine if the local project flash runtime is corrupted or if the internal hardware storage has failed?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NB series" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An engineer downloads an updated runtime project to an Omron NA5 HMI, but after rebooting, the HMI screen displays an error indicating a runtime and system program version mismatch. How do you perform a system program update (firmware upgrade) on the NA5 to resolve this version gap?"
+          "question": "An engineer downloads an updated runtime project to an Omron NA5 HMI, but after rebooting, the HMI screen displays an error indicating a runtime and system program version mismatch. How do you perform a system program update (firmware upgrade) on the NA5 to resolve this version gap?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "In a heavy robotic welding cell, the touch sensing on an NA5 HMI intermittently stops responding or register 'phantom' touches during high-current weld operations. How do you identify if this is due to electromagnetic radiation or poor system grounding, and what are the shielding mitigation steps?"
+          "question": "In a heavy robotic welding cell, the touch sensing on an NA5 HMI intermittently stops responding or register 'phantom' touches during high-current weld operations. How do you identify if this is due to electromagnetic radiation or poor system grounding, and what are the shielding mitigation steps?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "How do you configure the built-in security features, audit trails, and multi-level user group access controls in Sysmac Studio for an NA5 HMI to comply with FDA 21 CFR Part 11 and automotive traceability standards regarding parameter changes?"
+          "question": "How do you configure the built-in security features, audit trails, and multi-level user group access controls in Sysmac Studio for an NA5 HMI to comply with FDA 21 CFR Part 11 and automotive traceability standards regarding parameter changes?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NA5" ]
         }
       ]
     },
@@ -202,61 +262,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "When selecting an industrial edge controller for a fleet of autonomous mobile robots (AMRs), what are the technical differences between choosing an NX102-9020 with built-in database/MQTT clients and using an NY512-A900 IPC running edge software, especially regarding raw processing power versus native PLC deterministic task execution?"
+          "question": "When selecting an industrial edge controller for a fleet of autonomous mobile robots (AMRs), what are the technical differences between choosing an NX102-9020 with built-in database/MQTT clients and using an NY512-A900 IPC running edge software, especially regarding raw processing power versus native PLC deterministic task execution?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102-9020", "NY512-A900" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you establish a secure, authenticated telemetry pipeline from an Omron NX102 edge controller to Microsoft Azure IoT Hub using the native MQTT client, including configuration of TLS certificates, SAS tokens, and custom JSON payload structures?"
+          "question": "How do you establish a secure, authenticated telemetry pipeline from an Omron NX102 edge controller to Microsoft Azure IoT Hub using the native MQTT client, including configuration of TLS certificates, SAS tokens, and custom JSON payload structures?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "The built-in database client of an NX102 controller is logging variables to an external MS SQL server. If the network link drops, what is the exact internal memory capacity of the spooling buffer inside the NX102, and what strategy prevents PLC scan time overhead when the connection is restored and spooling uploads resume?"
+          "question": "The built-in database client of an NX102 controller is logging variables to an external MS SQL server. If the network link drops, what is the exact internal memory capacity of the spooling buffer inside the NX102, and what strategy prevents PLC scan time overhead when the connection is restored and spooling uploads resume?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "When deploying an Omron NY512 edge gateway on a vibrating automotive stamping press assembly, what physical SSD drive types (SLC vs. MLC vs. 3D TLC) and vibration-damping mounting methods are required to prevent premature storage block failure and system lockups?"
+          "question": "When deploying an Omron NY512 edge gateway on a vibrating automotive stamping press assembly, what physical SSD drive types (SLC vs. MLC vs. 3D TLC) and vibration-damping mounting methods are required to prevent premature storage block failure and system lockups?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY512" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure an Omron NX701-1620 edge engine to query data from a legacy Modbus TCP power meter on port 502, map the registers to Sysmac internal variables, and stream the formatted payload via an MQTT broker using JSON over port 8883?"
+          "question": "How do you configure an Omron NX701-1620 edge engine to query data from a legacy Modbus TCP power meter on port 502, map the registers to Sysmac internal variables, and stream the formatted payload via an MQTT broker using JSON over port 8883?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX701-1620" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Write an edge pre-processing script (using Node-RED or Python on an NY series gateway) that intercepts high-frequency analog vibration data from an acceleromter, performs an RMS rolling average calculation, filters out normal operation baseline values, and triggers a localized REST API POST request to an enterprise maintenance system when a threshold is breached."
+          "question": "Write an edge pre-processing script (using Node-RED or Python on an NY series gateway) that intercepts high-frequency analog vibration data from an acceleromter, performs an RMS rolling average calculation, filters out normal operation baseline values, and triggers a localized REST API POST request to an enterprise maintenance system when a threshold is breached.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY series" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An NX102 controller exhibits a DB Client Error with error code '0x3012' in the Sysmac Studio Event Log. What does this code indicate regarding the SQL target database table structure or user access credentials, and how do you resolve it?"
+          "question": "An NX102 controller exhibits a DB Client Error with error code '0x3012' in the Sysmac Studio Event Log. What does this code indicate regarding the SQL target database table structure or user access credentials, and how do you resolve it?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "During commissioning of an MQTT streaming setup on an NX102 edge device, the MQTT client persistently fails to connect to the broker with a '0x2C04' status. How do you troubleshoot the DNS configuration, default gateway routing parameters, and firewall exceptions in the NX102 settings to establish a successful handshake?"
+          "question": "During commissioning of an MQTT streaming setup on an NX102 edge device, the MQTT client persistently fails to connect to the broker with a '0x2C04' status. How do you troubleshoot the DNS configuration, default gateway routing parameters, and firewall exceptions in the NX102 settings to establish a successful handshake?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NX102" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "High cellular/wireless latency and network jitter on a factory-wide Wi-Fi network are causing frequent MQTT keep-alive timeouts and reconnections on an edge gateway. How do you adjust the client keep-alive parameters, retry intervals, and implement MQTT Quality of Service (QoS 1) configurations to guarantee zero data loss during drops?"
+          "question": "High cellular/wireless latency and network jitter on a factory-wide Wi-Fi network are causing frequent MQTT keep-alive timeouts and reconnections on an edge gateway. How do you adjust the client keep-alive parameters, retry intervals, and implement MQTT Quality of Service (QoS 1) configurations to guarantee zero data loss during drops?",
+          "manufacturer": "Omron",
+          "product_examples": [ "Edge Gateway" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "To satisfy ISA/IEC 62443-4-2 cybersecurity compliance for an industrial edge deployment, what local hardening steps must be configured on an Omron NY512 IPC running Linux, specifically relating to disabling unused network ports, enforcing encrypted storage partitions, and setting up centralized certificate authorities?"
+          "question": "To satisfy ISA/IEC 62443-4-2 cybersecurity compliance for an industrial edge deployment, what local hardening steps must be configured on an Omron NY512 IPC running Linux, specifically relating to disabling unused network ports, enforcing encrypted storage partitions, and setting up centralized certificate authorities?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY512" ]
         }
       ]
     },
@@ -267,61 +347,81 @@
           "id": 1,
           "blueprint_tag": "Variant & Code Selection",
           "category": "Procurement & Technical Specifications",
-          "question": "How do you select the correct processor, RAM, and storage configuration of an Omron NYB25 series IPC (e.g., Core i7 vs. Celeron, 8GB vs. 32GB RAM, HDD vs. industrial SSD) when deploying it as a dedicated target machine for real-time, multi-camera deep learning machine vision applications?"
+          "question": "How do you select the correct processor, RAM, and storage configuration of an Omron NYB25 series IPC (e.g., Core i7 vs. Celeron, 8GB vs. 32GB RAM, HDD vs. industrial SSD) when deploying it as a dedicated target machine for real-time, multi-camera deep learning machine vision applications?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NYB25 series" ]
         },
         {
           "id": 2,
           "blueprint_tag": "Interoperability & Compatibility",
           "category": "Procurement & Technical Specifications",
-          "question": "When installing a third-party PCIe frame grabber card into an expansion slot of an Omron NYB35 IPC running Windows 10 IoT Enterprise LTSC, how do you resolve hardware resources and driver conflicts that crash the system kernel, and what BIOS configurations must be altered to allocate specific PCIe lanes?"
+          "question": "When installing a third-party PCIe frame grabber card into an expansion slot of an Omron NYB35 IPC running Windows 10 IoT Enterprise LTSC, how do you resolve hardware resources and driver conflicts that crash the system kernel, and what BIOS configurations must be altered to allocate specific PCIe lanes?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NYB35" ]
         },
         {
           "id": 3,
           "blueprint_tag": "Capacity & Limit Thresholds",
           "category": "Procurement & Technical Specifications",
-          "question": "What are the continuous write throughput (IOPS) limits of the default industrial SSD on an NYP series panel IPC, and how do you calculate the maximum daily disk write limit (TBW - Terabytes Written) to prevent storage depletion in a high-volume process monitoring application?"
+          "question": "What are the continuous write throughput (IOPS) limits of the default industrial SSD on an NYP series panel IPC, and how do you calculate the maximum daily disk write limit (TBW - Terabytes Written) to prevent storage depletion in a high-volume process monitoring application?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NYP series" ]
         },
         {
           "id": 4,
           "blueprint_tag": "Environmental & Deployment Constraints",
           "category": "Functional Application & Deployment",
-          "question": "The Omron NY532 IPC is a fanless unit designed for cabinet mounting. What are the specific thermal limits when mounting the unit horizontally versus vertically, and what clearance distances must be maintained to prevent thermal throttling of the Core i7 processor under 90% continuous CPU load?"
+          "question": "The Omron NY532 IPC is a fanless unit designed for cabinet mounting. What are the specific thermal limits when mounting the unit horizontally versus vertically, and what clearance distances must be maintained to prevent thermal throttling of the Core i7 processor under 90% continuous CPU load?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY532" ]
         },
         {
           "id": 5,
           "blueprint_tag": "Integration & Communications",
           "category": "Functional Application & Deployment",
-          "question": "How do you configure the dual independent Gigabit Ethernet ports of an NYB IPC to physically isolate the low-latency machine control network (utilizing EtherNet/IP for real-time visualization data) from the administrative enterprise IT network (utilizing secure REST APIs for database syncing)?"
+          "question": "How do you configure the dual independent Gigabit Ethernet ports of an NYB IPC to physically isolate the low-latency machine control network (utilizing EtherNet/IP for real-time visualization data) from the administrative enterprise IT network (utilizing secure REST APIs for database syncing)?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NYB" ]
         },
         {
           "id": 6,
           "blueprint_tag": "Task-Specific Logic",
           "category": "Functional Application & Deployment",
-          "question": "Develop a multi-threaded C# application running on the Windows partition of an NY532 IPC that uses the Omron Sysmac NJ/NX communications library to cyclically read kinematic coordinate registers from an NX701 PLC, log them local to an SQLite database, and host a local REST API endpoint to serve this data to web-based dashboards."
+          "question": "Develop a multi-threaded C# application running on the Windows partition of an NY532 IPC that uses the Omron Sysmac NJ/NX communications library to cyclically read kinematic coordinate registers from an NX701 PLC, log them local to an SQLite database, and host a local REST API endpoint to serve this data to web-based dashboards.",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY532", "NX701" ]
         },
         {
           "id": 7,
           "blueprint_tag": "Product-Level Faults & Codes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "What diagnostic information does the front-panel LED indicator status on an Omron NY-series IPC provide when it flashes red in a specific pattern, and how do you interface with the Omron Industrial PC System Utility to retrieve detailed temperature and fan wear monitoring logs?"
+          "question": "What diagnostic information does the front-panel LED indicator status on an Omron NY-series IPC provide when it flashes red in a specific pattern, and how do you interface with the Omron Industrial PC System Utility to retrieve detailed temperature and fan wear monitoring logs?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY-series" ]
         },
         {
           "id": 8,
           "blueprint_tag": "Operational/Commissioning Mistakes",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "A field electrician wires the 24VDC main power input of an NYB IPC directly to the same raw power supply driving heavy hydraulic solenoids without a protective filter or UPS. What hardware risks exist during power cycles, and how does this affect filesystem integrity when power is abruptly cut without an APC UPS shutdown trigger?"
+          "question": "A field electrician wires the 24VDC main power input of an NYB IPC directly to the same raw power supply driving heavy hydraulic solenoids without a protective filter or UPS. What hardware risks exist during power cycles, and how does this affect filesystem integrity when power is abruptly cut without an APC UPS shutdown trigger?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NYB" ]
         },
         {
           "id": 9,
           "blueprint_tag": "Ecosystem/Environmental Interference",
           "category": "Lifecycle, Troubleshooting & Diagnostics",
-          "question": "An NYP panel IPC installed on a high-vibration gantry robot shows intermittent operating system freezes and 'blue screen of death' (BSOD) crashes. How do you trace if this behavior is caused by mechanical vibration-induced RAM module displacement or dynamic power sags under servo deceleration, and what hardware corrective actions are required?"
+          "question": "An NYP panel IPC installed on a high-vibration gantry robot shows intermittent operating system freezes and 'blue screen of death' (BSOD) crashes. How do you trace if this behavior is caused by mechanical vibration-induced RAM module displacement or dynamic power sags under servo deceleration, and what hardware corrective actions are required?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NYP" ]
         },
         {
           "id": 10,
           "blueprint_tag": "Standards & Certification",
           "category": "Compliance & Governance",
-          "question": "When deploying an Omron NY-series IPC inside a food processing plant control cabinet, what regulatory requirements (such as CE, UL, and electromagnetic compatibility standards like EN 61131-2) must be documented in the technical construction file to pass third-party machinery safety audits?"
+          "question": "When deploying an Omron NY-series IPC inside a food processing plant control cabinet, what regulatory requirements (such as CE, UL, and electromagnetic compatibility standards like EN 61131-2) must be documented in the technical construction file to pass third-party machinery safety audits?",
+          "manufacturer": "Omron",
+          "product_examples": [ "NY-series" ]
         }
       ]
     }
